@@ -1,0 +1,226 @@
+/* ==========================================================================
+   Genre Section — universal, reusable across all genre rows
+   ========================================================================== */
+
+.cx-genre-section {
+  background: var(--cx-bg-primary);
+  padding-block: var(--cx-space-lg);
+}
+
+.cx-genre-section .head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cx-genre-heading {
+  font-family: var(--cx-font-heading);
+  font-weight: var(--cx-fw-semibold);
+  font-size: var(--cx-fs-h2);
+  color: var(--cx-text-primary);
+  letter-spacing: var(--cx-ls-heading);
+  margin: 0;
+}
+
+.title-underline {
+  width: 64px;
+  height: 3px;
+  border-radius: var(--cx-radius-pill);
+  background: var(--cx-gradient-gold);
+  margin-top: var(--cx-space-xs);
+  margin-bottom: var(--cx-space-sm);
+}
+
+/* --------------------------------------------------------------------
+   Swiper container
+   -------------------------------------------------------------------- */
+
+.cards-container {
+  padding-block: var(--cx-space-xs);
+  overflow: visible;
+}
+
+.cards-container .swiper-wrapper {
+  align-items: stretch;
+}
+
+.cards-container .swiper-slide {
+  height: auto;
+}
+
+/* --------------------------------------------------------------------
+   Genre Card
+   -------------------------------------------------------------------- */
+
+.genre-card {
+  position: relative;
+  border-radius: var(--cx-radius-md);
+  overflow: hidden;
+  background: var(--cx-bg-secondary);
+  border: 1px solid var(--cx-border-subtle);
+  box-shadow: var(--cx-shadow-sm);
+  transition: transform var(--cx-transition-base),
+              box-shadow var(--cx-transition-base),
+              border-color var(--cx-transition-base);
+  height: 100%;
+}
+
+.genre-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: var(--cx-shadow-card-hover);
+  border-color: var(--cx-border-strong);
+}
+
+.card-image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: var(--cx-radius-md);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--cx-transition-slow);
+}
+
+.genre-card:hover .card-img-top {
+  transform: scale(1.08);
+}
+
+/* --------------------------------------------------------------------
+   Overlay
+   -------------------------------------------------------------------- */
+
+.genre-card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--cx-space-sm);
+  background: linear-gradient(
+    180deg,
+    rgba(5, 8, 16, 0) 40%,
+    rgba(5, 8, 16, 0.55) 70%,
+    rgba(5, 8, 16, 0.92) 100%
+  );
+  opacity: 0;
+  transition: opacity var(--cx-transition-base);
+}
+
+.genre-card:hover .genre-card-overlay,
+.genre-card:focus-within .genre-card-overlay {
+  opacity: 1;
+}
+
+.overlay-content-inner {
+  width: 100%;
+  transform: translateY(12px);
+  transition: transform var(--cx-transition-base);
+}
+
+.genre-card:hover .overlay-content-inner,
+.genre-card:focus-within .overlay-content-inner {
+  transform: translateY(0);
+}
+
+.overlay-title {
+  font-family: var(--cx-font-heading);
+  font-size: var(--cx-fs-body-lg);
+  font-weight: var(--cx-fw-semibold);
+  color: var(--cx-text-primary);
+  line-height: var(--cx-lh-tight);
+  margin: 0 0 var(--cx-space-xs);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.overlay-buttons {
+  display: flex;
+  gap: var(--cx-space-xs);
+}
+
+.overlay-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: var(--cx-fs-body-sm);
+  text-decoration: none;
+  transition: transform var(--cx-transition-fast),
+              background var(--cx-transition-fast),
+              color var(--cx-transition-fast);
+  border: 1px solid var(--cx-border-strong);
+}
+
+.overlay-btn.trailer {
+  background: rgba(245, 241, 232, 0.08);
+  color: var(--cx-text-primary);
+}
+
+.overlay-btn.trailer:hover {
+  background: var(--cx-text-primary);
+  color: var(--cx-text-inverse);
+}
+
+.overlay-btn.watch {
+  background: var(--cx-gradient-gold);
+  color: var(--cx-text-inverse);
+  border-color: transparent;
+}
+
+.overlay-btn.watch:hover {
+  transform: scale(1.08);
+  box-shadow: var(--cx-shadow-gold-glow);
+}
+
+/* --------------------------------------------------------------------
+   Swiper nav / pagination (optional, only applies if markup present)
+   -------------------------------------------------------------------- */
+
+.cx-genre-section .swiper-button-next,
+.cx-genre-section .swiper-button-prev {
+  color: var(--cx-gold-500);
+  background: var(--cx-bg-overlay);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+}
+
+.cx-genre-section .swiper-button-next::after,
+.cx-genre-section .swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: var(--cx-fw-bold);
+}
+
+.cx-genre-section .swiper-pagination-bullet {
+  background: var(--cx-navy-400);
+  opacity: 1;
+}
+
+.cx-genre-section .swiper-pagination-bullet-active {
+  background: var(--cx-gold-500);
+}
+
+/* --------------------------------------------------------------------
+   Responsive tweaks
+   -------------------------------------------------------------------- */
+
+@media (max-width: 576px) {
+  .cx-genre-heading {
+    font-size: var(--cx-fs-h3);
+  }
+
+  .overlay-btn {
+    width: 32px;
+    height: 32px;
+  }
+}

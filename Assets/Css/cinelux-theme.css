@@ -1,0 +1,486 @@
+/* ==========================================================================
+   CINELUX THEME SYSTEM
+   Premium cinematic streaming platform — Gold / Navy design language
+   Headings: Playfair Display | Body: Manrope
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  /* ---------------------------------------------------------------------
+     BRAND CORE
+     --------------------------------------------------------------------- */
+  --cx-brand-name: "Cinelux";
+
+  /* ---------------------------------------------------------------------
+     COLOR SYSTEM — NAVY (base/background)
+     --------------------------------------------------------------------- */
+  --cx-navy-950: #050810;   /* deepest bg, hero overlays */
+  --cx-navy-900: #0a0f1e;   /* primary background */
+  --cx-navy-800: #10172b;   /* card/surface background */
+  --cx-navy-700: #182140;   /* elevated surface / hover */
+  --cx-navy-600: #223059;   /* borders, dividers */
+  --cx-navy-500: #34477d;   /* muted accents, disabled states */
+  --cx-navy-400: #5b6ea0;   /* secondary text on dark */
+
+  /* ---------------------------------------------------------------------
+     COLOR SYSTEM — GOLD (accent/brand)
+     --------------------------------------------------------------------- */
+  --cx-gold-100: #fdf4de;   /* lightest gold tint, text on gold */
+  --cx-gold-200: #f9e4b0;
+  --cx-gold-300: #f3d183;   /* champagne gold */
+  --cx-gold-400: #e9bb5c;
+  --cx-gold-500: #d4a343;   /* primary gold — main brand accent */
+  --cx-gold-600: #b9862f;   /* deep amber gold */
+  --cx-gold-700: #96691f;
+  --cx-gold-800: #6e4b16;
+
+  /* ---------------------------------------------------------------------
+     GRADIENTS
+     --------------------------------------------------------------------- */
+  --cx-gradient-gold: linear-gradient(135deg, #f3d183 0%, #d4a343 45%, #b9862f 100%);
+  --cx-gradient-gold-soft: linear-gradient(135deg, #f9e4b0 0%, #e9bb5c 100%);
+  --cx-gradient-navy: linear-gradient(180deg, #0a0f1e 0%, #050810 100%);
+  --cx-gradient-hero: linear-gradient(180deg, rgba(5,8,16,0.2) 0%, rgba(5,8,16,0.85) 65%, #050810 100%);
+  --cx-gradient-card-hover: linear-gradient(160deg, rgba(212,163,67,0.12) 0%, rgba(10,15,30,0) 60%);
+  --cx-gradient-text-gold: linear-gradient(90deg, #f3d183 0%, #d4a343 50%, #e9bb5c 100%);
+
+  /* ---------------------------------------------------------------------
+     SEMANTIC / FUNCTIONAL COLORS
+     --------------------------------------------------------------------- */
+  --cx-bg-primary: var(--cx-navy-900);
+  --cx-bg-secondary: var(--cx-navy-800);
+  --cx-bg-elevated: var(--cx-navy-700);
+  --cx-bg-overlay: rgba(5, 8, 16, 0.75);
+
+  --cx-text-primary: #f5f1e8;      /* warm off-white, not pure white */
+  --cx-text-secondary: #b7bfd6;    /* muted body text on dark */
+  --cx-text-muted: #7a84a3;
+  --cx-text-gold: var(--cx-gold-500);
+  --cx-text-inverse: #10172b;      /* for text on gold backgrounds */
+
+  --cx-border-subtle: rgba(212, 163, 67, 0.16);
+  --cx-border-strong: rgba(212, 163, 67, 0.4);
+  --cx-border-navy: var(--cx-navy-600);
+
+  --cx-accent: var(--cx-gold-500);
+  --cx-accent-hover: var(--cx-gold-400);
+  --cx-accent-active: var(--cx-gold-600);
+
+  --cx-success: #4caf7d;
+  --cx-warning: #e9bb5c;
+  --cx-danger: #d1544a;
+  --cx-info: #5b8ea0;
+
+  /* ---------------------------------------------------------------------
+     TYPOGRAPHY
+     --------------------------------------------------------------------- */
+  --cx-font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --cx-font-body: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --cx-fw-light: 300;
+  --cx-fw-regular: 400;
+  --cx-fw-medium: 500;
+  --cx-fw-semibold: 600;
+  --cx-fw-bold: 700;
+  --cx-fw-extrabold: 800;
+  --cx-fw-black: 900;
+
+  --cx-fs-hero: clamp(2.75rem, 6vw, 5rem);
+  --cx-fs-h1: clamp(2.25rem, 4.5vw, 3.5rem);
+  --cx-fs-h2: clamp(1.75rem, 3.5vw, 2.5rem);
+  --cx-fs-h3: clamp(1.35rem, 2.5vw, 1.75rem);
+  --cx-fs-h4: clamp(1.15rem, 2vw, 1.35rem);
+  --cx-fs-body-lg: 1.125rem;
+  --cx-fs-body: 1rem;
+  --cx-fs-body-sm: 0.875rem;
+  --cx-fs-caption: 0.75rem;
+
+  --cx-lh-tight: 1.15;
+  --cx-lh-heading: 1.25;
+  --cx-lh-body: 1.65;
+  --cx-ls-heading: 0.01em;
+  --cx-ls-eyebrow: 0.18em;
+
+  /* ---------------------------------------------------------------------
+     SPACING SCALE
+     --------------------------------------------------------------------- */
+  --cx-space-xs: 0.5rem;
+  --cx-space-sm: 1rem;
+  --cx-space-md: 1.5rem;
+  --cx-space-lg: 2.5rem;
+  --cx-space-xl: 4rem;
+  --cx-space-2xl: 6rem;
+  --cx-space-3xl: 8rem;
+
+  /* ---------------------------------------------------------------------
+     RADIUS / SHADOW / BORDERS
+     --------------------------------------------------------------------- */
+  --cx-radius-sm: 6px;
+  --cx-radius-md: 12px;
+  --cx-radius-lg: 20px;
+  --cx-radius-pill: 999px;
+
+  --cx-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --cx-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --cx-shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.45);
+  --cx-shadow-gold-glow: 0 0 32px rgba(212, 163, 67, 0.25);
+  --cx-shadow-card-hover: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(212, 163, 67, 0.25);
+
+  /* ---------------------------------------------------------------------
+     TRANSITIONS
+     --------------------------------------------------------------------- */
+  --cx-transition-fast: 150ms ease;
+  --cx-transition-base: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  --cx-transition-slow: 480ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---------------------------------------------------------------------
+     Z-INDEX SCALE
+     --------------------------------------------------------------------- */
+  --cx-z-nav: 1000;
+  --cx-z-overlay: 1050;
+  --cx-z-modal: 1100;
+  --cx-z-toast: 1200;
+}
+
+*{
+      outline: 1px solid red;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+
+/* ==========================================================================
+   BASE ELEMENT MAPPING (quick global application)
+   ========================================================================== */
+
+body {
+  background-color: var(--cx-bg-primary);
+  color: var(--cx-text-secondary);
+  font-family: var(--cx-font-body);
+  font-size: var(--cx-fs-body);
+  line-height: var(--cx-lh-body);
+  font-weight: var(--cx-fw-regular);
+}
+
+h1, h2, h3, h4, h5, h6,
+.cx-heading {
+  font-family: var(--cx-font-heading);
+  color: var(--cx-text-primary);
+  line-height: var(--cx-lh-heading);
+  letter-spacing: var(--cx-ls-heading);
+  font-weight: var(--cx-fw-semibold);
+}
+
+.cx-text-gold,
+.cx-gradient-text {
+  background: var(--cx-gradient-text-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--cx-text-gold);
+}
+
+.cx-eyebrow {
+  font-family: var(--cx-font-body);
+  font-size: var(--cx-fs-caption);
+  letter-spacing: var(--cx-ls-eyebrow);
+  text-transform: uppercase;
+  color: var(--cx-gold-500);
+  font-weight: var(--cx-fw-semibold);
+}
+
+ /* ===================== PAGE-LEVEL COMPONENT STYLES ===================== */
+  html { scroll-behavior: smooth; }
+  body { 
+    width: 100% !important;
+    overflow-x: hidden !important; }
+
+  a { text-decoration: none; }
+
+  header{
+    width: 100% !important;
+  }  /* ---------- Navbar ---------- */
+  .cx-navbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: var(--cx-z-nav);
+    background: transparent;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--cx-border-subtle);
+    transition: background var(--cx-transition-base);
+  }
+  .cx-navbar.cx-scrolled { background: rgba(5, 8, 16, 0.9); }
+
+ .cx-brand-logo {
+   height: 34px; width: auto;
+ }
+  .cx-brand-word {
+    font-family: var(--cx-font-heading);
+    font-weight: var(--cx-fw-bold);
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    background: var(--cx-gradient-text-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .cx-nav-link {
+    color: var(--cx-text-secondary) !important;
+    font-family: var(--cx-font-body);
+    font-weight: var(--cx-fw-medium);
+    font-size: 0.95rem;
+    margin: 0 0.35rem;
+    position: relative;
+    padding: 0.4rem 0.2rem !important;
+  }
+  .cx-nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 0; height: 2px;
+    background: var(--cx-gradient-gold);
+    transition: width var(--cx-transition-base);
+  }
+  .cx-nav-link:hover,
+  .cx-nav-link.active { color: var(--cx-text-primary) !important; }
+  .cx-nav-link:hover::after,
+  .cx-nav-link.active::after { width: 100%; }
+
+  /* ---------- Buttons ---------- */
+  .cx-btn-gold {
+    background: var(--cx-gradient-gold);
+    color: var(--cx-text-inverse) !important;
+    font-family: var(--cx-font-body);
+    font-weight: var(--cx-fw-bold);
+    border: none;
+    border-radius: var(--cx-radius-pill);
+    padding: 0.75rem 2rem;
+    box-shadow: var(--cx-shadow-gold-glow);
+    transition: transform var(--cx-transition-base), box-shadow var(--cx-transition-base);
+  }
+  .cx-btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 42px rgba(212, 163, 67, 0.4);
+    color: var(--cx-text-inverse) !important;
+  }
+  .cx-btn-outline-gold {
+    background: transparent;
+    color: var(--cx-gold-400) !important;
+    border: 1.5px solid var(--cx-border-strong);
+    border-radius: var(--cx-radius-pill);
+    padding: 0.7rem 1.9rem;
+    font-weight: var(--cx-fw-semibold);
+    transition: all var(--cx-transition-base);
+  }
+  .cx-btn-outline-gold:hover {
+    background: var(--cx-gold-500);
+    color: var(--cx-text-inverse) !important;
+    border-color: var(--cx-gold-500);
+  }
+
+  /* ---------- Hero ---------- */
+ #cx-hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#cx-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(circle at 15% 30%, rgba(212,163,67,0.10), transparent 55%),
+        url('../Images/Logos_Other_images/marques-kaspbrak-n1amn-SHKzw-unsplash.webp')
+        center / cover no-repeat;
+
+    filter: grayscale(100%) blur(4px);
+    transform: scale(1.05); /* Prevents blurred edges from showing */
+    z-index: -2;
+}
+
+#cx-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: transparent; /* Optional dark overlay */
+    z-index: -1;
+}
+
+/* Keep your content above the background */
+#cx-hero > * {
+    position: relative;
+    z-index: 1;
+}
+  .cx-eyebrow-hero {
+    font-family: var(--cx-font-body);
+    font-size: var(--cx-fs-caption);
+    letter-spacing: var(--cx-ls-eyebrow);
+    text-transform: uppercase;
+    color: var(--cx-gold-400);
+    font-weight: var(--cx-fw-bold);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .cx-eyebrow-hero::before {
+    content: "";
+    width: 28px; height: 1px;
+    background: var(--cx-gold-500);
+    display: inline-block;
+  }
+  #cx-hero h1 {
+    font-family: var(--cx-font-heading);
+    font-size: var(--cx-fs-hero);
+    font-weight: var(--cx-fw-bold);
+    line-height: var(--cx-lh-tight);
+    color: var(--cx-text-primary);
+  }
+  #cx-hero .cx-hero-lead {
+    font-family: var(--cx-font-body);
+    color: var(--cx-text-secondary);
+    font-size: var(--cx-fs-body-lg);
+    max-width: 32rem;
+  }
+
+  .cx-hero-swiper { padding-bottom: 2.75rem; }
+  .cx-hero-swiper .swiper-slide img {
+    border: 1px solid var(--cx-border-subtle);
+    box-shadow: var(--cx-shadow-lg);
+  }
+  .cx-hero-swiper .swiper-pagination-bullet { background: var(--cx-gold-500); opacity: 0.5; }
+  .cx-hero-swiper .swiper-pagination-bullet-active { opacity: 1; }
+  .cx-hero-swiper .swiper-button-next,
+  .cx-hero-swiper .swiper-button-prev { color: var(--cx-gold-400); }
+  .cx-hero-swiper .swiper-button-next::after,
+  .cx-hero-swiper .swiper-button-prev::after { font-size: 1.35rem; }
+
+  /* ---------- Section shared ---------- */
+  .cx-section { padding: var(--cx-space-2xl) 0; background: var(--cx-bg-primary); }
+  .cx-section-alt { background: var(--cx-bg-secondary); }
+  .cx-section-heading {
+    font-family: var(--cx-font-heading);
+    font-size: var(--cx-fs-h1);
+    color: var(--cx-text-primary);
+    margin-bottom: var(--cx-space-sm);
+  }
+  .cx-section-sub {
+    color: var(--cx-text-secondary);
+    max-width: 40rem;
+  }
+
+  /* ---------- About ---------- */
+  .cx-about-frame {
+    position: relative;
+    border-radius: var(--cx-radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--cx-border-subtle);
+    box-shadow: var(--cx-shadow-md);
+    background: var(--cx-bg-secondary);
+    padding: var(--cx-space-md);
+  }
+  .cx-about-frame img { border-radius: var(--cx-radius-md); }
+  .cx-body-copy { color: var(--cx-text-secondary); font-size: var(--cx-fs-body-lg); line-height: var(--cx-lh-body); }
+
+  #about-us {
+    overflow-x: clip !important;
+}
+
+/* Fallback for older browsers */
+@supports not (overflow: clip) {
+    #about-us {
+        overflow-x: hidden !important;
+    }
+}
+  /* ---------- Why Us Cards ---------- */
+  .cx-why-card {
+    background: var(--cx-bg-secondary);
+    border: 1px solid var(--cx-border-subtle);
+    border-radius: var(--cx-radius-md);
+    height: 100%;
+    transition: transform var(--cx-transition-base), box-shadow var(--cx-transition-base), border-color var(--cx-transition-base);
+  }
+  .cx-why-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--cx-border-strong);
+    box-shadow: var(--cx-shadow-card-hover);
+  }
+  .cx-why-icon {
+    width: 60px; height: 60px;
+    margin: 0 auto var(--cx-space-xs);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(212, 163, 67, 0.1);
+    border: 1px solid var(--cx-border-subtle);
+  }
+  .cx-why-icon i { color: var(--cx-gold-500); font-size: 1.5rem; }
+  .cx-why-card h3 { font-family: var(--cx-font-heading); font-size: var(--cx-fs-h4); color: var(--cx-text-primary); }
+  .cx-why-card p { color: var(--cx-text-secondary); font-size: var(--cx-fs-body-sm); }
+
+  /* ---------- FAQ ---------- */
+  .cx-accordion .accordion-item {
+    background: var(--cx-bg-secondary);
+    border: 1px solid var(--cx-border-subtle);
+    border-radius: var(--cx-radius-md) !important;
+    margin-bottom: 0.9rem;
+    overflow: hidden;
+  }
+  .cx-accordion .accordion-button {
+    background: transparent;
+    color: var(--cx-text-primary);
+    font-family: var(--cx-font-body);
+    font-weight: var(--cx-fw-semibold);
+    box-shadow: none !important;
+  }
+  .cx-accordion .accordion-button:not(.collapsed) { color: var(--cx-gold-400); background: rgba(212,163,67,0.06); }
+  .cx-accordion .accordion-button::after { filter: sepia(1) saturate(4) hue-rotate(-10deg) brightness(1.1); }
+  .cx-accordion .accordion-body { color: var(--cx-text-secondary); }
+
+  /* ---------- For Kids ---------- */
+  .cx-kids-card {
+    background: rgba(212, 163, 67, 0.06);
+    border: 1px solid var(--cx-border-subtle);
+    backdrop-filter: blur(10px);
+    border-radius: var(--cx-radius-lg);
+  }
+  .cx-kids-image-frame img {
+    border-radius: var(--cx-radius-lg);
+    border: 1px solid var(--cx-border-subtle);
+    box-shadow: var(--cx-shadow-md);
+  }
+
+  /* ---------- Contact ---------- */
+  .cx-contact-visual {
+    border-radius: var(--cx-radius-lg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    border: 1px solid var(--cx-border-subtle);
+  }
+  .cx-contact-card {
+    background: rgba(212, 163, 67, 0.06);
+    border: 1px solid var(--cx-border-subtle);
+    backdrop-filter: blur(10px);
+    border-radius: var(--cx-radius-lg);
+  }
+
+  /* ---------- Footer ---------- */
+  .cx-footer {
+    background: var(--cx-navy-950);
+    border-top: 1px solid var(--cx-border-subtle);
+    padding: var(--cx-space-lg) 0 var(--cx-space-md);
+    color: var(--cx-text-muted);
+    font-size: var(--cx-fs-body-sm);
+  }
+  .cx-footer a { color: var(--cx-text-secondary); }
+  .cx-footer a:hover { color: var(--cx-gold-400); }

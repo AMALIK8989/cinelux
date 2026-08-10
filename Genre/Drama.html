@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drama Movies — Watch Free in HD on Cinelux</title>
+<meta name="description" content="Browse the full Drama movie collection on Cinelux — powerful performances, emotional journeys, and compelling stories of love, loss, and triumph. Stream your favorite drama films in HD.">
+<link rel="canonical" href="https://cinelux.app/Genres/Drama.html">
+
+<!-- 1. Bootstrap 5 CSS -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></noscript>
+
+<!-- 2. Cinelux Theme CSS (design tokens) -->
+<link rel="preload" href="../Assets/Css/cinelux-theme-2.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../Assets/Css/cinelux-theme-2.css"></noscript>
+
+<!-- 3. Font Awesome 7 -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></noscript>
+
+<!-- 4. AOS CSS -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css"></noscript>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- 5. jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+
+<!-- 6. Bootstrap 5 JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+<!-- 7. AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js" defer></script>
+
+<style>
+/* =========================================================
+   PAGINATION — themed to match Cinelux navy/gold
+   ========================================================= */
+.cx-pagination .page-link {
+  background: var(--cx-navy-800);
+  border: 1px solid var(--cx-border-subtle);
+  color: var(--cx-text-secondary);
+  font-weight: 600;
+  margin: 0 0.25rem;
+  border-radius: 8px !important;
+}
+.cx-pagination .page-link:hover {
+  border-color: var(--cx-border-strong);
+  color: var(--cx-gold-300);
+  background: var(--cx-navy-800);
+}
+.cx-pagination .page-item.active .page-link {
+  background: var(--cx-gradient-gold);
+  color: var(--cx-navy-900);
+  border-color: transparent;
+}
+
+/* =========================================================
+   MOVIE CARD GRID
+   ========================================================= */
+.cx-show-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--cx-navy-800);
+  border: 1px solid var(--cx-border-subtle);
+  box-shadow: var(--cx-shadow-md);
+  transition: transform var(--cx-transition-base), box-shadow var(--cx-transition-base), border-color var(--cx-transition-base);
+}
+
+.cx-show-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--cx-border-strong);
+  box-shadow: var(--cx-shadow-lg), var(--cx-shadow-gold-glow);
+}
+
+.cx-show-card .card-image-container-movie {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+}
+
+.cx-show-card .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--cx-transition-slow, 480ms ease);
+}
+
+.cx-show-card:hover .card-img-top { transform: scale(1.06); }
+
+.cx-show-card .movie-card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(180deg, transparent 40%, rgba(5,8,16,0.92) 100%);
+  opacity: 0;
+  transition: opacity var(--cx-transition-base);
+}
+
+.cx-show-card:hover .movie-card-overlay,
+.cx-show-card:focus-within .movie-card-overlay { opacity: 1; }
+
+.cx-show-card .overlay-content-inner { padding: 1rem; width: 100%; }
+
+.cx-show-card .overlay-title {
+  font-family: var(--cx-font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--cx-text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.cx-show-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  color: var(--cx-text-secondary);
+}
+.cx-show-rating i { color: var(--cx-gold-400); font-size: 0.72rem; }
+
+/* =========================================================
+   GENRE HERO
+   ========================================================= */
+.cx-genre-hero {
+  padding: 7rem 0 3rem;
+  background: var(--cx-gradient-navy, linear-gradient(180deg, var(--cx-navy-900) 0%, var(--cx-navy-950) 100%));
+  border-bottom: 1px solid var(--cx-border-subtle);
+}
+
+.cx-genre-heading {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 800;
+  color: var(--cx-text-primary);
+}
+
+.cx-genre-description {
+  color: var(--cx-text-secondary);
+  max-width: 68ch;
+  font-size: 1.02rem;
+}
+</style>
+</head>
+<body>
+
+<header class="container-fluid cx-header sticky-top">
+  <nav class="container navbar navbar-expand-lg px-0">
+    <div class="container-fluid px-0">
+      <a href="../App.html" class="navbar-brand cx-logo">
+        <img src="../Assets/Images/Logos_Other_images/Logo.png" alt="Cinelux">
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+        <i class="bi bi-list fs-2 text-light"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="../App.html"><i class="bi bi-house-door"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../App.html"><i class="bi bi-camera-reels"></i>Films</a></li>
+          <li class="nav-item"><a class="nav-link" href="../Genres/Tv-Shows.html"><i class="bi bi-tv"></i>TV Series</a></li>
+
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-grid-3x3-gap"></i>Genres
+            </a>
+            <div class="dropdown-menu cx-mega">
+              <div class="row">
+                <div class="col-lg-3">
+                  <a href="../Genre/Action.html"><i class="bi bi-fire"></i>Action</a>
+                  <a href="../Genre/Romance.html"><i class="bi bi-heart-fill"></i>Romance</a>
+                  <a href="../Genre/Drama.html"><i class="bi bi-mask"></i>Drama</a>
+                  <a href="../Genre/Thriller.html"><i class="bi bi-lightning-fill"></i>Thriller</a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="../Genre/Horror.html"><i class="bi bi-emoji-dizzy"></i>Horror</a>
+                  <a href="../Genre/Indie.html"><i class="bi bi-stars"></i>Indie</a>
+                  <a href="../Genre/Kids.html"><i class="bi bi-balloon-heart"></i>Kids</a>
+                  <a href="../Genre/Animated.html"><i class="bi bi-controller"></i>Animated</a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="../Genre/Pakistani.html"><i class="bi bi-flag"></i>Pakistani</a>
+                  <a href="../Genre/Bollywood.html"><i class="bi bi-camera-video"></i>Bollywood</a>
+                  <a href="../Genre/Documentary.html"><i class="bi bi-journal-richtext"></i>Documentary</a>
+                </div>
+                <div class="col-lg-3">
+                  <a href="../Genre/Adults.html"><i class="bi bi-explicit-fill"></i>Adults</a>
+                  <a href="../Genre/TV_Series.html"><i class="bi bi-display"></i>TV Series</a>
+                  <a href="../Genre/Shorts.html"><i class="bi bi-display"></i>Shorts</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="../Collection.html"><i class="bi bi-collection-play"></i>Collections</a></li>
+          <li class="nav-item"><a class="nav-link" href="../About.html"><i class="bi bi-info-circle"></i>About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="offcanvas offcanvas-start text-bg-dark" id="mobileMenu">
+  <div class="offcanvas-header">
+    <img src="../Assets/Images/Logos_Other_images/Cinelux-Logo.png" alt="Cinelux" width="150">
+    <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      <li><a class="nav-link" href="../App.html"><i class="bi bi-house"></i>Home</a></li>
+      <li><a class="nav-link" href="../App.html"><i class="bi bi-camera-reels"></i>Films</a></li>
+      <li><a class="nav-link" href="../Genres/Tv-Shows.html"><i class="bi bi-tv"></i>TV Series</a></li>
+    </ul>
+    <hr>
+    <h6 class="text-uppercase text-warning">Genres</h6>
+    <div class="row g-2">
+      <div class="col-6"><a href="../Genre/Action.html" class="genre-link">Action</a></div>
+      <div class="col-6"><a href="../Genre/Horror.html" class="genre-link">Horror</a></div>
+      <div class="col-6"><a href="../Genre/Drama.html" class="genre-link">Drama</a></div>
+      <div class="col-6"><a href="../Genre/Romance.html" class="genre-link">Romance</a></div>
+      <div class="col-6"><a href="../Genre/Thriller.html" class="genre-link">Thriller</a></div>
+      <div class="col-6"><a href="../Genre/Indie.html" class="genre-link">Indie</a></div>
+      <div class="col-6"><a href="../Genre/Kids.html" class="genre-link">Kids</a></div>
+      <div class="col-6"><a href="../Genre/Pakistani.html" class="genre-link">Pakistani</a></div>
+      <div class="col-6"><a href="../Genre/Bollywood.html" class="genre-link">Bollywood</a></div>
+      <div class="col-6"><a href="../Genre/Documentary.html" class="genre-link">Documentary</a></div>
+      <div class="col-6"><a href="../Genre/Adults.html" class="genre-link">Adults</a></div>
+      <div class="col-6"><a href="../Genre/Animated.html" class="genre-link">Animated</a></div>
+      <div class="col-6"><a href="../Genre/Shorts.html" class="genre-link">Shorts</a></div>
+    </div>
+  </div>
+</div>
+
+<section class="cx-section genre-hero" id="cx-hero">
+  <div class="container-fluid bg-image">
+    <div class="container px-3 py-2 mt-3">
+      <div class="row justify-content-center g-3">
+        <div class="col-12" id="content-top">
+          <h1 class="text-light cx-genre-heading" data-aos="fade-up">Drama</h1>
+          <p class="text-light cx-genre-description" data-aos="fade-up">
+            Cinelux showcases the finest drama movies that move, inspire, and captivate. From powerful performances and emotional journeys to compelling stories of love, loss, and triumph, our curated collection brings unforgettable tales to life. Stream your favorite drama films in HD online and experience stories that touch the heart and soul.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+<section class="container-fluid cx-section py-5">
+  <div class="container">
+    <div class="row justify-content-center g-4">
+
+      <!-- Kiss Me -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="0">
+        <a href="../Genres/Drama/Kiss-Me.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Kiss Me Info-card.webp" alt="Kiss Me" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Kiss Me</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Ammonite -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="50">
+        <a href="../Genres/Drama/Ammonite.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Ammonite Info-card.webp" alt="Ammonite" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Ammonite</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.4/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- The World Unseen -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="../Genres/Drama/The-World-Unseen.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/The World Unseen Info card.webp" alt="The World Unseen" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">The World Unseen</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.2/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Love -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="../Genres/Drama/Love.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Love Info card.webp" alt="Love" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Love</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.3/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Blue Is The Warmest Color -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="../Genres/Drama/Blue-Is-The-Warmest-Color.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Blue is the warmest color info-card.webp" alt="Blue Is The Warmest Color" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Blue Is The Warmest Color</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.7/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Joyland -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="../Genres/Drama/Joyland.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Joyland Info-card.webp" alt="Joyland" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Joyland</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.6/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Colette -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="0">
+        <a href="../Genres/Drama/Colette.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Colette - Info - card.png" alt="Colette" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Colette</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.9/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Kill For Me -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="50">
+        <a href="../Genres/Drama/Kill-For-Me.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/KillForMe-Info-card.webp" alt="Kill For Me" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Kill For Me</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.4/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Anatomy Of A Love Seen -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="../Genres/Drama/Anatomy-Of-A-Love-Seen.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Anatomy Of A Love Seen Info card.webp" alt="Anatomy Of A Love Seen" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Anatomy Of A Love Seen</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.2/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Elena Undone -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="../Genres/Drama/Elena-Undone.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Elena Undone Info card.webp" alt="Elena Undone" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Elena Undone</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.6/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Lost And Delirious -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="../Genres/Drama/Lost-And-Derlious.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Lost and Delirious Info-card.webp" alt="Lost And Delirious" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Lost And Delirious</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- My Days Of Mercy -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="../Genres/Drama/My-Days-Of-Mercy.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/My Days Of Mercy Info-card.webp" alt="My Days Of Mercy" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">My Days Of Mercy</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- My Fault -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="0">
+        <a href="../Genres/Drama/My-Fault.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/My Fault Info card.webp" alt="My Fault" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">My Fault</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.7/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Thirteen -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="50">
+        <a href="../Genres/Drama/Thirteen.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Thirteen Info card.webp" alt="Thirteen" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Thirteen</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Vita & Virginia -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="../Genres/Drama/Vita-And-Virginia.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Vita-And-Virginia-Info-Card.webp" alt="Vita & Virginia" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Vita &amp; Virginia</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.3/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Cocaine Godmother -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="../Genres/Drama/Cocaine-Godmother.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Cocaine-Godmother-Info-Card.webp" alt="Cocaine Godmother" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Cocaine Godmother</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Imagine Me & You -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="../Genres/Drama/Imagine-Me-And-You.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/Imagine-Me-And-You-Info-Card.webp" alt="Imagine Me & You" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Imagine Me &amp; You</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.9/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- The Reluctant Fundamentalist -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="../Genres/Drama/The-Reluctant-Fundamentalist.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/The-Reluctant-Fundamentalist-Info-Card.webp" alt="The Reluctant Fundamentalist" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">The Reluctant Fundamentalist</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Your Fault -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="0">
+        <a href="../Genres/Drama/Your-Fault.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Your-Fault-Info-Card.webp" alt="Your Fault" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Your Fault</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.6/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Unfreedom -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="50">
+        <a href="../Genres/Drama/Unfreedom.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Unfreedom info-Card.webp" alt="Unfreedom" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Unfreedom</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.8/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Say You Will -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="../Genres/Drama/Say-You-Will.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Say You Will Info-Card.webp" alt="Say You Will" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Say You Will</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.7/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Like Sunday Like Rain -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="../Genres/Drama/Like-Sunday-Like-Rain.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Like-Sunday-Like-Rain-Info-card.webp" alt="Like Sunday Like Rain" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Like Sunday Like Rain</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.1/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Adam -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="../Genres/Drama/Adam.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/Adam-Info-Card.webp" alt="Adam" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Adam</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.9/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Ambrosia -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="../Genres/Drama/Ambrosia.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/Ambrosia-Info-Card.webp" alt="Ambrosia" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Ambrosia</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.3/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Mosquita Y Mari -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="0">
+        <a href="../Genres/Drama/Mosquita-Y-Mari.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/Mosquita-Y-Mari-Info-Card.webp" alt="Mosquita Y Mari" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Mosquita Y Mari</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- The Maid -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="50">
+        <a href="../Genres/Drama/The-Maid.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/The Maid Info-card_.webp" alt="The Maid" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">The Maid</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.0/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Disobedience -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="../Genres/Drama/Disobedience.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Disobedience-Info-card.jpeg" alt="Disobedience" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Disobedience</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.9/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- On Swift Horses -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="../Genres/Drama/On-Swift-Horses.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/On-Swift-Horses-Info-Card.webp" alt="On Swift Horses" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">On Swift Horses</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.6/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Fifty Shades Of Grey -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="../Genres/Drama/Fifty-Shades-Of-Grey.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Fifty Shades Of Grey Info card.webp" alt="Fifty Shades Of Grey" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Fifty Shades Of Grey</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 4.1/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Fifty Shades Darker -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="../Genres/Drama/Fifty-Shades-Darker.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Fifty Shades Darker Info card.webp" alt="Fifty Shades Darker" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Fifty Shades Darker</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 4.6/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Fifty Shades Freed -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="0">
+        <a href="../Genres/Drama/Fifty-Shades-Freed.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img/Fifty Shades Freed Info card.webp" alt="Fifty Shades Freed" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Fifty Shades Freed</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 4.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- The Fallout -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="50">
+        <a href="../Genres/Drama/The-Fallout.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/The-Fallout-Info-Card.webp" alt="The Fallout" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">The Fallout</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Hot Milk -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="../Genres/Drama/Hot-Milk.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img2/Hot-Milk-Info-Card.webp" alt="Hot Milk" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Hot Milk</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.3/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- The Hours -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="../Genres/Drama/The-Hours.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img4/The-Hours-Info-Card.webp" alt="The Hours" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">The Hours</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Sex, Party And Lies -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="../Genres/Drama/Sex-Party-And-Lies.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img10/Sex-Party-And-Lies-Info-Card.webp" alt="Sex, Party And Lies" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">Sex, Party And Lies</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- The Nun -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="../Genres/Drama/The-Nun.html" class="text-decoration-none d-block cx-show-card">
+          <div class="card-image-container-movie">
+            <img src="../Assets/Img12/The-Nun-Info-Card.webp" alt="The Nun" class="card-img-top">
+            <div class="movie-card-overlay">
+              <div class="overlay-content-inner">
+                <h3 class="overlay-title">The Nun</h3>
+                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.5/10</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid py-3">
+  <div class="container">
+    <nav aria-label="Drama Page Navigation">
+      <ul class="pagination justify-content-center cx-pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="../Genres/Drama.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="../pages/Drama/2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="../pages/Drama/3.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="../pages/Drama/2.html" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+</main>
+
+<footer class="cx-footer">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-12 col-md-4 cx-footer-logo text-center text-md-start">
+        <img src="../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux Logo" class="img-fluid">
+      </div>
+
+      <div class="col-12 col-md-4 text-center">
+        <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-center gap-sm-4 gap-2 mb-0">
+          <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../terms-of-services.html">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+        <ul class="cx-footer-social">
+          <li><a href="https://www.quora.com" target="_blank"><i class="bi bi-quora"></i></a></li>
+          <li><a href="https://bsky.app" target="_blank"><i class="bi bi-cloud"></i></a></li>
+          <li><a href="https://www.reddit.com" target="_blank"><i class="bi bi-reddit"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cx-copyright text-center">
+      <p class="mb-0">© All rights reserved by Cinelux — Powered by <a href="https://nexonix.netlify.app/">Nexonix</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="../Assets/Js/cinelux-custom-2.js"></script>
+</body>
+</html>
