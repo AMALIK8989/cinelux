@@ -153,7 +153,7 @@ body {
 }
 
 .cx-logo img{
-    height:125px;
+    height:38px;
     max-width:100%;
     object-fit:cover;
     transition:var(--cx-transition-base);
