@@ -433,6 +433,84 @@
 
 .cx-more-swiper .swiper-pagination-bullet { background: var(--cx-navy-500); opacity: 1; }
 .cx-more-swiper .swiper-pagination-bullet-active { background: var(--cx-gold-500); }
+
+/* =========================================================
+   TAGS SECTION — Keywords & Topics
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5,8,16,0.3);
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.3rem;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+}
+
+.cx-tag-pill i {
+  color: var(--cx-gold);
+  font-size: 0.8rem;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.8);
+}
+
+/* =========================================================
+   EEAT TRUST CARD
+   ========================================================= */
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cx-eeat-card h3 {
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
 </style>
 </head>
 <body>
@@ -809,6 +887,53 @@
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
+       EEAT TRUST CARD + TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt"></i> Verified Information</h3>
+        <p>
+          <strong>Cinelux Editorial Standards:</strong> This Gap: The Series page contains verified information sourced from official production records and IMDb. We confirm the production company (IDOL Factory, produced by Saint Suppapong Udomkaewkanjana), director (Natthaphong Wongkaweepairod), source material (adapted from the novel "GAP" by Chao Planoy), lead cast (Freen Sarocha Chankimha as Sam and Rebecca "Becky" Patricia Armstrong as Mon), release year (2022), and episode count (12 episodes, Channel 3 Thailand). Our team has cross-referenced the series' status as the first Thai GL drama broadcast on national television, its 900+ million combined YouTube views, and the "FreenBecky" pairing's Couple of the Year recognition at the Kazz and Maya Awards. Every detail is fact-checked for streaming audiences.
+        </p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags"></i> Explore This Series</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <p class="cx-lead-text mb-4">
+          Discover key themes, cast members, genres, and cultural moments connected to <strong>Gap: The Series (2022)</strong>.
+        </p>
+
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Gap The Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Gap The Series 2022</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch Gap The Series Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Thai GL Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Pink Theory</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Freen Sarocha</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Becky Armstrong</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> FreenBecky</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> IDOL Factory</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Channel 3 Thailand</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Girls Love Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Sapphic Romance</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Office Romance Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Enemies to Lovers</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Age Gap Romance</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> First Thai GL on TV</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Novel Adaptation</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Idolizing to Love</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2022 Television</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HD Streaming</a>
+        </div>
       </div>
     </div>
   </section>

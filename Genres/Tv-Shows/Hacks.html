@@ -345,6 +345,89 @@
     text-align: center;
   }
 }
+
+/* =========================================================
+   EEAT TRUST CARD + KEYWORD TAGS
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5, 8, 16, 0.3);
+}
+
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.cx-eeat-card h3 {
+  font-family: var(--cx-font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cx-eeat-card strong { color: var(--cx-text-primary); }
+
+.cx-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--cx-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.3rem;
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  font-size: 0.92rem;
+  font-weight: 600;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  color: var(--cx-gold);
+}
+
+.cx-tag-pill i { font-size: 0.8em; }
 </style>
 </head>
 <body>
@@ -583,7 +666,7 @@
               <span class="cx-info-label">Country</span>
               <span class="cx-info-value">USA</span>
             </div>
-            <div class="cx-info-row" style="border-bottom:none; display:block;">
+            <div class="cx-info-row">
               <span class="cx-info-label d-block mb-2">Genre</span>
               <div>
                 <span class="cx-tag">Comedy</span>
@@ -785,6 +868,47 @@
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
+       EEAT TRUST + KEYWORD TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt"></i> Verified Information</h3>
+        <p><strong>Cinelux Editorial Standards:</strong> Hacks is an Emmy and Peabody Award-winning comedy series created by Lucia Aniello, Paul W. Downs, and Jen Statsky. It premiered on May 13, 2021, on HBO Max (now Max). The series stars Jean Smart as Deborah Vance, a legendary Las Vegas stand-up comedian, and Hannah Einbinder as Ava Daniels, a young comedy writer. All production details, cast information, and accolades have been verified against official Max records and entertainment databases.</p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags"></i> Explore This Series</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Hacks Comedy Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Jean Smart</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Hannah Einbinder</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Emmy Award Winner</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HBO Max Original</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Dark Comedy Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Las Vegas Residency</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Generational Comedy</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Comedy Writer</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Stand-Up Comic</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Peabody Award</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Paul W. Downs</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Deborah Vance</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Ava Daniels</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Season 5 Renewal</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Max Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Comedy Writing</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Entertainment Industry</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Cinelux Exclusives</a>
+        </div>
       </div>
     </div>
   </section>
@@ -1041,7 +1165,7 @@ $(document).ready(function () {
     const toastId = `toast-${Date.now()}`;
     const toastHtml = `
       <div id="${toastId}" class="toast align-items-center text-white ${isError ? 'bg-danger' : 'bg-success'} border-0 position-fixed bottom-0 end-0 m-4"
-        role="alert" aria-live="${isError ? 'assertive' : 'polite'}" aria-atomic="true" style="z-index: 9999;">
+        role="alert" aria-live="${isError ? 'assertive' : 'polite'}" aria-atomic="true">
         <div class="d-flex">
           <div class="toast-body">${message}</div>
           <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>

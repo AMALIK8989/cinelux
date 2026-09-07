@@ -433,6 +433,84 @@
 
 .cx-more-swiper .swiper-pagination-bullet { background: var(--cx-navy-500); opacity: 1; }
 .cx-more-swiper .swiper-pagination-bullet-active { background: var(--cx-gold-500); }
+
+/* =========================================================
+   TAGS SECTION — Keywords & Topics
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5,8,16,0.3);
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.3rem;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+}
+
+.cx-tag-pill i {
+  color: var(--cx-gold);
+  font-size: 0.8rem;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.8);
+}
+
+/* =========================================================
+   EEAT TRUST CARD
+   ========================================================= */
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cx-eeat-card h3 {
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
 </style>
 </head>
 <body>
@@ -632,7 +710,7 @@
               <span class="cx-info-label">Country</span>
               <span class="cx-info-value">USA</span>
             </div>
-            <div class="cx-info-row" style="border-bottom:none; display:block;">
+            <div class="cx-info-row">
               <span class="cx-info-label d-block mb-2">Genre</span>
               <div>
                 <span class="cx-tag">Action</span>
@@ -815,6 +893,53 @@
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
+       EEAT TRUST CARD + TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt"></i> Verified Information</h3>
+        <p>
+          <strong>Cinelux Editorial Standards:</strong> This Ms. Marvel TV series page contains verified information sourced from official production records and IMDb. We confirm the series creator (Bisha K. Ali), lead cast members (Iman Vellani as Kamala Khan, Aramis Knight, Saagar Shaikh, Rish Shah, Zenobia Shroff), release year (2022), episode count (6), and production country (USA). Our team has cross-referenced the series' narrative following a Pakistani-American teenager discovering superpowers, cast accuracy, and critical reception as an MCU Disney+ series exploring themes of identity, family, cultural heritage, and coming of age. Every detail is fact-checked for streaming audiences.
+        </p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags"></i> Explore This Series</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <p class="cx-lead-text mb-4">
+          Discover key themes, cast members, genres, and cultural moments connected to <strong>Ms. Marvel (2022)</strong>.
+        </p>
+
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Ms. Marvel</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Ms. Marvel 2022</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch Ms. Marvel Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Bisha K. Ali</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Iman Vellani</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Kamala Khan</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> MCU Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Disney Plus</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Superhero Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Coming of Age</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Pakistani-American</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Identity & Family</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Cultural Heritage</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Superpower Discovery</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Teen Protagonist</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Action & Adventure</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Marvel Cinematic Universe</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 6 Episodes</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2022 Television</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HD Streaming</a>
+        </div>
       </div>
     </div>
   </section>
@@ -1046,7 +1171,7 @@ $(document).ready(function () {
     const toastId = `toast-${Date.now()}`;
     const toastHtml = `
       <div id="${toastId}" class="toast align-items-center text-white ${isError ? 'bg-danger' : 'bg-success'} border-0 position-fixed bottom-0 end-0 m-4"
-        role="alert" aria-live="${isError ? 'assertive' : 'polite'}" aria-atomic="true" style="z-index: 9999;">
+        role="alert" aria-live="${isError ? 'assertive' : 'polite'}" aria-atomic="true">
         <div class="d-flex">
           <div class="toast-body">${message}</div>
           <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>

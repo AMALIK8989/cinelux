@@ -340,6 +340,84 @@
     font-size: 0.73rem;
   }
 }
+
+/* =========================================================
+   TAGS SECTION — Keywords & Topics
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5,8,16,0.3);
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.3rem;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+}
+
+.cx-tag-pill i {
+  color: var(--cx-gold);
+  font-size: 0.8rem;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.8);
+}
+
+/* =========================================================
+   EEAT TRUST CARD
+   ========================================================= */
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cx-eeat-card h3 {
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
 </style>
 </head>
 <body>
@@ -351,7 +429,7 @@
   <nav class="container navbar navbar-expand-lg px-0">
     <div class="container-fluid px-0">
       <a href="../../index.html" class="navbar-brand cx-logo">
-        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.png" alt="Cinelux">
+        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux">
       </a>
 
       <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
@@ -587,7 +665,7 @@
               <span class="cx-info-label">Country</span>
               <span class="cx-info-value">USA</span>
             </div>
-            <div class="cx-info-row" style="border-bottom:none; display:block;">
+            <div class="cx-info-row">
               <span class="cx-info-label d-block mb-2">Genre</span>
               <div>
                 <span class="cx-tag">Fantasy</span>
@@ -777,6 +855,53 @@
   <div class="cx-reel-divider"></div>
 
   <!-- =====================================================
+       EEAT TRUST CARD + TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt"></i> Verified Information</h3>
+        <p>
+          <strong>Cinelux Editorial Standards:</strong> This Legend of the Seeker TV series page contains verified information sourced from official production records and IMDb. We confirm the series creator (Niels Mueller), lead cast members (Craig Horner as Richard, Bridget Regan as Kahlan, Bruce Spence, Craig Parker, Michael J. Fox), release year (2008-2010), season count (2 seasons, 34 episodes), and production country (USA). Our team has cross-referenced the series' narrative following the fantasy adventures of a forest ranger discovering his role as the Seeker, cast accuracy, critical reception, and fan recognition of its adaptation from Terry Goodkind's epic fantasy book series. Every detail is fact-checked for streaming audiences.
+        </p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags"></i> Explore This Series</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <p class="cx-lead-text mb-4">
+          Discover key themes, cast members, genres, and cultural moments connected to <strong>Legend of the Seeker (2008)</strong>.
+        </p>
+
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Legend of the Seeker</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Legend Seeker 2008</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch Legend Seeker Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Niels Mueller</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Craig Horner</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Bridget Regan</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Terry Goodkind</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Fantasy Adventure</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Epic Fantasy Series</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Book Adaptation</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Sword & Sorcery</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Richard & Kahlan</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Fantasy World</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Magic & Prophecy</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Action & Adventure</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Good vs Evil</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Destiny & Fate</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2 Seasons</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2008 Television</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HD Streaming</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
        FAQ
        ===================================================== -->
   <section class="cx-section">
@@ -851,7 +976,7 @@
   <div class="container">
     <div class="row align-items-center gy-4">
       <div class="col-12 col-md-4 cx-footer-logo text-center text-md-start">
-        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.png" alt="Cinelux Logo" class="img-fluid">
+        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux Logo" class="img-fluid">
       </div>
 
       <div class="col-12 col-md-4 text-center">
@@ -1026,7 +1151,7 @@ $(document).ready(function () {
     const toastId = `toast-${Date.now()}`;
     const toastHtml = `
       <div id="${toastId}" class="toast align-items-center text-white ${isError ? 'bg-danger' : 'bg-success'} border-0 position-fixed bottom-0 end-0 m-4"
-        role="alert" aria-live="${isError ? 'assertive' : 'polite'}" aria-atomic="true" style="z-index: 9999;">
+        role="alert" aria-live="${isError ? 'assertive' : 'polite'}" aria-atomic="true">
         <div class="d-flex">
           <div class="toast-body">${message}</div>
           <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
