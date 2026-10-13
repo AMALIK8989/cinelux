@@ -9,8 +9,8 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></noscript>
 
 <!-- 2. Cinelux Theme CSS (design tokens) -->
-<link rel="preload" href="../Assets/Css/cinelux-theme-2.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="../Assets/Css/cinelux-theme-2.css"></noscript>
+<link rel="preload" href="../../Assets/Css/cinelux-theme-2.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../../Assets/Css/cinelux-theme-2.css"></noscript>
 
 
 <!-- 3. Font Awesome 7 -->
@@ -35,6 +35,29 @@
 
 <!-- 8. AOS JS -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js" defer></script>
+<style>
+/* =========================================================
+   PAGINATION — themed to match Cinelux navy/gold
+   ========================================================= */
+.cx-pagination .page-link {
+  background: var(--cx-navy-800);
+  border: 1px solid var(--cx-border-subtle);
+  color: var(--cx-text-secondary);
+  font-weight: 600;
+  margin: 0 0.25rem;
+  border-radius: 8px !important;
+}
+.cx-pagination .page-link:hover {
+  border-color: var(--cx-border-strong);
+  color: var(--cx-gold-300);
+  background: var(--cx-navy-800);
+}
+.cx-pagination .page-item.active .page-link {
+  background: var(--cx-gradient-gold);
+  color: var(--cx-navy-900);
+  border-color: transparent;
+}
+</style>
 </head>
 <body>
     <header class="container-fluid cx-header sticky-top">
@@ -43,7 +66,7 @@
     <div class="container-fluid px-0">
         <!-- Logo -->
         <a href="index.html" class="navbar-brand cx-logo">
-            <img src="../Assets/Images/Logos_Other_images/Logo.png" alt="Cinelux">
+            <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux">
         </a>
 
         <!-- Mobile Toggle -->
@@ -62,21 +85,21 @@
             <ul class="navbar-nav align-items-lg-center">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="../App.html">
+                    <a class="nav-link active" href="../../App.html">
                         <i class="bi bi-house-door"></i>
                         Home
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../App.html">
+                    <a class="nav-link" href="../../App.html">
                         <i class="bi bi-camera-reels"></i>
                         Films
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../App.html">
+                    <a class="nav-link" href="../../Genre/Tv-Shows.html">
                         <i class="bi bi-tv"></i>
                         TV Series
                     </a>
@@ -100,29 +123,28 @@
                         <div class="row">
 
                             <div class="col-lg-3">
-                                <a href="../Genre/Action.html"><i class="bi bi-fire"></i>Action</a>
-                                <a href="../Genre/Romance.html"><i class="bi bi-heart-fill"></i>Romance</a>
-                                <a href="../Genre/Drama.html"><i class="bi bi-mask"></i>Drama</a>
-                                <a href="../Genre/Thriller.html"><i class="bi bi-lightning-fill"></i>Thriller</a>
+                                <a href="../../Genre/Action.html"><i class="bi bi-fire"></i>Action</a>
+                                <a href="../../Genre/Romance.html"><i class="bi bi-heart-fill"></i>Romance</a>
+                                <a href="../../Genre/Drama.html"><i class="bi bi-mask"></i>Drama</a>
+                                <a href="../../Genre/Thriller.html"><i class="bi bi-lightning-fill"></i>Thriller</a>
                             </div>
-
                             <div class="col-lg-3">
-                                <a href="../Genre/Horror.html"><i class="bi bi-emoji-dizzy"></i>Horror</a>
-                                <a href="../Genre/Indie.html"><i class="bi bi-stars"></i>Indie</a>
-                                <a href="../Genre/Kids.html"><i class="bi bi-balloon-heart"></i>Kids</a>
-                                <a href="../Genre/Animated.html"><i class="bi bi-controller"></i>Animated</a>
+                                <a href="../../Genre/Horror.html"><i class="bi bi-emoji-dizzy"></i>Horror</a>
+                                <a href="../../Genre/Indie.html"><i class="bi bi-stars"></i>Indie</a>
+                                <a href="../../Genre/Kids.html"><i class="bi bi-balloon-heart"></i>Kids</a>
+                                <a href="../../Genre/Animated.html"><i class="bi bi-controller"></i>Animated</a>
                             </div>
-
                             <div class="col-lg-3">
-                                <a href="../Genre/Pakistani.html"><i class="bi bi-flag"></i>Pakistani</a>
-                                <a href="../Genre/Bollywood.html"><i class="bi bi-camera-video"></i>Bollywood</a>
-                                <a href="../Genre/Documentary.html"><i class="bi bi-journal-richtext"></i>Documentary</a>
+                                <a href="../../Genre/Pakistani.html"><i class="bi bi-flag"></i>Pakistani</a>
+                                <a href="../../Genre/Bollywood.html"><i class="bi bi-camera-video"></i>Bollywood</a>
+                                <a href="../../Genre/Comedy.html"><i class="bi bi-emoji-laughing"></i>Comedy</a>
+                                <a href="../../Genre/Documentary.html"><i class="bi bi-journal-richtext"></i>Documentary</a>
                             </div>
-
                             <div class="col-lg-3">
-                                <a href="../Genre/Adults.html"><i class="bi bi-explicit-fill"></i>Adults</a>
-                                <a href="../Genre/TV_Series.html"><i class="bi bi-display"></i>TV Series</a>
-                                <a href="../Genre/Shorts.html"><i class="bi bi-display"></i>Shorts</a>
+                                <a href="../../Genre/Adults.html"><i class="bi bi-explicit-fill"></i>Adults</a>
+                                <a href="../../Genre/Tv-Shows.html"><i class="bi bi-display"></i>TV Series</a>
+                                <a href="../../Genre/Shorts.html"><i class="bi bi-display"></i>Shorts</a>
+                                <a href="../../Genre/Adventure.html"><i class="bi bi-compass"></i>Adventure</a>
                             </div>
 
                         </div>
@@ -132,14 +154,14 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../Collection.html">
+                    <a class="nav-link" href="../../Collection.html">
                         <i class="bi bi-collection-play"></i>
                         Collections
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../About.html">
+                    <a class="nav-link" href="../../About.html">
                         <i class="bi bi-info-circle"></i>
                         About
                     </a>
@@ -160,7 +182,7 @@
 
     <div class="offcanvas-header">
 
-        <img src="../Assets/Images/Logos_Other_images/Cinelux-Logo.png" alt="Cinelux"
+        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux"
              width="150">
 
         <button class="btn-close btn-close-white"
@@ -173,9 +195,9 @@
 
         <ul class="navbar-nav">
 
-            <li><a class="nav-link" href="../App.html"><i class="bi bi-house"></i>Home</a></li>
-            <li><a class="nav-link" href="../Films.html"><i class="bi bi-camera-reels"></i>Films</a></li>
-            <li><a class="nav-link" href="../TV_Series.html"><i class="bi bi-tv"></i>TV Series</a></li>
+            <li><a class="nav-link" href="../../App.html"><i class="bi bi-house"></i>Home</a></li>
+            <li><a class="nav-link" href="../../App.html"><i class="bi bi-camera-reels"></i>Films</a></li>
+            <li><a class="nav-link" href="../../Genre/Tv-Shows.html"><i class="bi bi-tv"></i>TV Series</a></li>
 
         </ul>
 
@@ -184,26 +206,29 @@
         <h6 class="text-uppercase text-warning">Genres</h6>
 
         <div class="row g-2">
-
-            <div class="col-6"><a href="../Genre/Action.html" class="genre-link">Action</a></div>
-            <div class="col-6"><a href="../Genre/Horror.html" class="genre-link">Horror</a></div>
-            <div class="col-6"><a href="../Genre/Drama.html" class="genre-link">Drama</a></div>
-            <div class="col-6"><a href="../Genre/Romance.html" class="genre-link">Romance</a></div>
-            <div class="col-6"><a href="../Genre/Thriller.html" class="genre-link">Thriller</a></div>
-            <div class="col-6"><a href="../Genre/Indie.html" class="genre-link">Indie</a></div>
-            <div class="col-6"><a href="../Genre/Kids.html" class="genre-link">Kids</a></div>
-            <div class="col-6"><a href="../Genre/Pakistani.html" class="genre-link">Pakistani</a></div>
-            <div class="col-6"><a href="../Genre/Bollywood.html" class="genre-link">Bollywood</a></div>
-            <div class="col-6"><a href="../Genre/Documentary.html" class="genre-link">Documentary</a></div>
-            <div class="col-6"><a href="../Genre/Adults.html" class="genre-link">Adults</a></div>
-            <div class="col-6"><a href="../Genre/Animated.html" class="genre-link">Animated</a></div>
-            <div class="col-6"><a href="../Genre/Shorts.html" class="genre-link">Shorts</a></div>
+            <div class="col-6"><a href="../../Genre/Action.html" class="genre-link">Action</a></div>
+            <div class="col-6"><a href="../../Genre/Romance.html" class="genre-link">Romance</a></div>
+            <div class="col-6"><a href="../../Genre/Drama.html" class="genre-link">Drama</a></div>
+            <div class="col-6"><a href="../../Genre/Thriller.html" class="genre-link">Thriller</a></div>
+            <div class="col-6"><a href="../../Genre/Horror.html" class="genre-link">Horror</a></div>
+            <div class="col-6"><a href="../../Genre/Indie.html" class="genre-link">Indie</a></div>
+            <div class="col-6"><a href="../../Genre/Kids.html" class="genre-link">Kids</a></div>
+            <div class="col-6"><a href="../../Genre/Animated.html" class="genre-link">Animated</a></div>
+            <div class="col-6"><a href="../../Genre/Pakistani.html" class="genre-link">Pakistani</a></div>
+            <div class="col-6"><a href="../../Genre/Bollywood.html" class="genre-link">Bollywood</a></div>
+            <div class="col-6"><a href="../../Genre/Comedy.html" class="genre-link">Comedy</a></div>
+            <div class="col-6"><a href="../../Genre/Documentary.html" class="genre-link">Documentary</a></div>
+            <div class="col-6"><a href="../../Genre/Adults.html" class="genre-link">Adults</a></div>
+            <div class="col-6"><a href="../../Genre/Tv-Shows.html" class="genre-link">TV Series</a></div>
+            <div class="col-6"><a href="../../Genre/Shorts.html" class="genre-link">Shorts</a></div>
+            <div class="col-6"><a href="../../Genre/Adventure.html" class="genre-link">Adventure</a></div>
 
         </div>
 
     </div>
 
 </div>
+
 <section class="cx-section genre-hero" id="cx-hero">
     <div class="container-fluid bg-image">
         <div class="container px-3 py-2 mt-3">
@@ -221,7 +246,7 @@
 <section class="container-fluid cx-section" id="cx-genre-section">
     <div class="container" id="cx-genre-movie-cards-place">
         <div class="row justify-content-center g-4">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="cx-movie-card" id="movie-card-1">
                      <div class="card-image-container-movie">
               <img src="https://m.media-amazon.com/images/M/MV5BN2RkYWVkZDQtNTMxMi00NWQ4LWE2ODctNmQzOWM2NjQzYzdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.webp" alt="Mission: Impossible 2" class="card-img-top">
@@ -238,9 +263,778 @@
 
                 </div>
             </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-2" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Venom-3-Info-Card.webp" alt="Venom 3" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Venom 3</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Venom-3.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-3" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img2/Deadpool-Wolverine-Info-card.webp" alt="Deadpool &amp; Wolverine" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Deadpool &amp; Wolverine</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Deadpool-And-Wolverine.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-4" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img3/Thunderbolts-Info-Card.webp" alt="Thunderbolts" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Thunderbolts</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/ThunderBolts.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-5" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img4/Superman-2025-Info-Card.webp" alt="Superman (2025)" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Superman (2025)</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Superman.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img6/Bloodshot-Info-Card.webp" alt="Bloodshot" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Bloodshot</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Bloodshot.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-7" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Avengers-Age-Of-Ultron.webp" alt="Avengers: Age of Ultron" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Avengers: Age of Ultron</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Avengers-Age-Of-Ultron.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-8" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Avengers%20infinity%20war%20info%20card.webp" alt="Avengers: Infinity War" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Avengers: Infinity War</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Avenger-Infinity-War.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-9" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Justice%20League%20Info-card%20Image.webp" alt="Justice League" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Justice League</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Justice-League.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-10" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/The%20Batman.webp" alt="The Batman" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">The Batman</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/The-Batman.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-11" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Argylle.webp" alt="Argylle" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Argylle</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Argylle.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-12" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Doctor%20Strange%20Multiverse%20of%20madness%20Info-card.webp" alt="Doctor Strange: Multiverse of Madness" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Doctor Strange: Multiverse of Madness</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Doctor-Strange-Multiverse-of-madness.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-13" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Ironman%20Info-card.webp" alt="Iron Man" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Iron Man</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Iron-Man.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-14" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Deadpool%20One%20Info-card.png" alt="Deadpool" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Deadpool</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Deadpool.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-15" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Deadpool%202%20Info-card.webp" alt="Deadpool 2" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Deadpool 2</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Deadpool-2.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-16" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Night%20Teeth.webp" alt="Night Teeth" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Night Teeth</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Night-Teeth.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-17" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img2/Tekken-Info-Card.webp" alt="Tekken" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Tekken</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Tekken.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-18" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img2/Godzilla-King-Of-The-Monsters-Info-Card.webp" alt="Godzilla: King of the Monsters" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Godzilla: King of the Monsters</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Godzilla-King-Of-The-Monsters.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-19" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img4/Superman-Returns.webp" alt="Superman Returns" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Superman Returns</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Superman-Returns.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-20" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img5/Superman-Info-Card.webp" alt="Superman (1978)" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Superman (1978)</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Superman-1978.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-21" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img5/Superman-2-Info-Card.webp" alt="Superman II (1980)" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Superman II (1980)</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Superman-1980.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-22" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Venom%20Let%20There%20Be%20Carnage%20Info-card.webp" alt="Venom: Let There Be Carnage" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Venom: Let There Be Carnage</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Venom-2.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-23" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Godzilla-Info-Card.webp" alt="Godzilla" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Godzilla</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Godzilla.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-24" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/F9-The-Fast-Saga-Info-Card.webp" alt="F9 The Fast Saga" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">F9 The Fast Saga</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/F9-The-Fast-Saga.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-25" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Gi-Joe-Rise-Of-Cobra.webp" alt="Gi Joe Rise Of The Cobra" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Gi Joe Rise Of The Cobra</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/GI-Joe-The-Rise-Of-Cobra.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-26" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Gi-Joe-Retaliation-Card.webp" alt="Gi Joe Retaliation" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Gi Joe Retaliation</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/GI-Joe-Retaliation.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-27" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/I-Robot-Info-Card.webp" alt="I Robot" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">I Robot</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/I-Robot.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-28" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/The-New-Mutants-Info-Card.webp" alt="The New Mutants" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">The New Mutants</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/The-New-Mutants.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-29" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img5/Superman-3-Info-Card.webp" alt="Superman III (1983)" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Superman III (1983)</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Superman-1983.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-30" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img5/Superman-4-Info-Card.webp" alt="Superman IV (1987)" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Superman IV (1987)</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Superman-1987.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-31" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img10/X-Men-Info-Card.webp" alt="X Men" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">X Men</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/X-Men.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-32" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img10/X-Men-2-Info-Card.webp" alt="X Men 2 United" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">X Men 2 United</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/X2-Xmen-United.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-33" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img10/X-Men-The-Last-Stand-Info-Card.webp" alt="X Men The Last Stand" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">X Men The Last Stand</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/X-Men-The-Last-Stand.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-34" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Jack-Reacher-Info-Card.webp" alt="Jack Reacher" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Jack Reacher</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Jack-Reacher.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-35" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Jack-Reacher-Never-Go-Back-Info-Card.webp" alt="Jack Reacher Never Go Back" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Jack Reacher Never Go Back</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Jack-Reacher-Never-Go-Back.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-36" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Percy-Jackson-&-The-Olympians-&-The-Lightning-Thief-Info-Card.webp" alt="Percy Jackson &amp; The Olympians &amp; The Lightning Thief" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Percy Jackson &amp; The Olympians &amp; The Lightning Thief</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Percy-Jackson-and-The-Olympians-and-The-Lightning-Thief.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-37" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Percy-Jackson-And-The-Sea-Of-Monsters-Info-Card.webp" alt="Percy Jackson And The Sea Of Monsters" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Percy Jackson And The Sea Of Monsters</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Percy-Jackson-and-The-Olympians-and-The-Sea-Of-Monsters.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-38" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Kick-Ass-Info-Card.webp" alt="Kick Ass" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Kick Ass</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Kick-Ass.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-39" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img12/Kick-Ass-2-Info-Card.webp" alt="Kick Ass 2" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Kick Ass 2</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Kick-Ass-2.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-40" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/The-Marvels-Info-Card-1.webp" alt="The Marvels" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">The Marvels</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/The-Marvels.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-41" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img13/Reborn-Info-Card.webp" alt="Re:Born" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Re:Born</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Reborn.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-42" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img13/Shang-Chi-And-The-Legend-Of-Ten-Rings-Info-Card.webp" alt="Shang Chi And The Legends Of Ten Rings" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Shang Chi And The Legends Of Ten Rings</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Shang-Chi-And-The-Legends-Of-Ten-Rings.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-43" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img14/Kingsman-The-Secret-Service-Info-Card.webp" alt="Kingsman The Secret Service" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Kingsman The Secret Service</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Kingsman-The-Secret-Service.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-44" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img14/Kingsman-The-Golden-Circle-Info-Card.webp" alt="Kingsman The Golden Circle" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Kingsman The Golden Circle</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Kingsman-The-Golden-Circle.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-45" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img/Wanted%20Info-card.webp" alt="Wanted" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Wanted</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Wanted.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-46" data-aos="fade-up" data-aos-delay="200">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img10/Logan-Info-Card.webp" alt="Logan" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Logan</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Logan.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-47" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img14/BloodRayne-Info-Card.webp" alt="Bloodrayne" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Bloodrayne</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Bloodrayne.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-48" data-aos="fade-up" data-aos-delay="0">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img14/BloodRayne-2-Deliverance-Info-Card.webp" alt="Bloodrayne Deliverance" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Bloodrayne Deliverance</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Bloodrayne-Deliverance.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="cx-movie-card" id="movie-card-49" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card-image-container-movie">
+                    <img src="../../Assets/Img14/BloodRayne-The-Third-Reich-Info-Card.webp" alt="Bloodrayne The Third Reich" class="card-img-top">
+                    <div class="movie-card-overlay">
+                      <div class="overlay-content-inner">
+                        <h3 class="overlay-title">Bloodrayne The Third Reich</h3>
+                        <div class="overlay-buttons">
+                          <a href="../../Genres/Action/Bloodrayne-The-Third-Reich.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<section class="container-fluid py-3">
+  <div class="container">
+    <nav aria-label="Action Page Navigation">
+      <ul class="pagination justify-content-center cx-pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="../../Genre/Action.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="../../pages/Action/2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="../../pages/Action/3.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="../../pages/Action/2.html" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
 </main>
+<script src="../../Assets/Js/script.js"></script>
+<footer class="cx-footer">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-12 col-md-4 cx-footer-logo text-center text-md-start">
+        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux Logo" class="img-fluid">
+      </div>
+
+      <div class="col-12 col-md-4 text-center">
+        <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-center gap-sm-4 gap-2 mb-0">
+          <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="./terms-of-services.html">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+        <ul class="cx-footer-social">
+          <li><a href="https://www.quora.com" target="_blank"><i class="bi bi-quora"></i></a></li>
+          <li><a href="https://bsky.app" target="_blank"><i class="bi bi-cloud"></i></a></li>
+          <li><a href="https://www.reddit.com" target="_blank"><i class="bi bi-reddit"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cx-copyright text-center">
+      <p class="mb-0">© All rights reserved by Cinelux — Powered by <a href="https://nexonix.netlify.app/">Nexonix</a></p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
