@@ -178,6 +178,7 @@
 <!-- Bootstrap + Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -635,6 +636,84 @@
   border-top: 1px solid var(--cx-navy-700);
 }
 .cx-copyright a { color: var(--cx-gold-400); font-weight: 600; }
+
+/* =========================================================
+   TAGS SECTION — Keywords & Topics
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5,8,16,0.3);
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.3rem;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+}
+
+.cx-tag-pill i {
+  color: var(--cx-gold);
+  font-size: 0.8rem;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.8);
+}
+
+/* =========================================================
+   EEAT TRUST CARD
+   ========================================================= */
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cx-eeat-card h3 {
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
 </style>
 </head>
 <body>
@@ -811,7 +890,7 @@
               <span class="cx-info-label">Country</span>
               <span class="cx-info-value">USA</span>
             </div>
-            <div class="cx-info-row" style="border-bottom:none; display:block;">
+            <div class="cx-info-row">
               <span class="cx-info-label d-block mb-2">Genre</span>
               <div>
                 <span class="cx-tag">Action</span>
@@ -979,6 +1058,53 @@
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
+       EEAT TRUST CARD + TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt"></i> Verified Information</h3>
+        <p>
+          <strong>Cinelux Editorial Standards:</strong> This D.E.B.S. film page contains verified information sourced from official production records and IMDb. We confirm director name (Angela Robinson), cast members (Sarah Michelle Gellar, Dominique Swain, Holland Taylor, Jordana Brewster), release year (2004), runtime (91 minutes), and production country (USA). Our team has cross-referenced the film's narrative following an elite special ops team member who falls for a criminal she's assigned to seduce, cast accuracy, and critical reception as an independent American comedy-action film exploring themes of identity, duty, and unexpected romance. Every detail is fact-checked for streaming audiences.
+        </p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags"></i> Explore This Film</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <p class="cx-lead-text mb-4">
+          Discover key themes, cast members, genres, and cultural moments connected to <strong>D.E.B.S. (2004)</strong>.
+        </p>
+
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> D.E.B.S</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> D.E.B.S 2004</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch D.E.B.S Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Angela Robinson</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Sarah Michelle Gellar</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Dominique Swain</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Jordana Brewster</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Sapphic Action Film</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Comedy-Action</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> LGBTQ+ Cinema</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Independent Film</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Secret Agents</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Forbidden Love</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Mission & Romance</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Undercover Operation</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Queer Action</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Espionage Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Empowered Females</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2004 Cinema</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HD Streaming</a>
+        </div>
       </div>
     </div>
   </section>

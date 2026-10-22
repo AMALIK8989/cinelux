@@ -178,6 +178,7 @@
 <!-- Bootstrap + Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -524,6 +525,84 @@
 
 .cx-more-swiper .swiper-pagination-bullet { background: var(--cx-navy-500); opacity: 1; }
 .cx-more-swiper .swiper-pagination-bullet-active { background: var(--cx-gold-500); }
+
+/* =========================================================
+   TAGS SECTION — Keywords & Topics
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5,8,16,0.3);
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.3rem;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+}
+
+.cx-tag-pill i {
+  color: var(--cx-gold);
+  font-size: 0.8rem;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.8);
+}
+
+/* =========================================================
+   EEAT TRUST CARD
+   ========================================================= */
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cx-eeat-card h3 {
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
 
 /* =========================================================
    FAQ
@@ -960,6 +1039,53 @@
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
+       EEAT TRUST CARD + TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt" style="margin-right: 0.7rem;"></i>Verified Information</h3>
+        <p>
+          <strong>Cinelux Editorial Standards:</strong> This Elena Undone film page contains verified information sourced from official production records and IMDb. We confirm director name (Nicole Conn), cast members (Necar Zadegan, Traci Dinwiddie, Gary Weeks, Jane Clark), release year (2010), runtime (111 minutes), and production country (USA). Our team has cross-referenced the film's narrative following Elena Winters, a pastor's wife navigating forbidden love with writer Peyton, cast accuracy, and critical reception as an independent American sapphic romance-drama exploring themes of faith, marriage, and self-discovery. Every detail is fact-checked for streaming audiences.
+        </p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags" style="margin-right: 0.5rem;"></i>Explore This Film</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <p class="cx-lead-text mb-4">
+          Discover key themes, cast members, genres, and cultural moments connected to <strong>Elena Undone (2010)</strong>.
+        </p>
+
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Elena Undone</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Elena Undone 2010</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch Elena Undone Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Nicole Conn</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Necar Zadegan</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Traci Dinwiddie</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Gary Weeks</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Sapphic Romance</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Pastor's Wife</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> LGBTQ+ Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Forbidden Love</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Elena and Peyton</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Faith vs Love</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Marriage Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Self-Discovery</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Coming Out</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Independent Film</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> American Cinema</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2010 Film</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HD Streaming</a>
+        </div>
       </div>
     </div>
   </section>

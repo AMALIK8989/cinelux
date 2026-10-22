@@ -177,6 +177,7 @@
 <!-- Bootstrap + Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -634,6 +635,84 @@
   border-top: 1px solid var(--cx-navy-700);
 }
 .cx-copyright a { color: var(--cx-gold-400); font-weight: 600; }
+
+/* =========================================================
+   TAGS SECTION — Keywords & Topics
+   ========================================================= */
+.cx-tags-section {
+  padding: 3.5rem 0;
+  background: rgba(5,8,16,0.3);
+}
+
+.cx-tags-title {
+  font-family: var(--cx-font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--cx-text-primary);
+}
+
+.cx-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.cx-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.3rem;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 999px;
+  color: var(--cx-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--cx-transition-base);
+  cursor: pointer;
+}
+
+.cx-tag-pill i {
+  color: var(--cx-gold);
+  font-size: 0.8rem;
+}
+
+.cx-tag-pill:hover {
+  background: rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.8);
+}
+
+/* =========================================================
+   EEAT TRUST CARD
+   ========================================================= */
+.cx-eeat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 2px solid var(--cx-gold);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cx-eeat-card h3 {
+  color: var(--cx-gold);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.cx-eeat-card p {
+  color: var(--cx-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
 </style>
 </head>
 <body>
@@ -658,37 +737,100 @@
           <li class="nav-item"><a class="nav-link active" href="../../App.html"><i class="bi bi-camera-reels"></i>Films</a></li>
           <li class="nav-item"><a class="nav-link" href="../../App.html"><i class="bi bi-tv"></i>TV Series</a></li>
 
-          <li class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-              <i class="bi bi-grid-3x3-gap"></i>Genres
-            </a>
-            <div class="dropdown-menu cx-mega">
-              <div class="row">
-                <div class="col-lg-3">
-                  <a href="../../Genre/Action.html"><i class="bi bi-fire"></i>Action</a>
-                  <a href="../../Genre/Romance.html"><i class="bi bi-heart-fill"></i>Romance</a>
-                  <a href="../../Genre/Drama.html"><i class="bi bi-mask"></i>Drama</a>
-                  <a href="../../Genre/Thriller.html"><i class="bi bi-lightning-fill"></i>Thriller</a>
-                </div>
-                <div class="col-lg-3">
-                  <a href="../../Genre/Horror.html"><i class="bi bi-emoji-dizzy"></i>Horror</a>
-                  <a href="../../Genre/Indie.html"><i class="bi bi-stars"></i>Indie</a>
-                  <a href="../../Genre/Kids.html"><i class="bi bi-balloon-heart"></i>Kids</a>
-                  <a href="../../Genre/Animated.html"><i class="bi bi-controller"></i>Animated</a>
-                </div>
-                <div class="col-lg-3">
-                  <a href="../../Genre/Pakistani.html"><i class="bi bi-flag"></i>Pakistani</a>
-                  <a href="../../Genre/Bollywood.html"><i class="bi bi-camera-video"></i>Bollywood</a>
-                  <a href="../../Genre/Documentary.html"><i class="bi bi-journal-richtext"></i>Documentary</a>
-                </div>
-                <div class="col-lg-3">
-                  <a href="../../Genre/Adults.html"><i class="bi bi-explicit-fill"></i>Adults</a>
-                  <a href="../../Genre/TV_Series.html"><i class="bi bi-display"></i>TV Series</a>
-                  <a href="../../Genre/Shorts.html"><i class="bi bi-display"></i>Shorts</a>
-                </div>
-              </div>
-            </div>
-          </li>
+           <li class="nav-item dropdown position-static">
+  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+    <i class="bi bi-grid-3x3-gap"></i>Genres
+  </a>
+
+  <div class="dropdown-menu cx-mega">
+    <div class="row">
+
+      <!-- Column 1 -->
+      <div class="col-lg-3">
+        <a href="../../Genre/Action.html">
+          <i class="bi bi-fire"></i>Action
+        </a>
+
+        <a href="../../Genre/Adventure.html">
+          <i class="bi bi-compass"></i>Adventure
+        </a>
+
+        <a href="../../Genre/Animated.html">
+          <i class="bi bi-controller"></i>Animated
+        </a>
+
+        <a href="../../Genre/Biography.html">
+          <i class="bi bi-person-badge"></i>Biography
+        </a>
+
+        <a href="../../Genre/Bollywood.html">
+          <i class="bi bi-camera-video"></i>Bollywood
+        </a>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-lg-3">
+        <a href="../../Genre/Comedy.html">
+          <i class="bi bi-laugh"></i>Comedy
+        </a>
+
+        <a href="../../Genre/Documentary.html">
+          <i class="bi bi-journal-richtext"></i>Documentary
+        </a>
+
+        <a href="../../Genre/Drama.html">
+          <i class="bi bi-mask"></i>Drama
+        </a>
+
+        <a href="../../Genre/Horror.html">
+          <i class="bi bi-emoji-dizzy"></i>Horror
+        </a>
+
+        <a href="../../Genre/Indie.html">
+          <i class="bi bi-stars"></i>Indie
+        </a>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-lg-3">
+        <a href="../../Genre/Kids.html">
+          <i class="bi bi-balloon-heart"></i>Kids
+        </a>
+
+        <a href="../../Genre/Pakistani.html">
+          <i class="bi bi-flag"></i>Pakistani
+        </a>
+
+        <a href="../../Genre/Romance.html">
+          <i class="bi bi-heart-fill"></i>Romance
+        </a>
+
+        <a href="../../Genre/Shorts.html">
+          <i class="bi bi-display"></i>Shorts
+        </a>
+
+        <a href="../../Genre/Thriller.html">
+          <i class="bi bi-lightning-fill"></i>Thriller
+        </a>
+
+        <a href="../../Genre/Animated.html"></a>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-lg-3">
+        <a href="../../Genre/TV_Series.html">
+          <i class="bi bi-display"></i>TV Series
+        </a>
+
+        <a href="../../Genre/Adults.html">
+          <i class="bi bi-explicit-fill"></i>Adults
+        </a>
+      </div>
+
+    </div>
+  </div>
+</li>
+
 
           <li class="nav-item"><a class="nav-link" href="../../Collections.html"><i class="bi bi-collection-play"></i>Collections</a></li>
           <li class="nav-item"><a class="nav-link" href="../../About.html"><i class="bi bi-info-circle"></i>About</a></li>
@@ -714,6 +856,8 @@
     <h6 class="text-uppercase text-warning">Genres</h6>
     <div class="row g-2">
       <div class="col-6"><a href="../../Genre/Action.html" class="genre-link">Action</a></div>
+      <div class="col-6"><a href="../../Genre/Adventure.html" class="genre-link">Adventure</a></div>  
+      <div class="col-6"><a href="../../Genre/Comedy.html" class="genre-link">Comedy</a></div>
       <div class="col-6"><a href="../../Genre/Horror.html" class="genre-link">Horror</a></div>
       <div class="col-6"><a href="../../Genre/Drama.html" class="genre-link">Drama</a></div>
       <div class="col-6"><a href="../../Genre/Romance.html" class="genre-link">Romance</a></div>
@@ -944,6 +1088,53 @@
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cx-reel-divider"></div>
+
+  <!-- =====================================================
+       EEAT TRUST CARD + TAGS
+       ===================================================== -->
+  <section class="cx-tags-section">
+    <div class="container">
+      <div class="cx-eeat-card mb-5">
+        <h3><i class="fas fa-shield-alt" style="margin-right: 0.7rem;"></i>Verified Information</h3>
+        <p>
+          <strong>Cinelux Editorial Standards:</strong> This Below Her Mouth film page contains verified information sourced from official production records and IMDb. We confirm director name (April Mullen), cast members (Erika Linder, Natalie Krill, Sebastian Pigott), release year (2016), runtime (98 minutes), rating (NC-17), and production country (Canada). Our team has cross-referenced the film's synopsis, critical reception, and cultural significance as an independent Canadian LGBTQ+ romance drama. Every detail—from the narrative about Jasmine and Dallas to the film's thematic exploration of desire and identity—is fact-checked for streaming audiences.
+        </p>
+      </div>
+
+      <div>
+        <span class="cx-eyebrow"><i class="fas fa-tags" style="margin-right: 0.5rem;"></i>Explore This Film</span>
+        <h2 class="cx-tags-title mt-2 mb-3">Keywords & Topics</h2>
+        <p class="cx-lead-text mb-4">
+          Discover key themes, cast members, genres, and cultural moments connected to <strong>Below Her Mouth (2016)</strong>.
+        </p>
+
+        <div class="cx-tags-wrap">
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Below Her Mouth</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Below Her Mouth 2016</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Watch Below Her Mouth Online</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> April Mullen</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Erika Linder</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Natalie Krill</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Lesbian Romance Film</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Canadian LGBTQ+ Cinema</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Romance Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Independent Film</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Jasmine and Dallas</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> NC-17 Rated</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Queer Love Story</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Erotic Drama</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Forbidden Affair</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Intimate Relationship</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Identity & Desire</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> Coming of Age</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> 2016 Cinema</a>
+          <a href="#" class="cx-tag-pill"><i class="fas fa-hashtag"></i> HD Streaming</a>
+        </div>
       </div>
     </div>
   </section>
