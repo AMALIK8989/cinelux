@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Indie Movies — Watch Free in HD on Cinelux</title>
-<meta name="description" content="Browse the full Indie movie collection on Cinelux — heartfelt stories, bold experimental films, and hidden gems. Stream your favorite indie films in HD.">
-<link rel="canonical" href="https://cinelux.app/Genre/Indie.html">
-
-<!-- 1. Bootstrap 5 CSS -->
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></noscript>
-
-<!-- 2. Cinelux Theme CSS (design tokens) -->
-<link rel="preload" href="../../Assets/Css/cinelux-theme-2.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="../../Assets/Css/cinelux-theme-2.css"></noscript>
-
-<!-- 3. Font Awesome 7 -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></noscript>
-
-<!-- 4. AOS CSS -->
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css"></noscript>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-<!-- 5. jQuery -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
-
-<!-- 6. Bootstrap 5 JS bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-
-<!-- 7. AOS JS -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js" defer></script>
-
-<style>
-/* =========================================================
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+   Indie Movies &amp; Independent Films | CineLux
+  </title>
+  <meta content="Explore indie movies and independent films on CineLux. Browse distinctive stories, international discoveries, and offbeat cinema, then open a movie page for its available details." name="description"/>
+  <meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+  <meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="googlebot"/>
+  <meta content="CineLux Editorial Team" name="author"/>
+  <meta content="CineLux" name="application-name"/>
+  <meta content="#050810" name="theme-color"/>
+  <meta content="dark" name="color-scheme"/>
+  <meta content="strict-origin-when-cross-origin" name="referrer"/>
+  <link href="https://cinelux.app/Genre/Indie.html" rel="canonical"/>
+  <link href="https://cinelux.app/Genre/Indie.html" hreflang="en" rel="alternate"/>
+  <link href="https://cinelux.app/Genre/Indie.html" hreflang="x-default" rel="alternate"/>
+  <meta content="website" property="og:type"/>
+  <meta content="CineLux" property="og:site_name"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="Indie Movies &amp; Independent Films | CineLux" property="og:title"/>
+  <meta content="Browse distinctive independent films, international discoveries, and offbeat cinema in CineLux's indie movie collection." property="og:description"/>
+  <meta content="https://cinelux.app/Genre/Indie.html" property="og:url"/>
+  <meta content="https://cinelux.app/Assets/Images/Logos_Other_images/Cinelux-Logo.webp" property="og:image"/>
+  <meta content="CineLux movie discovery logo" property="og:image:alt"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Indie Movies &amp; Independent Films | CineLux" name="twitter:title"/>
+  <meta content="Discover independent films and distinctive stories in CineLux's indie movie collection." name="twitter:description"/>
+  <meta content="https://cinelux.app/Assets/Images/Logos_Other_images/Cinelux-Logo.webp" name="twitter:image"/>
+  <meta content="CineLux movie discovery logo" name="twitter:image:alt"/>
+  <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+  <link crossorigin="" href="https://cdnjs.cloudflare.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- 1. Bootstrap 5 CSS -->
+  <link as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+  <noscript>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  </noscript>
+  <!-- 2. Cinelux Theme CSS (design tokens) -->
+  <link as="style" href="../Assets/Css/cinelux-theme-2.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+  <noscript>
+   <link href="../Assets/Css/cinelux-theme-2.css" rel="stylesheet"/>
+  </noscript>
+  <!-- 3. Font Awesome 7 -->
+  <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+  <noscript>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet"/>
+  </noscript>
+  <!-- 4. AOS CSS -->
+  <link as="style" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+  <noscript>
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet"/>
+  </noscript>
+  <!-- 5. Swiper CSS -->
+  <link as="style" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+  <noscript>
+   <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+  </noscript>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <!-- 6. jQuery -->
+  <script defer="" src="https://code.jquery.com/jquery-3.7.1.min.js">
+  </script>
+  <!-- 7. Bootstrap 5 JS bundle -->
+  <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <!-- 8. AOS JS -->
+  <script defer="" src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js">
+  </script>
+  <style>
+   /* =========================================================
    PAGINATION — themed to match Cinelux navy/gold
    ========================================================= */
 .cx-pagination .page-link {
@@ -56,942 +91,1296 @@
   color: var(--cx-navy-900);
   border-color: transparent;
 }
-
-/* =========================================================
-   MOVIE CARD GRID
-   ========================================================= */
-.cx-show-card {
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  background: var(--cx-navy-800);
-  border: 1px solid var(--cx-border-subtle);
-  box-shadow: var(--cx-shadow-md);
-  transition: transform var(--cx-transition-base), box-shadow var(--cx-transition-base), border-color var(--cx-transition-base);
-}
-
-.cx-show-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--cx-border-strong);
-  box-shadow: var(--cx-shadow-lg), var(--cx-shadow-gold-glow);
-}
-
-.cx-show-card .card-image-container-movie {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 2 / 3;
-  overflow: hidden;
-}
-
-.cx-show-card .card-img-top {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform var(--cx-transition-slow, 480ms ease);
-}
-
-.cx-show-card:hover .card-img-top { transform: scale(1.06); }
-
-.cx-show-card .movie-card-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: flex-end;
-  background: linear-gradient(180deg, transparent 40%, rgba(5,8,16,0.92) 100%);
-  opacity: 0;
-  transition: opacity var(--cx-transition-base);
-}
-
-.cx-show-card:hover .movie-card-overlay,
-.cx-show-card:focus-within .movie-card-overlay { opacity: 1; }
-
-.cx-show-card .overlay-content-inner { padding: 1rem; width: 100%; }
-
-.cx-show-card .overlay-title {
-  font-family: var(--cx-font-body);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--cx-text-primary);
-  margin-bottom: 0.5rem;
-  line-height: 1.3;
-}
-
-.cx-show-rating {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.78rem;
-  color: var(--cx-text-secondary);
-}
-.cx-show-rating i { color: var(--cx-gold-400); font-size: 0.72rem; }
-
-/* =========================================================
-   GENRE HERO
-   ========================================================= */
-.cx-genre-hero {
-  padding: 7rem 0 3rem;
-  background: var(--cx-gradient-navy, linear-gradient(180deg, var(--cx-navy-900) 0%, var(--cx-navy-950) 100%));
-  border-bottom: 1px solid var(--cx-border-subtle);
-}
-
-.cx-genre-heading {
-  font-family: var(--cx-font-heading);
-  font-size: clamp(2rem, 4.5vw, 3rem);
-  font-weight: 800;
-  color: var(--cx-text-primary);
-}
-
-.cx-genre-description {
-  color: var(--cx-text-secondary);
-  max-width: 68ch;
-  font-size: 1.02rem;
-}
-</style>
+  </style>
+ 
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cinelux.app/#organization","name":"CineLux","url":"https://cinelux.app/","logo":{"@type":"ImageObject","url":"https://cinelux.app/Assets/Images/Logos_Other_images/Cinelux-Logo.webp"}},{"@type":"WebSite","@id":"https://cinelux.app/#website","url":"https://cinelux.app/","name":"CineLux","publisher":{"@id":"https://cinelux.app/#organization"},"inLanguage":"en"},{"@type":"CollectionPage","@id":"https://cinelux.app/Genre/Indie.html#webpage","url":"https://cinelux.app/Genre/Indie.html","name":"Indie Movies & Independent Films | CineLux","description":"Explore indie movies and independent films on CineLux. Browse distinctive stories, international discoveries, and offbeat cinema, then open a movie page for its available details.","isPartOf":{"@id":"https://cinelux.app/#website"},"about":{"@type":"Thing","name":"Independent films and indie movies"},"inLanguage":"en","mainEntity":{"@type":"ItemList","name":"Indie movie collection on CineLux","numberOfItems":42,"itemListOrder":"https://schema.org/ItemListOrderAscending","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Movie","name":"Lockdown Lovers","url":"https://cinelux.app/Indie/Lockdown-Lovers.html","image":"https://cinelux.app/Assets/Img2/LockDown-Lovers-Info-Card.webp"}},{"@type":"ListItem","position":2,"item":{"@type":"Movie","name":"My First Summer","url":"https://cinelux.app/Indie/My-First-Summer.html","image":"https://cinelux.app/Assets/Img2/My-First-Summer-Info-Card.webp"}},{"@type":"ListItem","position":3,"item":{"@type":"Movie","name":"My First Girl Crush","url":"https://cinelux.app/Indie/My-First-Girl-Crush.html","image":"https://cinelux.app/Assets/Img2/My-First-Girl-Crush-Info-Card.webp"}},{"@type":"ListItem","position":4,"item":{"@type":"Movie","name":"My New Girl Crush","url":"https://cinelux.app/Indie/My-New-Girl-Crush.html","image":"https://cinelux.app/Assets/Img2/My-New-Girl-Crush-Info-Card.webp"}},{"@type":"ListItem","position":5,"item":{"@type":"Movie","name":"My Last Girl Crush","url":"https://cinelux.app/Indie/My-Last-Girl-Crush.html","image":"https://cinelux.app/Assets/Img2/My-Last-Girl-Crush-Info-Card.webp"}},{"@type":"ListItem","position":6,"item":{"@type":"Movie","name":"Boy Meets Girl","url":"https://cinelux.app/Indie/Boy-Meets-Girl.html","image":"https://cinelux.app/Assets/Img2/Boy,-Meets-Girl-Info-Card.webp"}},{"@type":"ListItem","position":7,"item":{"@type":"Movie","name":"The Firefly","url":"https://cinelux.app/Indie/The-Firefly.html","image":"https://cinelux.app/Assets/Img2/The-Firefly-Info-Card.webp"}},{"@type":"ListItem","position":8,"item":{"@type":"Movie","name":"The Secrets","url":"https://cinelux.app/Indie/The-Secrets.html","image":"https://cinelux.app/Assets/Img2/The-secrets-Info-card.webp"}},{"@type":"ListItem","position":9,"item":{"@type":"Movie","name":"Blush","url":"https://cinelux.app/Indie/Blush.html","image":"https://cinelux.app/Assets/Img2/Blush-Info-Card.webp"}},{"@type":"ListItem","position":10,"item":{"@type":"Movie","name":"A Perfect Ending","url":"https://cinelux.app/Indie/A-Perfect-Ending.html","image":"https://cinelux.app/Assets/Img2/A-Perfect-Ending-Info-Card.webp"}},{"@type":"ListItem","position":11,"item":{"@type":"Movie","name":"Fatal Exposure","url":"https://cinelux.app/Indie/Fatal-Exposure.html","image":"https://cinelux.app/Assets/Img2/Fatal-Exposure-Info-Card.webp"}},{"@type":"ListItem","position":12,"item":{"@type":"Movie","name":"Russian Doll","url":"https://cinelux.app/Indie/Russian-Doll.html","image":"https://cinelux.app/Assets/Img2/Russian-Dolls-Info-card.webp"}},{"@type":"ListItem","position":13,"item":{"@type":"Movie","name":"Circumstance","url":"https://cinelux.app/Indie/Circumstance.html","image":"https://cinelux.app/Assets/Img2/Circumstance-Info-Card.webp"}},{"@type":"ListItem","position":14,"item":{"@type":"Movie","name":"Steal Her Breath","url":"https://cinelux.app/Indie/Steal-Her-Breath.html","image":"https://cinelux.app/Assets/Img2/Steal-Her-Breath-Info-Card.webp"}},{"@type":"ListItem","position":15,"item":{"@type":"Movie","name":"Baligtaran","url":"https://cinelux.app/Indie/Baligtaran.html","image":"https://cinelux.app/Assets/Img2/Baligtaran-Info-Card.webp"}},{"@type":"ListItem","position":16,"item":{"@type":"Movie","name":"Kasbi","url":"https://cinelux.app/Indie/Kasbi.html","image":"https://cinelux.app/Assets/Img2/Kasbi-Info-Card.webp"}},{"@type":"ListItem","position":17,"item":{"@type":"Movie","name":"Blood Beach Betrayal","url":"https://cinelux.app/Indie/Blood-Beach-Betrayal.html","image":"https://cinelux.app/Assets/Img2/Blood-Beach-Betrayal-Info-Card.webp"}},{"@type":"ListItem","position":18,"item":{"@type":"Movie","name":"When It Rains In La","url":"https://cinelux.app/Indie/When-It-Rains-In-La.html","image":"https://cinelux.app/Assets/Img4/When-It-Rains-In-La-Info-card.webp"}},{"@type":"ListItem","position":19,"item":{"@type":"Movie","name":"Maharot","url":"https://cinelux.app/Indie/Maharot.html","image":"https://cinelux.app/Assets/Img6/Maharot-Info-Card-1.webp"}},{"@type":"ListItem","position":20,"item":{"@type":"Movie","name":"Forbidden Desire","url":"https://cinelux.app/Indie/Forbidden-Desire.html","image":"https://cinelux.app/Assets/Img6/Forbidden-Desire-Info-Card.webp"}},{"@type":"ListItem","position":21,"item":{"@type":"Movie","name":"69 + 1","url":"https://cinelux.app/Indie/69+1.html","image":"https://cinelux.app/Assets/Img6/69+1-Info-Card.webp"}},{"@type":"ListItem","position":22,"item":{"@type":"Movie","name":"Sila Ay Akin","url":"https://cinelux.app/Indie/Sila-Ay-Akin.html","image":"https://cinelux.app/Assets/Img6/Sila-Ay-Akin-Info-Card.webp"}},{"@type":"ListItem","position":23,"item":{"@type":"Movie","name":"Palipat Lipat Papalit Palit","url":"https://cinelux.app/Indie/Palipat-Lipat-Papalit-Palit.html","image":"https://cinelux.app/Assets/Img6/palipat-lipat-papalit-palit-Info-Card.webp"}},{"@type":"ListItem","position":24,"item":{"@type":"Movie","name":"The Adored","url":"https://cinelux.app/Indie/The-Adored.html","image":"https://cinelux.app/Assets/Img6/The-Adored-Info-Card.webp"}},{"@type":"ListItem","position":25,"item":{"@type":"Movie","name":"Sorority","url":"https://cinelux.app/Indie/Sorority.html","image":"https://cinelux.app/Assets/Img6/Sorority-Info-Card.webp"}},{"@type":"ListItem","position":26,"item":{"@type":"Movie","name":"Rapsa","url":"https://cinelux.app/Indie/Rapsa.html","image":"https://cinelux.app/Assets/Img7/Raspa-Info-Card.webp"}},{"@type":"ListItem","position":27,"item":{"@type":"Movie","name":"Private Tutor","url":"https://cinelux.app/Indie/Private-Tutor.html","image":"https://cinelux.app/Assets/Img7/Private-Tutor-Info-Card.webp"}},{"@type":"ListItem","position":28,"item":{"@type":"Movie","name":"Heartland","url":"https://cinelux.app/Indie/Heartland.html","image":"https://cinelux.app/Assets/Img7/Heartland-Info-Card.webp"}},{"@type":"ListItem","position":29,"item":{"@type":"Movie","name":"Pihit","url":"https://cinelux.app/Indie/Pihit.html","image":"https://cinelux.app/Assets/Img7/Pihit-Info-Card.webp"}},{"@type":"ListItem","position":30,"item":{"@type":"Movie","name":"Init","url":"https://cinelux.app/Indie/Init.html","image":"https://cinelux.app/Assets/Img7/Init-Info-Card.webp"}},{"@type":"ListItem","position":31,"item":{"@type":"Movie","name":"Hiram","url":"https://cinelux.app/Indie/Hiram.html","image":"https://cinelux.app/Assets/Img7/Hiram-Info-Card.webp"}},{"@type":"ListItem","position":32,"item":{"@type":"Movie","name":"Habal","url":"https://cinelux.app/Indie/Habal.html","image":"https://cinelux.app/Assets/Img7/Habal-Info-Card.webp"}},{"@type":"ListItem","position":33,"item":{"@type":"Movie","name":"Maninlip","url":"https://cinelux.app/Indie/Maninlip.html","image":"https://cinelux.app/Assets/Img7/Maninlip-Info-Card.webp"}},{"@type":"ListItem","position":34,"item":{"@type":"Movie","name":"Sex on Phone","url":"https://cinelux.app/Indie/Sex-On-Phone.html","image":"https://cinelux.app/Assets/Img7/Sex-On-Phone-Info-Card.webp"}},{"@type":"ListItem","position":35,"item":{"@type":"Movie","name":"Violet","url":"https://cinelux.app/Indie/Violet.html","image":"https://cinelux.app/Assets/Img7/Violet-Info-Card.webp"}},{"@type":"ListItem","position":36,"item":{"@type":"Movie","name":"Love Kills","url":"https://cinelux.app/Indie/Love-Kills.html","image":"https://cinelux.app/Assets/Img6/Love-Kills-Info-Card.webp"}},{"@type":"ListItem","position":37,"item":{"@type":"Movie","name":"Concussion","url":"https://cinelux.app/Indie/Concussion.html","image":"https://cinelux.app/Assets/Img8/Concussion-info-Card.webp"}},{"@type":"ListItem","position":38,"item":{"@type":"Movie","name":"Maalikaya","url":"https://cinelux.app/Indie/Maalikaya.html","image":"https://cinelux.app/Assets/Img7/Maalikaya-Info-Card.webp"}},{"@type":"ListItem","position":39,"item":{"@type":"Movie","name":"Unang Tikim","url":"https://cinelux.app/Indie/Unang-Tikim.html","image":"https://cinelux.app/Assets/Img8/Unang-Tikim-Info-Card.webp"}},{"@type":"ListItem","position":40,"item":{"@type":"Movie","name":"The Light Touch","url":"https://cinelux.app/Indie/The-Light-Touch.html","image":"https://cinelux.app/Assets/Img2/The-Light-Touch-Info-Card.webp"}},{"@type":"ListItem","position":41,"item":{"@type":"Movie","name":"Superbloom","url":"https://cinelux.app/Indie/Superbloom.html","image":"https://cinelux.app/Assets/Img11/Superbloom-Info-Card.webp"}},{"@type":"ListItem","position":42,"item":{"@type":"Movie","name":"Dagger Kiss","url":"https://cinelux.app/Indie/Dagger-Kiss-Enchanted-Forest.html","image":"https://cinelux.app/Assets/Img11/Dagger-Kiss-Enchanted-Forest-Info-Card.webp"}}]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://cinelux.app/"},{"@type":"ListItem","position":2,"name":"Indie Movies","item":"https://cinelux.app/Genre/Indie.html"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are indie movies?","acceptedAnswer":{"@type":"Answer","text":"Indie movies are generally films made outside, or with greater independence from, the major mainstream studio system. They often feature distinctive creative approaches, personal storytelling, or less conventional subjects."}},{"@type":"Question","name":"How do I find a movie on this page?","acceptedAnswer":{"@type":"Answer","text":"Browse the indie movie cards and select the film icon on a card to open its dedicated page. Movie-specific details may vary by title."}},{"@type":"Question","name":"Does every title have the same information?","acceptedAnswer":{"@type":"Answer","text":"No. Details depend on each individual movie page. Open a title to check the information provided for that film."}}]}</script>
 </head>
-<body>
-
-<header class="container-fluid cx-header sticky-top">
-  <nav class="container navbar navbar-expand-lg px-0">
+ <body>
+  <header class="container-fluid cx-header sticky-top">
+   <nav class="container navbar navbar-expand-lg px-0">
     <div class="container-fluid px-0">
-      <a href="../../App.html" class="navbar-brand cx-logo">
-        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux">
-      </a>
-
-      <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-        <i class="bi bi-list fs-2 text-light"></i>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-center">
-        <ul class="navbar-nav align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="../../App.html"><i class="bi bi-house-door"></i>Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="../../App.html"><i class="bi bi-camera-reels"></i>Films</a></li>
-          <li class="nav-item"><a class="nav-link" href="../../Genre/Tv-Shows.html"><i class="bi bi-tv"></i>TV Series</a></li>
-
-          <li class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">
-              <i class="bi bi-grid-3x3-gap"></i>Genres
-            </a>
-            <div class="dropdown-menu cx-mega">
-              <div class="row">
-                <div class="col-lg-3">
-                  <a href="../../Genre/Action.html"><i class="bi bi-fire"></i>Action</a>
-                  <a href="../../Genre/Romance.html"><i class="bi bi-heart-fill"></i>Romance</a>
-                  <a href="../../Genre/Drama.html"><i class="bi bi-mask"></i>Drama</a>
-                  <a href="../../Genre/Thriller.html"><i class="bi bi-lightning-fill"></i>Thriller</a>
-                </div>
-                <div class="col-lg-3">
-                  <a href="../../Genre/Horror.html"><i class="bi bi-emoji-dizzy"></i>Horror</a>
-                  <a href="../../Genre/Indie.html"><i class="bi bi-stars"></i>Indie</a>
-                  <a href="../../Genre/Kids.html"><i class="bi bi-balloon-heart"></i>Kids</a>
-                  <a href="../../Genre/Animated.html"><i class="bi bi-controller"></i>Animated</a>
-                </div>
-                <div class="col-lg-3">
-                  <a href="../../Genre/Pakistani.html"><i class="bi bi-flag"></i>Pakistani</a>
-                  <a href="../../Genre/Bollywood.html"><i class="bi bi-camera-video"></i>Bollywood</a>
-                  <a href="../../Genre/Comedy.html"><i class="bi bi-emoji-laughing"></i>Comedy</a>
-                  <a href="../../Genre/Documentary.html"><i class="bi bi-journal-richtext"></i>Documentary</a>
-                </div>
-                <div class="col-lg-3">
-                  <a href="../../Genre/Adults.html"><i class="bi bi-explicit-fill"></i>Adults</a>
-                  <a href="../../Genre/Tv-Shows.html"><i class="bi bi-display"></i>TV Series</a>
-                  <a href="../../Genre/Shorts.html"><i class="bi bi-display"></i>Shorts</a>
-                  <a href="../../Genre/Adventure.html"><i class="bi bi-compass"></i>Adventure</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="nav-item"><a class="nav-link" href="../../Collection.html"><i class="bi bi-collection-play"></i>Collections</a></li>
-          <li class="nav-item"><a class="nav-link" href="../../About.html"><i class="bi bi-info-circle"></i>About</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
-<div class="offcanvas offcanvas-start text-bg-dark" id="mobileMenu">
-  <div class="offcanvas-header">
-    <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux" width="150">
-    <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-  </div>
-  <div class="offcanvas-body">
-    <ul class="navbar-nav">
-      <li><a class="nav-link" href="../../App.html"><i class="bi bi-house"></i>Home</a></li>
-      <li><a class="nav-link" href="../../App.html"><i class="bi bi-camera-reels"></i>Films</a></li>
-      <li><a class="nav-link" href="../../Genre/Tv-Shows.html"><i class="bi bi-tv"></i>TV Series</a></li>
-    </ul>
-    <hr>
-    <h6 class="text-uppercase text-warning">Genres</h6>
-    <div class="row g-2">
-      <div class="col-6"><a href="../../Genre/Action.html" class="genre-link">Action</a></div>
-      <div class="col-6"><a href="../../Genre/Romance.html" class="genre-link">Romance</a></div>
-      <div class="col-6"><a href="../../Genre/Drama.html" class="genre-link">Drama</a></div>
-      <div class="col-6"><a href="../../Genre/Thriller.html" class="genre-link">Thriller</a></div>
-      <div class="col-6"><a href="../../Genre/Horror.html" class="genre-link">Horror</a></div>
-      <div class="col-6"><a href="../../Genre/Indie.html" class="genre-link">Indie</a></div>
-      <div class="col-6"><a href="../../Genre/Kids.html" class="genre-link">Kids</a></div>
-      <div class="col-6"><a href="../../Genre/Animated.html" class="genre-link">Animated</a></div>
-      <div class="col-6"><a href="../../Genre/Pakistani.html" class="genre-link">Pakistani</a></div>
-      <div class="col-6"><a href="../../Genre/Bollywood.html" class="genre-link">Bollywood</a></div>
-      <div class="col-6"><a href="../../Genre/Comedy.html" class="genre-link">Comedy</a></div>
-      <div class="col-6"><a href="../../Genre/Documentary.html" class="genre-link">Documentary</a></div>
-      <div class="col-6"><a href="../../Genre/Adults.html" class="genre-link">Adults</a></div>
-      <div class="col-6"><a href="../../Genre/Tv-Shows.html" class="genre-link">TV Series</a></div>
-      <div class="col-6"><a href="../../Genre/Shorts.html" class="genre-link">Shorts</a></div>
-      <div class="col-6"><a href="../../Genre/Adventure.html" class="genre-link">Adventure</a></div>
-    </div>
-  </div>
-</div>
-
-
-</section>
-<section class="cx-section genre-hero" id="cx-hero">
-  <div class="container-fluid bg-image">
-    <div class="container px-3 py-2 mt-3">
-      <div class="row justify-content-center g-3">
-        <div class="col-12" id="content-top">
-          <h1 class="text-light cx-genre-heading" data-aos="fade-up">Indie</h1>
-          <p class="text-light cx-genre-description" data-aos="fade-up">
-            Cinelux celebrates the creativity and uniqueness of Indie movies. From heartfelt stories and thought-provoking dramas to bold experimental films and hidden gems, our curated collection showcases the voices and visions that push cinema forward. Stream your favorite indie films in HD online and discover fresh perspectives that inspire and captivate.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<main>
-<section class="container-fluid cx-section" id="cx-genre-section">
-  <div class="container" id="cx-genre-movie-cards-place">
-    <div class="row justify-content-center g-4">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-1">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/LockDown-Lovers-Info-Card.webp" alt="Lockdown Lovers" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Lockdown Lovers</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.7/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Lockdown-Lovers.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
+     <!-- Logo -->
+     <a class="navbar-brand cx-logo" href="../App.html">
+      <img alt="Cinelux" src="../Assets/Images/Logos_Other_images/Cinelux-Logo.webp"/>
+     </a>
+     <!-- Mobile Toggle -->
+     <button class="navbar-toggler border-0 shadow-none" data-bs-target="#mobileMenu" data-bs-toggle="offcanvas">
+      <i class="bi bi-list fs-2 text-light">
+      </i>
+     </button>
+     <!-- Desktop Navigation -->
+     <div class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav align-items-lg-center">
+       <li class="nav-item">
+        <a class="nav-link active" href="../App.html">
+         <i class="bi bi-house-door">
+         </i>
+         Home
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="../App.html">
+         <i class="bi bi-camera-reels">
+         </i>
+         Films
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="../Genre/Tv-Shows.html">
+         <i class="bi bi-tv">
+         </i>
+         TV Series
+        </a>
+       </li>
+       <!-- Mega Dropdown -->
+       <li class="nav-item dropdown position-static">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+         <i class="bi bi-grid-3x3-gap">
+         </i>
+         Genres
+        </a>
+        <div class="dropdown-menu cx-mega">
+         <div class="row">
+          <div class="col-lg-3">
+           <a href="../Genre/Action.html">
+            <i class="bi bi-fire">
+            </i>
+            Action
+           </a>
+           <a href="../Genre/Romance.html">
+            <i class="bi bi-heart-fill">
+            </i>
+            Romance
+           </a>
+           <a href="../Genre/Drama.html">
+            <i class="bi bi-mask">
+            </i>
+            Drama
+           </a>
+           <a href="../Genre/Thriller.html">
+            <i class="bi bi-lightning-fill">
+            </i>
+            Thriller
+           </a>
           </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-2">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/My-First-Summer-Info-Card.webp" alt="My First Summer" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">My First Summer</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 7.2/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/My-First-Summer.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-3">
+           <a href="../Genre/Horror.html">
+            <i class="bi bi-emoji-dizzy">
+            </i>
+            Horror
+           </a>
+           <a href="../Genre/Indie.html">
+            <i class="bi bi-stars">
+            </i>
+            Indie
+           </a>
+           <a href="../Genre/Kids.html">
+            <i class="bi bi-balloon-heart">
+            </i>
+            Kids
+           </a>
+           <a href="../Genre/Animated.html">
+            <i class="bi bi-controller">
+            </i>
+            Animated
+           </a>
           </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-3">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/My-First-Girl-Crush-Info-Card.webp" alt="My First Girl Crush" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">My First Girl Crush</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/My-First-Girl-Crush.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-3">
+           <a href="../Genre/Pakistani.html">
+            <i class="bi bi-flag">
+            </i>
+            Pakistani
+           </a>
+           <a href="../Genre/Bollywood.html">
+            <i class="bi bi-camera-video">
+            </i>
+            Bollywood
+           </a>
+           <a href="../Genre/Comedy.html">
+            <i class="bi bi-emoji-laughing">
+            </i>
+            Comedy
+           </a>
+           <a href="../Genre/Documentary.html">
+            <i class="bi bi-journal-richtext">
+            </i>
+            Documentary
+           </a>
           </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-4">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/My-New-Girl-Crush-Info-Card.webp" alt="My New Girl Crush" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">My New Girl Crush</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.4/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/My-New-Girl-Crush.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-3">
+           <a href="../Genre/Adults.html">
+            <i class="bi bi-explicit-fill">
+            </i>
+            Adults
+           </a>
+           <a href="../Genre/Tv-Shows.html">
+            <i class="bi bi-display">
+            </i>
+            TV Series
+           </a>
+           <a href="../Genre/Shorts.html">
+            <i class="bi bi-display">
+            </i>
+            Shorts
+           </a>
+           <a href="../Genre/Adventure.html">
+            <i class="bi bi-compass">
+            </i>
+            Adventure
+           </a>
           </div>
+         </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-5">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/My-Last-Girl-Crush-Info-Card.webp" alt="My Last Girl Crush" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">My Last Girl Crush</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.3/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/My-Last-Girl-Crush.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-6">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Boy,-Meets-Girl-Info-Card.webp" alt="Boy Meets Girl" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Boy Meets Girl</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Boy-Meets-Girl.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-7">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/The-Firefly-Info-Card.webp" alt="The Firefly" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">The Firefly</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.6/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/The-Firefly.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-8">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/The-secrets-Info-card.webp" alt="The Secrets" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">The Secrets</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.7/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/The-Secrets.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-9">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Blush-Info-Card.webp" alt="Blush" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Blush</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Blush.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-10">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/A-Perfect-Ending-Info-Card.webp" alt="A Perfect Ending" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">A Perfect Ending</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.2/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/A-Perfect-Ending.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-11">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Fatal-Exposure-Info-Card.webp" alt="Fatal Exposure" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Fatal Exposure</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.4/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Fatal-Exposure.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-12">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Russian-Dolls-Info-card.webp" alt="Russian Doll" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Russian Doll</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.6/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Russian-Doll.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-13">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Circumstance-Info-Card.webp" alt="Circumstance" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Circumstance</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.7/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Circumstance.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-14">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Steal-Her-Breath-Info-Card.webp" alt="Steal Her Breath" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Steal Her Breath</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.8/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Steal-Her-Breath.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-15">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Baligtaran-Info-Card.webp" alt="Baligtaran" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Baligtaran</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.6/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Baligtaran.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-16">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Kasbi-Info-Card.webp" alt="Kasbi" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Kasbi</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.7/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Kasbi.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-17">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/Blood-Beach-Betrayal-Info-Card.webp" alt="Blood Beach Betrayal" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Blood Beach Betrayal</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Blood-Beach-Betrayal.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-18">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img4/When-It-Rains-In-La-Info-card.webp" alt="When It Rains In La" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">When It Rains In La</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.4/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/When-It-Rains-In-La.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-19">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/Maharot-Info-Card-1.webp" alt="Maharot" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Maharot</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.9/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Maharot.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-20">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/Forbidden-Desire-Info-Card.webp" alt="Forbidden Desire" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Forbidden Desire</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.7/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Forbidden-Desire.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-21">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/69+1-Info-Card.webp" alt="69 + 1" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">69 + 1</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.3/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/69+1.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-22">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/Sila-Ay-Akin-Info-Card.webp" alt="Sila Ay Akin" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Sila Ay Akin</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.6/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Sila-Ay-Akin.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-23">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/palipat-lipat-papalit-palit-Info-Card.webp" alt="Palipat Lipat Papalit Palit" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Palipat Lipat Papalit Palit</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.4/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Palipat-Lipat-Papalit-Palit.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-24">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/The-Adored-Info-Card.webp" alt="The Adored" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">The Adored</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.1/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/The-Adored.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-25">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/Sorority-Info-Card.webp" alt="Sorority" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Sorority</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.8/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Sorority.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-26">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Raspa-Info-Card.webp" alt="Rapsa" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Rapsa</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Rapsa.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-27">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Private-Tutor-Info-Card.webp" alt="Private Tutor" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Private Tutor</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.6/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Private-Tutor.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-28">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Heartland-Info-Card.webp" alt="Heartland" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Heartland</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.2/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Heartland.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-29">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Pihit-Info-Card.webp" alt="Pihit" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Pihit</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.4/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Pihit.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-30">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Init-Info-Card.webp" alt="Init" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Init</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.3/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Init.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-31">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Hiram-Info-Card.webp" alt="Hiram" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Hiram</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Hiram.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-32">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Habal-Info-Card.webp" alt="Habal" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Habal</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.2/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Habal.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-33">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Maninlip-Info-Card.webp" alt="Maninlip" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Maninlip</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.1/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Maninlip.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-34">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Sex-On-Phone-Info-Card.webp" alt="Sex on Phone" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Sex on Phone</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.0/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Sex-On-Phone.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-35">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Violet-Info-Card.webp" alt="Violet" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Violet</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.3/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Violet.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-36">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img6/Love-Kills-Info-Card.webp" alt="Love Kills" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Love Kills</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.4/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Love-Kills.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-37">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img8/Concussion-info-Card.webp" alt="Concussion" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Concussion</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.8/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Concussion.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-38">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img7/Maalikaya-Info-Card.webp" alt="Maalikaya" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Maalikaya</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 5.6/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Maalikaya.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="cx-movie-card" id="movie-card-39">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img8/Unang-Tikim-Info-Card.webp" alt="Unang Tikim" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Unang Tikim</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.2/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Unang-Tikim.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="cx-movie-card" id="movie-card-40">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img2/The-Light-Touch-Info-Card.webp" alt="The Light Touch" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">The Light Touch</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/The-Light-Touch.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
-        <div class="cx-movie-card" id="movie-card-41">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img11/Superbloom-Info-Card.webp" alt="Superbloom" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Superbloom</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Superbloom.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="cx-movie-card" id="movie-card-42">
-          <div class="card-image-container-movie">
-            <img src="../../Assets/Img11/Dagger-Kiss-Enchanted-Forest-Info-Card.webp" alt="Dagger Kiss Enchanted Forest" class="card-img-top">
-            <div class="movie-card-overlay">
-              <div class="overlay-content-inner">
-                <h3 class="overlay-title">Dagger Kiss Enchanted Forest</h3>
-                <div class="cx-show-rating"><i class="fas fa-star"></i> 6.5/10</div>
-                <div class="overlay-buttons">
-                  <a href="../../Genres/Indie/Dagger-Kiss-Enchanted-Forest.html" class="overlay-btn watch"><i class="fas fa-film"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid py-3">
-  <div class="container">
-    <nav aria-label="Indie Page Navigation">
-      <ul class="pagination justify-content-center cx-pagination">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-        </li>
-        <li class="page-item active"><a class="page-link" href="../../Genre/Indie.html">1</a></li>
-        <li class="page-item"><a class="page-link" href="../../pages/Indie/2.html">2</a></li>
-        <li class="page-item"><a class="page-link" href="../../pages/Indie/3.html">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="../../pages/Indie/2.html" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-        </li>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="../Collection.html">
+         <i class="bi bi-collection-play">
+         </i>
+         Collections
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="../About.html">
+         <i class="bi bi-info-circle">
+         </i>
+         About
+        </a>
+       </li>
       </ul>
-    </nav>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <!-- MOBILE -->
+  <div class="offcanvas offcanvas-start text-bg-dark" id="mobileMenu">
+   <div class="offcanvas-header">
+    <img alt="Cinelux" src="../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" width="150"/>
+    <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas">
+    </button>
+   </div>
+   <div class="offcanvas-body">
+    <ul class="navbar-nav">
+     <li>
+      <a class="nav-link" href="../App.html">
+       <i class="bi bi-house">
+       </i>
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="nav-link" href="../App.html">
+       <i class="bi bi-camera-reels">
+       </i>
+       Films
+      </a>
+     </li>
+     <li>
+      <a class="nav-link" href="../Genre/Tv-Shows.html">
+       <i class="bi bi-tv">
+       </i>
+       TV Series
+      </a>
+     </li>
+    </ul>
+    <hr/>
+    <h6 class="text-uppercase text-warning">
+     Genres
+    </h6>
+    <div class="row g-2">
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Action.html">
+       Action
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Romance.html">
+       Romance
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Drama.html">
+       Drama
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Thriller.html">
+       Thriller
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Horror.html">
+       Horror
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Indie.html">
+       Indie
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Kids.html">
+       Kids
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Animated.html">
+       Animated
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Pakistani.html">
+       Pakistani
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Bollywood.html">
+       Bollywood
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Comedy.html">
+       Comedy
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Documentary.html">
+       Documentary
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Adults.html">
+       Adults
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Tv-Shows.html">
+       TV Series
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Shorts.html">
+       Shorts
+      </a>
+     </div>
+     <div class="col-6">
+      <a class="genre-link" href="../Genre/Adventure.html">
+       Adventure
+      </a>
+     </div>
+    </div>
+   </div>
   </div>
-</section>
-</main>
-
-<footer class="cx-footer">
-  <div class="container">
+  <section class="cx-section genre-hero" id="cx-hero">
+   <div class="container-fluid bg-image">
+    <div class="container px-3 py-2 mt-3">
+     <div class="row justify-content-center g-3">
+      <div class="col-12" id="content-top">
+       <h1 aos-data="fade-up" class="text-light cx-genre-heading">
+        Indie
+       </h1>
+       <p class="text-light cx-genre-description">
+        Discover indie movies that take creative risks, tell personal stories, and explore perspectives beyond mainstream cinema. Browse independent films, international discoveries, and distinctive titles selected for curious movie fans. Explore the collection below to find a story that feels different.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <main>
+   <section aria-labelledby="indie-guide-heading" class="container cx-section py-3" id="indie-collection-guide">
+    <h2 id="indie-guide-heading">
+     Discover Independent Films
+    </h2>
+    <p>
+     Indie cinema brings together films that explore distinctive voices, unconventional ideas, and stories outside familiar mainstream formulas. Browse the titles below to discover a film that interests you. Select a title to open its dedicated page for the information available there.
+    </p>
+   </section>
+   <section class="container-fluid cx-section" id="cx-genre-section">
+    <div class="container" id="cx-genre-movie-cards-place">
+     <div class="row justify-content-center g-4">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-1">
+        <div class="card-image-container-movie">
+         <img alt="Lockdown Lovers" class="card-img-top" loading="lazy" src="../Assets/Img2/LockDown-Lovers-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Lockdown Lovers
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Lockdown Lovers" class="overlay-btn watch" href="../Indie/Lockdown-Lovers.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-2">
+        <div class="card-image-container-movie">
+         <img alt="My First Summer" class="card-img-top" loading="lazy" src="../Assets/Img2/My-First-Summer-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            My First Summer
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch My First Summer" class="overlay-btn watch" href="../Indie/My-First-Summer.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-3">
+        <div class="card-image-container-movie">
+         <img alt="My First Girl Crush" class="card-img-top" loading="lazy" src="../Assets/Img2/My-First-Girl-Crush-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            My First Girl Crush
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch My First Girl Crush" class="overlay-btn watch" href="../Indie/My-First-Girl-Crush.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-4">
+        <div class="card-image-container-movie">
+         <img alt="My New Girl Crush" class="card-img-top" loading="lazy" src="../Assets/Img2/My-New-Girl-Crush-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            My New Girl Crush
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch My New Girl Crush" class="overlay-btn watch" href="../Indie/My-New-Girl-Crush.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-5">
+        <div class="card-image-container-movie">
+         <img alt="My Last Girl Crush" class="card-img-top" loading="lazy" src="../Assets/Img2/My-Last-Girl-Crush-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            My Last Girl Crush
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch My Last Girl Crush" class="overlay-btn watch" href="../Indie/My-Last-Girl-Crush.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-6">
+        <div class="card-image-container-movie">
+         <img alt="Boy Meets Girl" class="card-img-top" loading="lazy" src="../Assets/Img2/Boy,-Meets-Girl-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Boy Meets Girl
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Boy Meets Girl" class="overlay-btn watch" href="../Indie/Boy-Meets-Girl.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-7">
+        <div class="card-image-container-movie">
+         <img alt="The Firefly" class="card-img-top" loading="lazy" src="../Assets/Img2/The-Firefly-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            The Firefly
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch The Firefly" class="overlay-btn watch" href="../Indie/The-Firefly.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-8">
+        <div class="card-image-container-movie">
+         <img alt="The Secrets" class="card-img-top" loading="lazy" src="../Assets/Img2/The-secrets-Info-card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            The Secrets
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch The Secrets" class="overlay-btn watch" href="../Indie/The-Secrets.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-9">
+        <div class="card-image-container-movie">
+         <img alt="Blush" class="card-img-top" loading="lazy" src="../Assets/Img2/Blush-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Blush
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Blush" class="overlay-btn watch" href="../Indie/Blush.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-10">
+        <div class="card-image-container-movie">
+         <img alt="A Perfect Ending" class="card-img-top" loading="lazy" src="../Assets/Img2/A-Perfect-Ending-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            A Perfect Ending
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch A Perfect Ending" class="overlay-btn watch" href="../Indie/A-Perfect-Ending.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-11">
+        <div class="card-image-container-movie">
+         <img alt="Fatal Exposure" class="card-img-top" loading="lazy" src="../Assets/Img2/Fatal-Exposure-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Fatal Exposure
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Fatal Exposure" class="overlay-btn watch" href="../Indie/Fatal-Exposure.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-12">
+        <div class="card-image-container-movie">
+         <img alt="Russian Doll" class="card-img-top" loading="lazy" src="../Assets/Img2/Russian-Dolls-Info-card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Russian Doll
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Russian Doll" class="overlay-btn watch" href="../Indie/Russian-Doll.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-13">
+        <div class="card-image-container-movie">
+         <img alt="Circumstance" class="card-img-top" loading="lazy" src="../Assets/Img2/Circumstance-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Circumstance
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Circumstance" class="overlay-btn watch" href="../Indie/Circumstance.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-14">
+        <div class="card-image-container-movie">
+         <img alt="Steal Her Breath" class="card-img-top" loading="lazy" src="../Assets/Img2/Steal-Her-Breath-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Steal Her Breath
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Steal Her Breath" class="overlay-btn watch" href="../Indie/Steal-Her-Breath.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-15">
+        <div class="card-image-container-movie">
+         <img alt="Baligtaran" class="card-img-top" loading="lazy" src="../Assets/Img2/Baligtaran-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Baligtaran
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Baligtaran" class="overlay-btn watch" href="../Indie/Baligtaran.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-16">
+        <div class="card-image-container-movie">
+         <img alt="Kasbi" class="card-img-top" loading="lazy" src="../Assets/Img2/Kasbi-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Kasbi
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Kasbi" class="overlay-btn watch" href="../Indie/Kasbi.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-17">
+        <div class="card-image-container-movie">
+         <img alt="Blood Beach Betrayal" class="card-img-top" loading="lazy" src="../Assets/Img2/Blood-Beach-Betrayal-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Blood Beach Betrayal
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Blood Beach Betrayal" class="overlay-btn watch" href="../Indie/Blood-Beach-Betrayal.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-18">
+        <div class="card-image-container-movie">
+         <img alt="When It Rains In La" class="card-img-top" loading="lazy" src="../Assets/Img4/When-It-Rains-In-La-Info-card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            When It Rains In La
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch When It Rains In La" class="overlay-btn watch" href="../Indie/When-It-Rains-In-La.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-19">
+        <div class="card-image-container-movie">
+         <img alt="Maharot" class="card-img-top" loading="lazy" src="../Assets/Img6/Maharot-Info-Card-1.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Maharot
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Maharot" class="overlay-btn watch" href="../Indie/Maharot.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-20">
+        <div class="card-image-container-movie">
+         <img alt="Forbidden Desire" class="card-img-top" loading="lazy" src="../Assets/Img6/Forbidden-Desire-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Forbidden Desire
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Forbidden Desire" class="overlay-btn watch" href="../Indie/Forbidden-Desire.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-21">
+        <div class="card-image-container-movie">
+         <img alt="69 + 1" class="card-img-top" loading="lazy" src="../Assets/Img6/69+1-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            69 + 1
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch 69 + 1" class="overlay-btn watch" href="../Indie/69+1.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-22">
+        <div class="card-image-container-movie">
+         <img alt="Sila Ay Akin" class="card-img-top" loading="lazy" src="../Assets/Img6/Sila-Ay-Akin-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Sila Ay Akin
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Sila Ay Akin" class="overlay-btn watch" href="../Indie/Sila-Ay-Akin.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-23">
+        <div class="card-image-container-movie">
+         <img alt="Palipat Lipat Papalit Palit" class="card-img-top" loading="lazy" src="../Assets/Img6/palipat-lipat-papalit-palit-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Palipat Lipat Papalit Palit
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Palipat Lipat Papalit Palit" class="overlay-btn watch" href="../Indie/Palipat-Lipat-Papalit-Palit.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-24">
+        <div class="card-image-container-movie">
+         <img alt="The Adored" class="card-img-top" loading="lazy" src="../Assets/Img6/The-Adored-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            The Adored
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch The Adored" class="overlay-btn watch" href="../Indie/The-Adored.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-25">
+        <div class="card-image-container-movie">
+         <img alt="Sorority" class="card-img-top" loading="lazy" src="../Assets/Img6/Sorority-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Sorority
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Sorority" class="overlay-btn watch" href="../Indie/Sorority.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-26">
+        <div class="card-image-container-movie">
+         <img alt="Rapsa" class="card-img-top" loading="lazy" src="../Assets/Img7/Raspa-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Rapsa
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Rapsa" class="overlay-btn watch" href="../Indie/Rapsa.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-27">
+        <div class="card-image-container-movie">
+         <img alt="Private Tutor" class="card-img-top" loading="lazy" src="../Assets/Img7/Private-Tutor-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Private Tutor
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Private Tutor" class="overlay-btn watch" href="../Indie/Private-Tutor.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-28">
+        <div class="card-image-container-movie">
+         <img alt="Heartland" class="card-img-top" loading="lazy" src="../Assets/Img7/Heartland-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Heartland
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Heartland" class="overlay-btn watch" href="../Indie/Heartland.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-29">
+        <div class="card-image-container-movie">
+         <img alt="Pihit" class="card-img-top" loading="lazy" src="../Assets/Img7/Pihit-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Pihit
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Pihit" class="overlay-btn watch" href="../Indie/Pihit.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-30">
+        <div class="card-image-container-movie">
+         <img alt="Init" class="card-img-top" loading="lazy" src="../Assets/Img7/Init-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Init
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Init" class="overlay-btn watch" href="../Indie/Init.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-31">
+        <div class="card-image-container-movie">
+         <img alt="Hiram" class="card-img-top" loading="lazy" src="../Assets/Img7/Hiram-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Hiram
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Hiram" class="overlay-btn watch" href="../Indie/Hiram.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-32">
+        <div class="card-image-container-movie">
+         <img alt="Habal" class="card-img-top" loading="lazy" src="../Assets/Img7/Habal-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Habal
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Habal" class="overlay-btn watch" href="../Indie/Habal.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-33">
+        <div class="card-image-container-movie">
+         <img alt="Maninlip" class="card-img-top" loading="lazy" src="../Assets/Img7/Maninlip-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Maninlip
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Maninlip" class="overlay-btn watch" href="../Indie/Maninlip.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-34">
+        <div class="card-image-container-movie">
+         <img alt="Sex on Phone" class="card-img-top" loading="lazy" src="../Assets/Img7/Sex-On-Phone-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Sex on Phone
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Sex on Phone" class="overlay-btn watch" href="../Indie/Sex-On-Phone.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-35">
+        <div class="card-image-container-movie">
+         <img alt="Violet" class="card-img-top" loading="lazy" src="../Assets/Img7/Violet-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Violet
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Violet" class="overlay-btn watch" href="../Indie/Violet.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-36">
+        <div class="card-image-container-movie">
+         <img alt="Love Kills" class="card-img-top" loading="lazy" src="../Assets/Img6/Love-Kills-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Love Kills
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Love Kills" class="overlay-btn watch" href="../Indie/Love-Kills.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-37">
+        <div class="card-image-container-movie">
+         <img alt="Concussion" class="card-img-top" loading="lazy" src="../Assets/Img8/Concussion-info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Concussion
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Concussion" class="overlay-btn watch" href="../Indie/Concussion.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-38">
+        <div class="card-image-container-movie">
+         <img alt="Maalikaya" class="card-img-top" loading="lazy" src="../Assets/Img7/Maalikaya-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Maalikaya
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Maalikaya" class="overlay-btn watch" href="../Indie/Maalikaya.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-39">
+        <div class="card-image-container-movie">
+         <img alt="Unang Tikim" class="card-img-top" loading="lazy" src="../Assets/Img8/Unang-Tikim-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Unang Tikim
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Unang Tikim" class="overlay-btn watch" href="../Indie/Unang-Tikim.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-40">
+        <div class="card-image-container-movie">
+         <img alt="The Light Touch" class="card-img-top" loading="lazy" src="../Assets/Img2/The-Light-Touch-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            The Light Touch
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch The Light Touch" class="overlay-btn watch" href="../Indie/The-Light-Touch.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-41">
+        <div class="card-image-container-movie">
+         <img alt="Superbloom" class="card-img-top" loading="lazy" src="../Assets/Img11/Superbloom-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Superbloom
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Superbloom" class="overlay-btn watch" href="../Indie/Superbloom.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+       <div class="cx-movie-card" id="movie-card-42">
+        <div class="card-image-container-movie">
+         <img alt="Dagger Kiss" class="card-img-top" loading="lazy" src="../Assets/Img11/Dagger-Kiss-Enchanted-Forest-Info-Card.webp"/>
+         <div class="movie-card-overlay">
+          <div class="overlay-content-inner">
+           <h3 class="overlay-title">
+            Dagger Kiss
+           </h3>
+           <div class="overlay-buttons">
+            <a aria-label="Watch Dagger Kiss" class="overlay-btn watch" href="../Indie/Dagger-Kiss-Enchanted-Forest.html">
+             <i aria-hidden="true" class="fas fa-film">
+             </i>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="container-fluid py-3">
+    <div class="container">
+     <nav aria-label="Indie Movie Pages">
+      <ul class="pagination justify-content-center cx-pagination">
+       <li class="page-item">
+        <a aria-label="Previous" class="page-link" href="#">
+         <span aria-hidden="true">
+          &laquo;
+         </span>
+        </a>
+       </li>
+       <li class="page-item active">
+        <a aria-current="page" class="page-link" href="../Genre/Indie.html">
+         1
+        </a>
+       </li>
+       <li class="page-item">
+        <a class="page-link" href="../../pages/Indie/2.html">
+         2
+        </a>
+       </li>
+       <li class="page-item">
+        <a class="page-link" href="../../pages/Indie/3.html">
+         3
+        </a>
+       </li>
+       <li class="page-item">
+        <a aria-label="Next" class="page-link" href="../../pages/Indie/2.html">
+         <span aria-hidden="true">
+          &raquo;
+         </span>
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </section>
+   <section aria-labelledby="indie-faq-heading" class="container cx-section py-4" id="indie-movies-faq">
+    <h2 id="indie-faq-heading">
+     Indie Movies: Frequently Asked Questions
+    </h2>
+    <div class="mb-3">
+     <h3 class="h5">
+      What are indie movies?
+     </h3>
+     <p>
+      Indie movies are generally films made outside, or with greater independence from, the major mainstream studio system. They often feature distinctive creative approaches, personal storytelling, or less conventional subjects.
+     </p>
+    </div>
+    <div class="mb-3">
+     <h3 class="h5">
+      How do I find a movie on this page?
+     </h3>
+     <p>
+      Browse the indie movie cards and select the film icon on a card to open its dedicated page. Movie-specific details may vary by title.
+     </p>
+    </div>
+    <div class="mb-3">
+     <h3 class="h5">
+      Does every title have the same information?
+     </h3>
+     <p>
+      No. Details depend on each individual movie page. Open a title to check the information provided for that film.
+     </p>
+    </div>
+   </section>
+  </main>
+  <script src="../Assets/Js/script.js">
+  </script>
+  <footer class="cx-footer">
+   <div class="container">
     <div class="row align-items-center gy-4">
-      <div class="col-12 col-md-4 cx-footer-logo text-center text-md-start">
-        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux Logo" class="img-fluid">
-      </div>
-
-      <div class="col-12 col-md-4 text-center">
-        <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-center gap-sm-4 gap-2 mb-0">
-          <li><a href="../../privacy-policy.html">Privacy Policy</a></li>
-          <li><a href="../../terms-of-services.html">Terms of Service</a></li>
-        </ul>
-      </div>
-
-      <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
-        <ul class="cx-footer-social">
-          <li><a href="https://www.quora.com" target="_blank"><i class="bi bi-quora"></i></a></li>
-          <li><a href="https://bsky.app" target="_blank"><i class="bi bi-cloud"></i></a></li>
-          <li><a href="https://www.reddit.com" target="_blank"><i class="bi bi-reddit"></i></a></li>
-          <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
-        </ul>
-      </div>
+     <div class="col-12 col-md-4 cx-footer-logo text-center text-md-start">
+      <img alt="Cinelux Logo" class="img-fluid" src="../Assets/Images/Logos_Other_images/Cinelux-Logo.webp"/>
+     </div>
+     <div class="col-12 col-md-4 text-center">
+      <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-center gap-sm-4 gap-2 mb-0">
+       <li>
+        <a href="./privacy-policy.html">
+         Privacy Policy
+        </a>
+       </li>
+       <li>
+        <a href="./terms-of-services.html">
+         Terms of Service
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+      <ul class="cx-footer-social">
+       <li>
+        <a href="https://www.quora.com" target="_blank">
+         <i class="bi bi-quora">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a href="https://bsky.app" target="_blank">
+         <i class="bi bi-cloud">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a href="https://www.reddit.com" target="_blank">
+         <i class="bi bi-reddit">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a href="https://www.facebook.com" target="_blank">
+         <i class="bi bi-facebook">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a href="https://www.instagram.com" target="_blank">
+         <i class="bi bi-instagram">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a href="https://twitter.com" target="_blank">
+         <i class="bi bi-twitter-x">
+         </i>
+        </a>
+       </li>
+      </ul>
+     </div>
     </div>
-
     <div class="cx-copyright text-center">
-      <p class="mb-0">© All rights reserved by Cinelux — Powered by <a href="https://nexonix.netlify.app/">Nexonix</a></p>
+     <p class="mb-0">
+      &copy; All rights reserved by Cinelux &mdash; Powered by
+      <a href="https://nexonix.netlify.app/">
+       Nexonix
+      </a>
+     </p>
     </div>
-  </div>
-</footer>
-
-<script>document.addEventListener("DOMContentLoaded",function(){if(window.AOS){AOS.init({once:true,duration:700});}});</script>
-</body>
+   </div>
+  </footer>
+ </body>
 </html>
