@@ -6,6 +6,12 @@
 </p>
 
 <p align="center">
+  <a href="https://cineluxx.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <strong>▶ Visit Cinelux</strong>
+  </a>
+</p>
+
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" height="44">
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" height="44">
