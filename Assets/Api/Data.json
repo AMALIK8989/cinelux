@@ -1,248 +1,2142 @@
 {
   "data": [
     {
-      "id": 1,
-      "title": "Reacher",
-      "description": "Former military police investigator Jack Reacher uses his sharp instincts and brutal combat skills to uncover dangerous conspiracies.",
-      "genres": ["Action", "Crime", "Drama"],
-      "rating": "8.0",
-      "badge": "Trending",
-      "watchUrl": "./Tv-Shows/Reacher.html",
-      "trailerUrl": "https://www.youtube.com/results?search_query=Reacher+Official+Trailer",
-      "poster": "POSTER_URL",
-      "bgImage": "BACKGROUND_URL"
+      "objectID": "Genres_Action_300-Rise-Of-An-Empire",
+      "title": "300: Rise of an Empire",
+      "description": "Greek general Themistokles attempts to unite Greece against the invading Persian forces led by Xerxes and the formidable naval commander Artemisia. The story unfolds before, during and after the events of 300, bringing the epic conflict to the sea.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "War"
+      ],
+      "type": "Movie",
+      "year": 2014,
+      "rating": null,
+      "poster": "Assets/Img11/300-Rise-Of-An-Empire-Info-Card.webp",
+      "url": "Genres/Action/300-Rise-Of-An-Empire.html"
     },
     {
-  "id": 2,
-  "title": "Mission: Impossible",
-  "description": "After a covert IMF mission ends in disaster, Ethan Hunt is framed as the lone traitor. Forced to go rogue, he races across Europe to uncover the real mole and clear his name before time runs out.",
-  "genres": [
-    "Action",
-    "Adventure",
-    "Thriller"
-  ],
-  "rating": "7.2",
-  "badge": "Classic",
-  "watchUrl": "./Movies/Action/Mission-Impossible-1996.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Mission+Impossible+1996+Official+Trailer",
-  "poster": "./Assets/Img/Mission-Impossible-1.webp",
-  "bgImage": "./Assets/Img2/Mission-Impossible-1-Cover.webp"
-},
+      "objectID": "Genres_Action_300",
+      "title": "300",
+      "description": "In 480 BC, King Leonidas of Sparta leads 300 Spartan warriors against the vastly larger Persian army commanded by King Xerxes at the Battle of Thermopylae. Their stand becomes a symbol of courage and resistance.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "War"
+      ],
+      "type": "Movie",
+      "year": 2007,
+      "rating": null,
+      "poster": "Assets/Img11/300-Info-Card.webp",
+      "url": "Genres/Action/300.html"
+    },
     {
-  "id": 3,
-  "title": "Arrow",
-  "description": "After spending five years stranded on a hostile island, billionaire Oliver Queen returns to Star City with one mission: to right his family's wrongs. As the hooded vigilante known as the Arrow, he battles criminals, uncovers conspiracies, and protects his city from powerful enemies.",
-  "genres": [
-    "Action",
-    "Crime",
-    "Drama",
-    "Superhero"
-  ],
-  "rating": "7.5",
-  "badge": "Fan Favorite",
-  "watchUrl": "./Tv-Shows/Arrow.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Arrow+Season+1+Official+Trailer",
-  "poster": "https://m.media-amazon.com/images/M/MV5BNjRlNjNlY2YtYzQxNS00ZTUzLTkwMTQtMjM0YjZlOWQwZmFkXkEyXkFqcGc@._V1_.jpg",
-  "bgImage": "https://m.media-amazon.com/images/S/pv-target-images/a26e14f253dc348a9e087c2e2830c3fad310e6a7f03de1021b055108fe635ec8.jpg"
-},
+      "objectID": "Genres_Action_blade-2",
+      "title": "Blade II",
+      "description": "Blade is forced into an uneasy alliance with the vampire council and the Bloodpack, an elite team of vampire warriors, when a new breed of bloodthirsty mutants known as Reapers threatens to wipe out both humans and vampires.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "type": "Movie",
+      "year": 2002,
+      "rating": null,
+      "poster": "Assets/Img15/Blade-2-Info-Card.webp",
+      "url": "Genres/Action/blade-2.html"
+    },
     {
-  "id": 4,
-  "title": "Atomic Blonde",
-  "description": "On the eve of the Berlin Wall's collapse, elite MI6 spy Lorraine Broughton is sent into Cold War Berlin to recover a priceless list of undercover agents. As loyalties blur and enemies close in, she must rely on her lethal skills to survive a deadly web of espionage and betrayal.",
-  "genres": [
-    "Action",
-    "Thriller",
-    "Spy"
-  ],
-  "rating": "6.7",
-  "badge": "Stylish Action",
-  "watchUrl": "./Genres/Action/Atomic-Blonde.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Atomic+Blonde+Official+Trailer",
-  "poster": "./Assets/Img/Atomic Blonde Info Image.webp",
-  "bgImage": "https://ntvb.tmsimg.com/assets/p12985371_v_h10_ak.jpg?w=1280&h=720"
-},
+      "objectID": "Genres_Action_blade-trinity",
+      "title": "Blade: Trinity",
+      "description": "Framed for a series of murders and hunted by the FBI, Blade is forced into an alliance with the Nightstalkers, a secret group of human vampire hunters. Together with Abigail Whistler and Hannibal King, he faces Dracula, an ancient vampire known as Drake, whose return threatens humanity.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction",
+        "Fantasy",
+        "Thriller"
+      ],
+      "type": "Movie",
+      "year": 2004,
+      "rating": null,
+      "poster": "Assets/Img15/Blade-Trinity-Info-Card.webp",
+      "url": "Genres/Action/blade-trinity.html"
+    },
     {
-  "id": 5,
-  "title": "Spider-Man: No Way Home",
-  "description": "After his identity as Spider-Man is exposed, Peter Parker seeks help from Doctor Strange to restore his normal life. When a powerful spell goes wrong, villains from alternate realities emerge, forcing Peter to face the greatest challenge of his life.",
-  "genres": [
-    "Action",
-    "Adventure",
-    "Sci-Fi",
-    "Superhero"
-  ],
-  "rating": "8.2",
-  "badge": "Blockbuster",
-  "watchUrl": "./Genres/Action/Spider-Man-No-Way-Home.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man+No+Way+Home+Official+Trailer",
-  "poster": "./Assets/Img14/Spiderman-No-Way-Home-Info-Card.webp",
-  "bgImage": "./Assets/Img14/Spiderman-No-Way-Home-Cover.webp"
-},
+      "objectID": "Genres_Action_Blade",
+      "title": "Blade",
+      "description": "Eric Brooks, known as Blade, is a half-human, half-vampire warrior who hunts vampires while protecting humanity. With the help of his mentor Whistler, he battles the ambitious vampire Deacon Frost, whose plans threaten to unleash a devastating supernatural force.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction",
+        "Superhero",
+        "Fantasy"
+      ],
+      "type": "Movie",
+      "year": 1998,
+      "rating": null,
+      "poster": "Assets/Img15/Blade-Info-Card.webp",
+      "url": "Genres/Action/Blade.html"
+    },
     {
-  "id": 6,
-  "title": "Wild Things",
-  "description": "When a high school guidance counselor is accused of assault by two wealthy students, the shocking case spirals into a web of deception, betrayal, murder, and unexpected twists where no one is who they appear to be.",
-  "genres": [
-    "Crime",
-    "Mystery",
-    "Thriller",
-    "Erotic Thriller"
-  ],
-  "rating": "6.6",
-  "badge": "Cult Classic",
-  "watchUrl": "./Genres/Thriller/Wild-Things.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Wild+Things+1998+Official+Trailer",
-  "poster": "./Assets/Img/Wild-Things-Info-Card.webp",
-  "bgImage": "./Assets/Img10/Wild-Things-Cover.webp"
-},
+      "objectID": "Genres_Action_Night-Teeth",
+      "title": "Night Teeth",
+      "description": "A college student working as a chauffeur for one night in Los Angeles discovers that his two mysterious passengers are vampires and becomes caught in a dangerous conflict between vampires and humans.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Fantasy",
+        "Action",
+        "Crime"
+      ],
+      "type": "Movie",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img/Night Teeth.webp",
+      "url": "Genres/Action/Night-Teeth.html"
+    },
     {
-  "id": 7,
-  "title": "Ammonite",
-  "description": "In 1840s England, renowned fossil hunter Mary Anning forms an unexpected and deeply emotional bond with Charlotte Murchison, a young woman sent to recover by the sea. Their relationship transforms both of their lives in this intimate historical romance.",
-  "genres": [
-    "Drama",
-    "Romance",
-    "Historical",
-    "LGBTQ+"
-  ],
-  "rating": "6.5",
-  "badge": "Critically Acclaimed",
-  "watchUrl": "./Genres/Action/Atomic-Blonde.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Ammonite+2020+Official+Trailer",
-  "poster": "./Assets/Img/Ammonite-Info-card.webp",
-  "bgImage": "./Assets/Img/Ammonite-Cover.webp"
-},
+      "objectID": "Genres_Action_Project-Hail-Mary",
+      "title": "Project Hail Mary",
+      "description": "Science teacher Ryland Grace wakes up aboard a spacecraft light-years from Earth with no memory of who he is or how he got there. As his memories return, he discovers that he must solve the mystery of a substance threatening the Sun. An unexpected friendship may help him save humanity.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img14/Project-Hail-Mary-Info-Card.webp",
+      "url": "Genres/Action/Project-Hail-Mary.html"
+    },
     {
-  "id": 8,
-  "title": "Wild Things 2",
-  "description": "After the sudden death of a wealthy businessman, two young women become entangled in a dangerous battle over his fortune. As betrayals, seduction, and murder unfold, shocking twists reveal that nothing is as it seems.",
-  "genres": [
-    "Crime",
-    "Mystery",
-    "Thriller",
-    "Erotic Thriller"
-  ],
-  "rating": "4.5",
-  "badge": "Twisted Sequel",
-  "watchUrl": "./Genres/Thriller/Wild-Things-2.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Wild+Things+2+Official+Trailer",
-  "poster": "./Assets/Img/Wild-Things-2-Info-Card.webp",
-  "bgImage": "./Assets/Img10/Wild-Things-2-Cover.webp"
-},
+      "objectID": "Genres_Action_Tekken",
+      "title": "Tekken",
+      "description": "Set in a dystopian future where powerful corporations control the territories, Tekken follows Jin Kazama as he enters the King of Iron Fist Tournament to avenge his mother's death. As he battles the world's elite fighters, he uncovers secrets surrounding his family and the powerful Mishima Zaibatsu.",
+      "genres": [
+        "Action",
+        "Martial Arts",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "type": "Movie",
+      "year": 2009,
+      "rating": null,
+      "poster": "Assets/Img2/Tekken-Info-Card.webp",
+      "url": "Genres/Action/Tekken.html"
+    },
     {
-  "id": 9,
-  "title": "Oppenheimer",
-  "description": "Physicist J. Robert Oppenheimer leads the top-secret Manhattan Project during World War II, racing to develop the world's first atomic bomb while confronting the profound moral consequences of his groundbreaking work.",
-  "genres": [
-    "Biography",
-    "Drama",
-    "History"
-  ],
-  "rating": "8.3",
-  "badge": "Oscar Winner",
-  "watchUrl": "./Genres/Drama/Oppenheimer.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Oppenheimer+Official+Trailer",
-  "poster": "./Assets/Img10/Oppenheimer-Info-Card.webp",
-  "bgImage": "./Assets/Img10/Oppenheimer-Cover.webp"
-},
+      "objectID": "Genres_Action_Venom-2-Let-There-Be-Carnage",
+      "title": "Venom: Let There Be Carnage",
+      "description": "Journalist Eddie Brock attempts to rebuild his career by interviewing convicted serial killer Cletus Kasady. When Cletus discovers Eddie's secret, he becomes the host of Carnage, a dangerous new symbiote. Eddie and Venom must overcome their differences and work together to stop the deadly threat.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure",
+        "Superhero",
+        "Comedy"
+      ],
+      "type": "Movie",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img/Venom-Let-There-Be-Carnage-Info-Card.webp",
+      "url": "Genres/Action/Venom-2-Let-There-Be-Carnage.html"
+    },
     {
-  "id": 10,
-  "title": "Below Her Mouth",
-  "description": "A successful fashion editor's life takes an unexpected turn when she begins a passionate affair with a confident roofer. As their intense relationship deepens, both women are forced to confront desire, identity, and the consequences of following their hearts.",
-  "genres": [
-    "Drama",
-    "Romance",
-    "LGBTQ+"
-  ],
-  "rating": "5.5",
-  "badge": "Romantic Drama",
-  "watchUrl": "./Genres/Romance/Below-Her-Mouth.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Below+Her+Mouth+Official+Trailer",
-  "poster": "./Assets/Img/Below-Her-Mouth-Info-Card.webp",
-  "bgImage": "./Assets/Img2/Below-Her-Mouth-Cover.webp"
-},
+      "objectID": "Genres_Action_Venom-3-The-Last-Dance",
+      "title": "Venom: The Last Dance",
+      "description": "Eddie Brock and Venom are on the run, hunted by forces from both their worlds. As their pursuers close in, they are forced into a devastating decision that brings their journey to a dramatic conclusion.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img/Venom-3-Info-Card.webp",
+      "url": "Genres/Action/Venom-3-The-Last-Dance.html"
+    },
     {
-  "id": 11,
-  "title": "Terrifier 3",
-  "description": "As Christmas approaches, Art the Clown returns to Miles County with an even more brutal reign of terror. Haunted survivor Sienna Shaw must confront her darkest fears to stop the sadistic killer before another holiday turns into a nightmare.",
-  "genres": [
-    "Horror",
-    "Slasher",
-    "Supernatural"
-  ],
-  "rating": "6.3",
-  "badge": "Fan Favorite",
-  "watchUrl": "./Genres/Horror/Terrifier-3.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Terrifier+3+Official+Trailer",
-  "poster": "./Assets/Img/Terrifier-3-1-Info-Card.webp",
-  "bgImage": "./Assets/Img/Terrifier-3-Cover.webp"
-},
+      "objectID": "Genres_Action_Venom",
+      "title": "Venom",
+      "description": "Journalist Eddie Brock investigates the Life Foundation and its experiments, but his investigation leads to a life-changing encounter with an alien symbiote that gives him extraordinary abilities and transforms him into Venom.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction",
+        "Superhero",
+        "Horror"
+      ],
+      "type": "Movie",
+      "year": 2018,
+      "rating": null,
+      "poster": "Assets/Img/Venom-Info-Card.webp",
+      "url": "Genres/Action/Venom.html"
+    },
     {
-  "id": 12,
-  "title": "Black Swan",
-  "description": "A gifted but fragile ballerina lands the lead role in Swan Lake, where the relentless pursuit of perfection begins to blur the line between reality and obsession. As pressure mounts, she descends into a haunting psychological nightmare.",
-  "genres": [
-    "Drama",
-    "Psychological",
-    "Thriller"
-  ],
-  "rating": "8.0",
-  "badge": "Oscar Winner",
-  "watchUrl": "./Genres/Horror/Black-Swan.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Black+Swan+2010+Official+Trailer",
-  "poster": "./Assets/Img/Black-Swan-Info-Card.webp",
-  "bgImage": "./Assets/Img/Black-Swan-Cover.webp"
-},
- {
-  "id": 13,
-  "title": "The Jester",
-  "description": "On Halloween night, a mysterious and malevolent entity known as The Jester unleashes terror upon a quiet town. As the body count rises, two estranged sisters must reunite and uncover the truth behind the supernatural killer before they become his next victims.",
-  "genres": [
-    "Horror",
-    "Mystery",
-    "Supernatural",
-    "Slasher"
-  ],
-  "rating": "3.9",
-  "badge": "Halloween Horror",
-  "watchUrl": "./Genres/Horror/The-Jester.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=The+Jester+2023+Official+Trailer",
-  "poster": "./Assets/Img/The-Jester-Info-Card.webp",
-  "bgImage": "./Assets/Img4/The-Jester-Cover.webp"
-},
-  {
-  "id": 14,
-  "title": "Blue Beetle",
-  "description": "Recent college graduate Jaime Reyes discovers an ancient alien Scarab that bonds with him, transforming him into the powerful Blue Beetle. As he learns to control his extraordinary new abilities, Jaime must protect his family from a ruthless corporation determined to weaponize the Scarab.",
-  "genres": [
-    "Action",
-    "Adventure",
-    "Sci-Fi",
-    "Superhero"
-  ],
-  "rating": "5.9",
-  "badge": "DC Universe",
-  "watchUrl": "./Genres/Action/Blue-Beetle.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Blue+Beetle+Official+Trailer",
-  "poster": "./Assets/Img/Blue-Beetle-info-card.webp",
-  "bgImage": "https://m.media-amazon.com/images/S/pv-target-images/28a4c1eddb2ead5852f914fadcfe8dbe563fd11f216c0631ffe3fb92b03411b6.jpg"
-},
-   {
-  "id": 15,
-  "title": "Fear Street Part One: 1994",
-  "description": "After a series of brutal murders shakes the town of Shadyside, a group of teenagers discovers that an ancient curse has haunted their community for centuries. To survive the relentless evil stalking them, they must uncover the terrifying truth behind Sarah Fier's legend.",
-  "genres": [
-    "Horror",
-    "Mystery",
-    "Slasher",
-    "Supernatural"
-  ],
-  "rating": "6.2",
-  "badge": "Netflix Original",
-  "watchUrl": "./Genres/Horror/Fear-Street-Part-One-1994.html",
-  "trailerUrl": "https://www.youtube.com/results?search_query=Fear+Street+Part+One+1994+Official+Trailer",
-  "poster": "./Assets/Img/Fear-Street-Part-One-1994-Info-Card.webp",
-  "bgImage": "./Assets/Img10/Fear-Street-Part-One-Cover.webp"
-}
+      "objectID": "Genres_Adults_Lesbian-Ward",
+      "title": "Lesbian Ward",
+      "description": "A Japanese adult OVA set in a women-only university hospital where a secretive after-hours service is provided to VIP clients.",
+      "genres": [
+        "Adult",
+        "Anime",
+        "Yuri"
+      ],
+      "type": "Movie",
+      "year": 2003,
+      "rating": null,
+      "poster": "Assets/Img15/Lesbian-Ward-Info-Card.webp",
+      "url": "Genres/Adults/Lesbian-Ward.html"
+    },
+    {
+      "objectID": "Genres_Comedy_Bye-Bye-Blondie",
+      "title": "Bye Bye Blondie",
+      "description": "Gloria and Frances shared a summer romance as teenagers. Decades later, in their late forties, they meet again and attempt to recapture the relationship they once had.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2012,
+      "rating": null,
+      "poster": "Assets/Img15/Bye-Bye-Blondie-Info-Card.webp",
+      "url": "Genres/Comedy/Bye-Bye-Blondie.html"
+    },
+    {
+      "objectID": "Genres_Comedy_D.E.B.S",
+      "title": "D.E.B.S.",
+      "description": "Amy Bradshaw is the star recruit of D.E.B.S., an elite secret government agency that trains young women to become undercover agents. When her team is assigned to monitor notorious criminal Lucy Diamond, Amy unexpectedly falls for the woman she is supposed to bring to justice.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2004,
+      "rating": null,
+      "poster": "Assets/Img/D.E.B.S - Info - Card.webp",
+      "url": "Genres/Comedy/DEBS.html"
+    },
+    {
+      "objectID": "Genres_Comedy_Duck-Butter",
+      "title": "Duck Butter",
+      "description": "Naima and Sergio meet at a club and quickly connect over their disappointment with dishonesty in relationships. Hoping to discover a new kind of intimacy, they agree to spend the next 24 hours together, having sex every hour and promising complete honesty. Their unconventional experiment soon reveals the emotional complications of trying to create an instant connection.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2018,
+      "rating": null,
+      "poster": "Assets/Img13/Duck-Butter-Info-Card.webp",
+      "url": "Genres/Comedy/Duck-Butter.html"
+    },
+    {
+      "objectID": "Genres_Comedy_Gray-Matters",
+      "title": "Gray Matters",
+      "description": "Gray and her inseparable brother Sam decide to find each other romantic partners. When Sam falls for Charlie, Gray discovers that her own feelings for Charlie are more complicated than she expected.",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2007,
+      "rating": null,
+      "poster": "Assets/Img15/Gray-Matters-Info-Card.webp",
+      "url": "Genres/Comedy/Gray-Matters.html"
+    },
+    {
+      "objectID": "Genres_Comedy_The-Big-Sick",
+      "title": "The Big Sick",
+      "description": "Based on the real-life courtship of Kumail Nanjiani and Emily V. Gordon, the film follows aspiring comedian Kumail as he falls in love with graduate student Emily. Their relationship becomes complicated by cultural expectations, and when Emily develops a mysterious illness, Kumail must confront an unexpected crisis while building a connection with her parents.",
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2017,
+      "rating": null,
+      "poster": "Assets/Img13/The-Big-Sick-Info-Card.webp",
+      "url": "Genres/Comedy/The-Big-Sick.html"
+    },
+    {
+      "objectID": "Genres_Comedy_The-Threesome",
+      "title": "The Threesome",
+      "description": "One fateful night, Connor's longtime crush Olivia leads them into a threesome with an alluring stranger named Jenny. Connor and Olivia begin a relationship, but their future together becomes complicated when Jenny reappears, forcing all three to confront the consequences of their choices and navigate the challenges of adulthood.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img9/Threesome-Info-Card.webp",
+      "url": "Genres/Comedy/The-Threesome.html"
+    },
+    {
+      "objectID": "Genres_Drama_Amour-De-Femme",
+      "title": "Amour de Femme",
+      "description": "Jeanne, a married osteopath and mother, meets Marie, a dancer who inspires her to return to dancing. As their friendship deepens into love, Jeanne must confront her feelings and the consequences for her marriage and family.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2001,
+      "rating": null,
+      "poster": "Assets/Img13/Amour-De-Femme-Info-Card.webp",
+      "url": "Genres/Drama/Amour-De-Femme.html"
+    },
+    {
+      "objectID": "Genres_Drama_Boys-Dont-Cry",
+      "title": "Boys Don't Cry",
+      "description": "Based on the real-life story of Brandon Teena, Boys Don't Cry follows a young transgender man who moves to Falls City, Nebraska, where he finds friendship and falls in love with Lana Tisdel. As Brandon builds a new life, prejudice and the hostility of people around him lead to a brutal and tragic confrontation.",
+      "genres": [
+        "Biography",
+        "Drama",
+        "LGBTQ+",
+        "Crime"
+      ],
+      "type": "Movie",
+      "year": 1999,
+      "rating": null,
+      "poster": "Assets/Img11/Boys-Dont-Cry-Info-Card.webp",
+      "url": "Genres/Drama/Boys-Dont-Cry.html"
+    },
+    {
+      "objectID": "Genres_Drama_Farewell-My-Queen",
+      "title": "Farewell, My Queen",
+      "description": "Set in July 1789 during the early days of the French Revolution, the film follows Sidonie Laborde, a young reader devoted to Marie Antoinette. As unrest reaches Versailles and the royal court begins to collapse, Sidonie finds herself caught in the Queen's private world and the dangerous events surrounding her.",
+      "genres": [
+        "Drama",
+        "Historical",
+        "History"
+      ],
+      "type": "Movie",
+      "year": 2012,
+      "rating": null,
+      "poster": "Assets/Img15/Farewell-My-Queen-Info-Card.webp",
+      "url": "Genres/Drama/Farewell-My-Queen.html"
+    },
+    {
+      "objectID": "Genres_Drama_Spider-Lilies",
+      "title": "Spider Lilies",
+      "description": "Jade, a webcam performer, visits tattoo artist Takeko's studio and becomes fascinated by the spider lily tattoo on display. As Jade asks for the same design, their connection brings back memories of a shared childhood and painful events from the past.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+ Cinema"
+      ],
+      "type": "Movie",
+      "year": 2007,
+      "rating": null,
+      "poster": "Assets/Img15/Spider-Lilies-Info-Card.webp",
+      "url": "Genres/Drama/Spider-Lilies.html"
+    },
+    {
+      "objectID": "Genres_Drama_The-Girl",
+      "title": "The Girl",
+      "description": "A painter who frequents a Paris nightclub begins an affair with a singer she calls The Girl. As the painter becomes increasingly obsessed, the singer's relationships with other people and the presence of a threatening man complicate their romance.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2000,
+      "rating": null,
+      "poster": "Assets/Img15/The-Girl-Info-Card.webp",
+      "url": "Genres/Drama/The-Girl.html"
+    },
+    {
+      "objectID": "Genres_Horror_Fear-Street-Part-One-1994",
+      "title": "Fear Street Part One: 1994",
+      "description": "In 1994, a group of Shadyside teenagers become caught in a terrifying series of murders connected to an ancient evil that has haunted their town for more than 300 years. As the killings escalate, Deena and her friends uncover the sinister history behind the town's violent reputation.",
+      "genres": [
+        "Horror",
+        "Slasher",
+        "Mystery",
+        "Supernatural Horror"
+      ],
+      "type": "Movie",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img/Fear-Street-Part-One-1994-Info-Card.webp",
+      "url": "Genres/Horror/Fear-Street-Part-One-1994.html"
+    },
+    {
+      "objectID": "Genres_Horror_Fear-Street-Part-Two-1978",
+      "title": "Fear Street Part Two: 1978",
+      "description": "Shadyside, 1978. School's out for summer and the activities at Camp Nightwing are about to begin. But when another Shadysider is possessed with the urge to kill, the fun in the sun becomes a gruesome fight for survival.",
+      "genres": [
+        "Horror",
+        "Slasher",
+        "Mystery"
+      ],
+      "type": "Movie",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img/Fear Street Part Two 1978 Info-Card.webp",
+      "url": "Genres/Horror/Fear-Street-Part-Two-1978.html"
+    },
+    {
+      "objectID": "Genres_Horror_I-Know-What-You-Did-Last-Summer",
+      "title": "I Know What You Did Last Summer",
+      "description": "When five friends inadvertently cause a deadly car accident, they cover up their involvement and make a pact to keep it secret. A year later, a mysterious hook-wielding killer begins stalking them. Realizing that a similar nightmare has happened before, they seek help from survivors of the legendary Southport Massacre of 1997.",
+      "genres": [
+        "Horror",
+        "Slasher",
+        "Mystery",
+        "Thriller"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img5/I-Know-What-You-Did-Last-Summer-Info-Card.webp",
+      "url": "Genres/Horror/I-Know-What-You-Did-Last-Summer.html"
+    },
+    {
+      "objectID": "Genres_Horror_Mother-May-I-Sleep-With-Danger",
+      "title": "Mother, May I Sleep with Danger?",
+      "description": "College student Leah falls in love with Pearl, a mysterious young woman who turns out to be a vampire known as a Nightwalker. As Leah's mother Julie becomes increasingly suspicious, the family is drawn into a dangerous supernatural world where love, loyalty and survival collide.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2016,
+      "rating": null,
+      "poster": "Assets/Img3/Mother-May-I-Sleep-With-Danger-Info-Card.webp",
+      "url": "Genres/Horror/Mother-May-I-Sleep-With-Danger.html"
+    },
+    {
+      "objectID": "Genres_Horror_Obsession",
+      "title": "Obsession",
+      "description": "After breaking the mysterious One Wish Willow to win his crush's heart, Bear finds himself getting exactly what he wished for. But as Nikki begins displaying increasingly disturbing behaviour, he discovers that some desires come at a dark and sinister price.",
+      "genres": [
+        "Horror",
+        "Supernatural Horror",
+        "Thriller"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img14/Obsession-Info-Card.webp",
+      "url": "Genres/Horror/Obsession.html"
+    },
+    {
+      "objectID": "Genres_Horror_Piglet",
+      "title": "Piglet",
+      "description": "During Kate's 21st birthday camping trip, her friends encounter Piglet, a monstrous human-pig hybrid who begins a brutal killing spree. As the group uncovers the creature's origins, Kate must confront her past and fight to survive.",
+      "genres": [
+        "Horror",
+        "Slasher"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img2/Piglet-Info-Card.webp",
+      "url": "Genres/Horror/Piglet.html"
+    },
+    {
+      "objectID": "Genres_Horror_Resident-Evil-Apocalypse",
+      "title": "Resident Evil: Apocalypse",
+      "description": "Following the events of the first film, Alice finds herself in Raccoon City as the T-virus spreads through the population. Joined by Jill Valentine and Carlos Olivera, she must help rescue a scientist's daughter and escape before Umbrella Corporation destroys the city.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "type": "Movie",
+      "year": 2004,
+      "rating": null,
+      "poster": "Assets/Img5/Resident-Evil-Apocalypse-Info-Card.webp",
+      "url": "Genres/Horror/Resident-Evil-Apocalypse.html"
+    },
+    {
+      "objectID": "Genres_Horror_Resident-Evil",
+      "title": "Resident Evil",
+      "description": "After a deadly virus outbreak inside Umbrella Corporation's underground Hive facility, Alice and an elite commando team must confront the infected creatures and the facility's powerful security system before the virus spreads.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "type": "Movie",
+      "year": 2002,
+      "rating": null,
+      "poster": "Assets/Img5/Resident-Evil-Info-Card.webp",
+      "url": "Genres/Horror/Resident-Evil.html"
+    },
+    {
+      "objectID": "Genres_Horror_Terrifier-3",
+      "title": "Terrifier 3",
+      "description": "After surviving Art the Clown's Halloween massacre, Sienna Shaw and her brother Jonathan struggle to rebuild their lives. As Christmas approaches, they attempt to move forward, but Art returns to unleash another wave of terror upon Miles County during the holiday season.",
+      "genres": [
+        "Horror",
+        "Slasher",
+        "Supernatural Horror",
+        "Christmas Horror"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img/Terrifier-3-Info-Card.webp",
+      "url": "Genres/Horror/Terrifier-3.html"
+    },
+    {
+      "objectID": "Genres_Horror_The-Medium",
+      "title": "The Medium",
+      "description": "A documentary crew travels to Thailand's Isan region to follow Nim, a hereditary shaman who serves the goddess Bayan. When her niece Mink begins displaying disturbing signs of possession, the family believes she may be inheriting Nim's spiritual calling. However, the force inhabiting Mink may be something far more sinister.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller",
+        "Drama",
+        "Folk Horror"
+      ],
+      "type": "Movie",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img2/The-Medium-Info-Card.webp",
+      "url": "Genres/Horror/The-Medium.html"
+    },
+    {
+      "objectID": "Genres_Horror_Time-Was",
+      "title": "Time Was",
+      "description": "Beth hopes her new home will provide a fresh start, but unsettling disturbances soon disrupt her peace. When she meets Melissa, an alluring designer who offers to help, an unexpected attraction develops between them. As supernatural events intensify, Beth begins questioning her perception of reality and the mysterious forces surrounding her home.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Fantasy",
+        "Mystery",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img15/Time-Was-Info-Card.webp",
+      "url": "Genres/Horror/Time-Was.html"
+    },
+    {
+      "objectID": "Genres_Indie_Adan",
+      "title": "Adan",
+      "description": "Ellen seeks independence from her abusive father, and her plan draws her best friend Marian into a dangerous chain of events. Their actions lead to devastating consequences in this Filipino psychological crime thriller.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2019,
+      "rating": null,
+      "poster": "Assets/Img/Adan-Info-Card.webp",
+      "url": "Genres/Indie/Adan.html"
+    },
+    {
+      "objectID": "Genres_Indie_Bedspacer",
+      "title": "Bedspacer",
+      "description": "Janice becomes fascinated with her new roommate Lexi and begins imitating her, but dark secrets blur the lines between authenticity and seductive deception.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img8/Bedspacer-Info-Card.webp",
+      "url": "Genres/Indie/Bedspacer.html"
+    },
+    {
+      "objectID": "Genres_Indie_Blood-Beach-Betrayal",
+      "title": "Blood, Beach, Betrayal",
+      "description": "After a lifeguard's death leaves an opening at an exclusive beach club, college student Abby takes the job and becomes involved in an affair with wealthy housewife Imani. As strange deaths and disappearances unfold, Abby begins investigating the secrets hidden within the seemingly perfect community.",
+      "genres": [
+        "Thriller",
+        "Romance",
+        "Mystery",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/Blood-Beach-Betrayal-Info-Card.webp",
+      "url": "Genres/Indie/Blood-Beach-Betrayal.html"
+    },
+    {
+      "objectID": "Genres_Indie_Booking",
+      "title": "Booking",
+      "description": "Donna is a hardworking ride-hailing driver struggling under financial pressure and exploitation by her operator, Ruben. To survive, she begins offering extra services to passengers. When she develops feelings for Jane, a passenger who frequently books her rides, the two women form a connection and consider escaping their difficult circumstances together.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Erotic Romance"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Booking-Info-Card.webp",
+      "url": "Genres/Indie/Booking.html"
+    },
+    {
+      "objectID": "Genres_Indie_Dagger-Kiss-Enchanted-Forest",
+      "title": "Dagger Kiss: Enchanted Forest",
+      "description": "Sorceress Arden and her warrior girlfriend Katia are deeply in love, but the veil between Earth and the World of Magic keeps them apart. When the evil sorcerer Zareth rises from the dead, Arden and Katia embark on a quest to defeat him.",
+      "genres": [
+        "Fantasy",
+        "Science Fiction",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2020,
+      "rating": null,
+      "poster": "Assets/Img11/Dagger-Kiss-Enchanted-Forest-Info-Card.webp",
+      "url": "Genres/Indie/Dagger-Kiss-Enchanted-Forest.html"
+    },
+    {
+      "objectID": "Genres_Indie_Dolls-Of-Dresden",
+      "title": "Dolls of Dresden",
+      "description": "Anna is a young journalist with progressive ideas. Lophilia is a painter whose unconventional lifestyle and art challenge Anna's perspective. Their chance meeting develops into an intense relationship filled with unexpected revelations that will shape Anna's future.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2023,
+      "rating": null,
+      "poster": "Assets/Img15/Dolls-Of-Dresden-Info-Card.webp",
+      "url": "Genres/Indie/Dolls-Of-Dresden.html"
+    },
+    {
+      "objectID": "Genres_Indie_Dutdot",
+      "title": "Dutdot",
+      "description": "Mira is a timid college student who celebrates turning 18 by exploring new experiences, including getting her first tattoo. Her relationship with her godfather and tattoo artist Rodel becomes complicated as she discovers love, heartbreak and unexpected family secrets. Meanwhile, her childhood friend Jericho remains close by.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Dutdot-Info-Card.webp",
+      "url": "Genres/Indie/Dutdot.html"
+    },
+    {
+      "objectID": "Genres_Indie_Forbidden-Desire",
+      "title": "Forbidden Desire",
+      "description": "Agatha and Ubel's turbulent romance ends in a breakup. Although Agatha finds a new partner, she continues her affair with Ubel, only to discover a secret that could ruin her life.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img6/Forbidden-Desire-Info-Card.webp",
+      "url": "Genres/Indie/Forbidden-Desire.html"
+    },
+    {
+      "objectID": "Genres_Indie_Kabitan",
+      "title": "Kabitan",
+      "description": "Kabitan (2024) is a Filipino drama about Alice, a lonely mistress battling depression who forms a deep emotional bond with her neighbor Mika, also a mistress.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img8/Kabitan-Info-Card.webp",
+      "url": "Genres/Indie/Kabitan.html"
+    },
+    {
+      "objectID": "Genres_Indie_Kasalo",
+      "title": "Kasalo",
+      "description": "Two strangers meet through a ride-sharing app and find comfort in each other while dealing with problems in their respective relationships.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img15/Kasalo-Info-Card.webp",
+      "url": "Genres/Indie/Kasalo.html"
+    },
+    {
+      "objectID": "Genres_Indie_Kiss-Kiss",
+      "title": "Kiss/Kiss",
+      "description": "Kiss/Kiss is a 2025 Filipino VMX feature hosted by Micaella Raz and Zsara Laxamana, presenting a curated showcase of intimate girl-girl scenes and moments. This CineLux page provides film details, cast information and player access.",
+      "genres": [
+        "Documentary",
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img8/Kiss-Kiss-Info-Card.webp",
+      "url": "Genres/Indie/Kiss-Kiss.html"
+    },
+    {
+      "objectID": "Genres_Indie_Late-Bloomer",
+      "title": "Late Bloomer",
+      "description": "When Therese learns she has a life-limiting illness, she asks her friend Maddie to help her make the most of her remaining time, leading to unexpected feelings between them.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img11/Late-Bloomer-2024-Info-Card.webp",
+      "url": "Genres/Indie/Late-Bloomer.html"
+    },
+    {
+      "objectID": "Genres_Indie_Latina",
+      "title": "Latina (2026)",
+      "description": "Discover Latina (2026), the Vivamax mystery thriller directed by King Abalos, starring Shalanie De Vera, Athena Red, Chester Grecia and Mhack Morales. Watch on Cinelux.",
+      "genres": [
+        "Indie"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Latina-Info-Card.webp",
+      "url": "Genres/Indie/Latina.html"
+    },
+    {
+      "objectID": "Genres_Indie_Lunok",
+      "title": "Lunok",
+      "description": "Lunok is a 2026 Filipino drama starring Astrid Lee as May and Allison Ross as Jena, longtime friends whose beach getaway and dare game bring hidden feelings to the surface.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Lunok-Info-Card.webp",
+      "url": "Genres/Indie/Lunok.html"
+    },
+    {
+      "objectID": "Genres_Indie_Maalikaya",
+      "title": "Maalikaya",
+      "description": "Maalikaya is a 2025 Filipino drama-romance film directed by Roman Perez Jr. Kara, a young woman sent to a women's prison after an accident involving her husband, forms a powerful connection with fellow inmate Lila while confronting a troubling past and the secrets of prison life.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img7/Maalikaya-Info-Card.webp",
+      "url": "Genres/Indie/Maalikaya.html"
+    },
+    {
+      "objectID": "Genres_Indie_Maids-Obsession",
+      "title": "Maid's Obsession",
+      "description": "Martha, a longtime household helper and college student, worries about losing her position when the family hires Heidi, a new maid saving money to work abroad. Their rivalry gradually becomes an unexpected attraction, while the household’s relationships and hidden tensions complicate their choices.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Maids-Obsession-Info-Card.webp",
+      "url": "Genres/Indie/Maids-Obsession.html"
+    },
+    {
+      "objectID": "Genres_Indie_Maya-And-Samar",
+      "title": "Maya & Samar",
+      "description": "Set in contemporary Athens, Maya, a journalist at an indie website, and Samar, a queer Afghan woman who fled the Taliban, meet and fall into a brief, torrid affair. As their worlds collide, the relationship spirals out of control — endangering Samar's life while propelling Maya to sudden online fame — and exposes the cultural fault lines neither of them can escape.",
+      "genres": [
+        "Romantic Drama",
+        "LGBTQ+",
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img14/Maya-And-Samar-Info-Card.webp",
+      "url": "Genres/Indie/Maya-And-Samar.html"
+    },
+    {
+      "objectID": "Genres_Indie_My-First-Girl-Crush",
+      "title": "My First Girl Crush",
+      "description": "My First Girl Crush is a 2024 Australian coming-of-age drama-romance written and directed by Ric Forster. Shy teenager Ingrid develops feelings for her best friend Stella while navigating high school and her conservative Chinese-Australian family.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Coming-of-age",
+        "LGBTQ"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/My-First-Girl-Crush-Info-Card.webp",
+      "url": "Genres/Indie/My-First-Girl-Crush.html"
+    },
+    {
+      "objectID": "Genres_Indie_My-Last-Girl-Crush",
+      "title": "My Last Girl Crush",
+      "description": "Explore My Last Girl Crush (2024), Ric Forster’s Australian drama-romance about Ingrid, who tries to rebuild her life and prioritize her happiness after a suicide attempt, but develops feelings for her best friend’s girlfriend, Celeste. Discover the cast, story, film details and related titles on CineLux.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/My-Last-Girl-Crush-Info-Card.webp",
+      "url": "Genres/Indie/My-Last-Girl-Crush.html"
+    },
+    {
+      "objectID": "Genres_Indie_My-New-Girl-Crush",
+      "title": "My New Girl Crush",
+      "description": "Discover My New Girl Crush (2024), Ric Forster’s Australian coming-of-age drama about Ingrid, who finds herself drawn to Dani, the older sister of her school-project partner Brayden. Explore the cast, synopsis, film details and related titles on CineLux.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Coming-of-age",
+        "LGBTQ"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/My-New-Girl-Crush-Info-Card.webp",
+      "url": "Genres/Indie/My-New-Girl-Crush.html"
+    },
+    {
+      "objectID": "Genres_Indie_Palitan-2",
+      "title": "Palitan 2",
+      "description": "As a wedding and town fiesta approach, former lovers Rose and Angel rekindle a forbidden passion that threatens their relationships and challenges a conservative town’s expectations.",
+      "genres": [
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Palitan2-Info-Card.webp",
+      "url": "Genres/Indie/Palitan-2.html"
+    },
+    {
+      "objectID": "Genres_Indie_Pin-Ya",
+      "title": "Pin/Ya",
+      "description": "Pin/Ya (2024) is a Filipino drama about Pin and Aya, whose close childhood friendship grows into romantic feelings, putting their bond at a crossroads.",
+      "genres": [
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img8/Pin-Ya-Info-Card.webp",
+      "url": "Genres/Indie/Pin-Ya.html"
+    },
+    {
+      "objectID": "Genres_Indie_Private-Tutor",
+      "title": "Private Tutor",
+      "description": "Private Tutor (2024) is a Filipino drama about Joy, a struggling teacher whose tutoring job with Erica leads to complicated feelings and relationship tensions.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img7/Private-Tutor-Info-Card.webp",
+      "url": "Genres/Indie/Private-Tutor.html"
+    },
+    {
+      "objectID": "Genres_Indie_Professor-Marston-And-The-Wonder-Woman",
+      "title": "Professor Marston and the Wonder Women",
+      "description": "The true story of Harvard psychologist William Moulton Marston, his wife Elizabeth, and their research partner Olive Byrne, whose unconventional relationship and ideas about love and dominance inspired the creation of Wonder Woman.",
+      "genres": [
+        "Biography",
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2017,
+      "rating": null,
+      "poster": "Assets/Img/Professor-Marston-And-The-Wonderwoman.webp",
+      "url": "Genres/Indie/Professor-Marston-And-The-Wonder-Woman.html"
+    },
+    {
+      "objectID": "Genres_Indie_Putahe",
+      "title": "Putahe (2022)",
+      "description": "Discover Putahe (2022), the Filipino drama thriller directed by Roman Perez Jr., starring Ayanna Misola, Janelle Tee and Massimo Scofield. Watch on Cinelux.",
+      "genres": [
+        "Indie"
+      ],
+      "type": "Movie",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img15/Putahe-Info-Card.webp",
+      "url": "Genres/Indie/Putahe.html"
+    },
+    {
+      "objectID": "Genres_Indie_Spit-Or-Swallow",
+      "title": "Spit or Swallow",
+      "description": "Lena, a quiet and obedient college student, begins exploring her desires and relationships after meeting Cole. Her growing connection with Astra, a substitute professor, complicates her journey of intimacy, validation and self-discovery.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Spit-Or-Swallow-Info-Card.webp",
+      "url": "Genres/Indie/Spit-Or-Swallow.html"
+    },
+    {
+      "objectID": "Genres_Indie_Steal-Her-Breath",
+      "title": "Blood, Beach, Betrayal",
+      "description": "Struggling college student Abby Brooks takes a summer lifeguarding job at the seemingly perfect Brookhaven Beach Club. After getting caught up in a secret affair with a wealthy housewife, Abby discovers the good life isn't quite as good as it seems, as jealousy and hidden secrets curdle into danger.",
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Romance",
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/Blood-Beach-Betrayal-Info-Card.webp",
+      "url": "Genres/Indie/Steal-Her-Breath.html"
+    },
+    {
+      "objectID": "Genres_Indie_The-Little-Sister",
+      "title": "The Little Sister",
+      "description": "Fatima, 17, is the youngest daughter of a French-Algerian family in a Paris suburb. As she leaves for a prestigious prep class and begins her university years, she starts to reconcile her devout Muslim faith and close family ties with a truth she has spent her whole life hiding: that she loves women.",
+      "genres": [
+        "Drama",
+        "Coming-of-Age",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img14/The-Little-Sister-Info-Card.webp",
+      "url": "Genres/Indie/The-Little-Sister.html"
+    },
+    {
+      "objectID": "Genres_Indie_The-Queen-Of-My-Dreams",
+      "title": "The Queen of My Dreams",
+      "description": "Azra, a queer Pakistani-Canadian grad student, is worlds apart from her conservative mother, Mariam. When her father Hassan dies suddenly on a trip to Pakistan, Azra journeys through memories real and imagined, from her mother's youth in Karachi to her own coming-of-age in Canada.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2023,
+      "rating": null,
+      "poster": "Assets/Img15/The-Queen-Of-My-Dreams-Info-Card.webp",
+      "url": "Genres/Indie/The-Queen-Of-My-Dreams.html"
+    },
+    {
+      "objectID": "Genres_Indie_Unang-Pasok",
+      "title": "Unang Pasok",
+      "description": "Unang Pasok features Kim Yashii and Mayumi De Vera in a VMX documentary-drama presentation focused on first-time experiences and on-screen chemistry.",
+      "genres": [
+        "Documentary",
+        "Drama"
+      ],
+      "type": "Movie",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Unang-Pasok-Info-Card.webp",
+      "url": "Genres/Indie/Unang-Pasok.html"
+    },
+    {
+      "objectID": "Genres_Indie_Undergrads",
+      "title": "Undergrads",
+      "description": "Undergrads (2024) is a Filipino coming-of-age drama about two college women navigating identity, sexuality, desire, and the challenges of growing up.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img15/Undergrads-Info-Card.webp",
+      "url": "Genres/Indie/Undergrads.html"
+    },
+    {
+      "objectID": "Genres_Indie_Virgin-Forest",
+      "title": "Virgin Forest",
+      "description": "A photographer sent into the mountains to capture a rare flower discovers women trapped in a hidden brothel serving illegal loggers. He risks everything to help them escape.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "type": "Movie",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img15/Virgin-Forest-Info-Card.webp",
+      "url": "Genres/Indie/Virgin-Forest.html"
+    },
+    {
+      "objectID": "Genres_Indie_X-Deal-2",
+      "title": "X-Deal 2",
+      "description": "Discover X-Deal 2 (2022), Lawrence Fajardo’s Filipino drama about Peter, Violet, and Olivia, whose island getaway leads to a complicated agreement and unexpected consequences. Explore the synopsis, cast, film details, and more on CineLux.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img8/X-Deal-2-Info-Card.webp",
+      "url": "Genres/Indie/X-Deal-2.html"
+    },
+    {
+      "objectID": "Genres_Indie_X-Deal",
+      "title": "X-Deal",
+      "description": "Photographer Billy and his girlfriend Sarah have grown distant after moving into a new apartment. Billy becomes interested in their neighbor Dana, who is more attracted to Sarah, and proposes an arrangement that leads to manipulation and unexpected risks.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "Movie",
+      "year": 2011,
+      "rating": null,
+      "poster": "Assets/Img8/X-Deal-Info-Card.webp",
+      "url": "Genres/Indie/X-Deal.html"
+    },
+    {
+      "objectID": "Genres_Romance_A-Ravens-Touch",
+      "title": "Raven's Touch",
+      "description": "Blaming herself for a tragic accident, Raven Michaels retreats to a remote family cabin, seeking peace in isolation. Meanwhile, Kate Royce takes her two teenagers camping in an attempt to reconnect with her family. When Raven and Kate's worlds collide, they discover unexpected opportunities for intimacy, connection, and healing.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2015,
+      "rating": null,
+      "poster": "Assets/Img2/Ravens-Touch-Info-Card.webp",
+      "url": "Genres/Romance/A-Ravens-Touch.html"
+    },
+    {
+      "objectID": "Genres_Romance_Below-Her-Mouth",
+      "title": "Below Her Mouth",
+      "description": "Jasmine, an engaged fashion editor, meets Dallas, a confident and free-spirited roofer. Their unexpected attraction develops into an intense affair that forces Jasmine to reconsider her engagement and the future she had planned, while both women confront the consequences of their connection.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "LGBTQ+",
+        "Erotic Romance"
+      ],
+      "type": "Movie",
+      "year": 2016,
+      "rating": null,
+      "poster": "Assets/Img/Below-Her-Mouth-Info-Card.webp",
+      "url": "Genres/Romance/Below-Her-Mouth.html"
+    },
+    {
+      "objectID": "Genres_Romance_Bloomington",
+      "title": "Bloomington",
+      "description": "Jackie Kirk, a former child television actress, leaves California to attend college in the Midwest and find independence. There she meets Catherine Stark, a mysterious professor known for her romantic relationships with students. Their connection develops into an intense relationship, but an opportunity to return to acting forces Jackie to reconsider her future.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2010,
+      "rating": null,
+      "poster": "Assets/Img/Bloomington Info-card (2).webp",
+      "url": "Genres/Romance/Bloomington.html"
+    },
+    {
+      "objectID": "Genres_Romance_Bonnie-&-Bonnie",
+      "title": "Bonnie & Bonnie",
+      "description": "Yara, a young woman living with her Albanian father and siblings in Hamburg, meets Kiki, a rebellious girl who changes her life. As their relationship grows, they face family opposition and the pressure to keep their love secret. When their relationship is discovered, the two young women set out to escape and pursue a life together.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+",
+        "Road Movie"
+      ],
+      "type": "Movie",
+      "year": 2019,
+      "rating": null,
+      "poster": "Assets/Img/Bonnie-&-Bonnie-Info-Card.webp",
+      "url": "Genres/Romance/Bonnie-&-Bonnie.html"
+    },
+    {
+      "objectID": "Genres_Romance_Elena-Undone",
+      "title": "Elena Undone",
+      "description": "Elena is a devoted wife to a pastor, a mother and a daughter in a traditional family. When she meets Peyton, an openly lesbian writer dealing with personal grief, the two women form an unexpected bond. Their friendship develops into a passionate relationship, forcing Elena to confront her feelings, her marriage and the future of her family.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2010,
+      "rating": null,
+      "poster": "Assets/Img/Elena Undone Info card.webp",
+      "url": "Genres/Romance/Elena-Undone.html"
+    },
+    {
+      "objectID": "Genres_Romance_Good-Kisser",
+      "title": "Good Kisser",
+      "description": "Jenna and Kate, a couple approaching two years together, decide to invite Mia, an alluring and enigmatic stranger, into their relationship for a weekend. What begins as an attempt to add excitement and explore their desires gradually exposes insecurities, emotional tensions and unresolved problems within their relationship.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2019,
+      "rating": null,
+      "poster": "Assets/Img/Good Kisser Info-card.webp",
+      "url": "Genres/Romance/Good-Kisser.html"
+    },
+    {
+      "objectID": "Genres_Romance_Hallam-Foe",
+      "title": "Hallam Foe",
+      "description": "Hallam Foe is a troubled young man who remains consumed by the mysterious death of his mother. Convinced that his stepmother Verity knows more than she admits, he eventually leaves home and travels to Edinburgh. There, he finds work at a hotel and becomes fascinated by Kate, a woman whose appearance reminds him of his mother. As his obsession develops into a complicated relationship, Hallam must confront his grief, suspicions and emotional confusion.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Mystery",
+        "Coming-of-Age"
+      ],
+      "type": "Movie",
+      "year": 2007,
+      "rating": null,
+      "poster": "Assets/Img4/Hallam-Foe-Info-Card.webp",
+      "url": "Genres/Romance/Hallam-Foe.html"
+    },
+    {
+      "objectID": "Genres_Romance_I-Cant-Think-Straight",
+      "title": "I Can't Think Straight",
+      "description": "Tala, a Palestinian woman living in London and preparing for an elaborate wedding, meets Leyla, a British Indian woman dating her best friend. Their unexpected attraction challenges family expectations, tradition and their understanding of themselves.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2008,
+      "rating": null,
+      "poster": "Assets/Img/I Can't Think Straight Info Card .webp",
+      "url": "Genres/Romance/I-Cant-Think-Straight.html"
+    },
+    {
+      "objectID": "Genres_Romance_Portrait-Of-A-Lady-On-Fire",
+      "title": "Portrait of a Lady on Fire",
+      "description": "Set in 18th-century France, the film follows Marianne, a painter commissioned to create the wedding portrait of Héloïse, a young woman who resists her arranged marriage. As Marianne secretly observes and paints her, an unexpected romantic connection develops between them.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Historical",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2019,
+      "rating": null,
+      "poster": "Assets/Img/Portrait-Of-A-Lady-On-Fire Info-card.webp",
+      "url": "Genres/Romance/Portrait-Of-A-Lady-On-Fire.html"
+    },
+    {
+      "objectID": "Genres_Romance_Tell-It-To-The-Bees",
+      "title": "Tell It to the Bees",
+      "description": "In 1950s Scotland, Dr. Jean Markham returns to her hometown to take over her late father's medical practice. When young Charlie befriends the bees in her garden, his mother Lydia enters Jean's world, and the two women develop an unexpected romantic connection that challenges the expectations of their conservative community.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Historical",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2018,
+      "rating": null,
+      "poster": "Assets/Img/Tell-It-To-The-Bees-Info-card.webp",
+      "url": "Genres/Romance/Tell-It-To-The-Bees.html"
+    },
+    {
+      "objectID": "Genres_Romance_Water-Lilies",
+      "title": "Water Lilies",
+      "description": "During a summer in a French suburb, fifteen-year-old Marie becomes fascinated by Floriane, the star of a local synchronised swimming team. As Marie grows closer to Floriane and her best friend Anne searches for romance of her own, the three girls experience the uncertainty, jealousy and emotional intensity of adolescence.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Coming-of-Age",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2007,
+      "rating": null,
+      "poster": "Assets/Img/Water Lilies Info-card.webp",
+      "url": "Genres/Romance/Water-Lilies.html"
+    },
+    {
+      "objectID": "Genres_Romance_When-Night-Starts-Falling",
+      "title": "When Night Is Falling",
+      "description": "Camille Baker is a professor at a conservative Christian college who appears to have her future mapped out alongside her longtime partner, Martin. After meeting Petra, a free-spirited circus performer, Camille discovers an unexpected attraction that challenges her beliefs, relationship and carefully structured life.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 1995,
+      "rating": null,
+      "poster": "Assets/Img14/When-Night-Is-Falling-Info-Card.webp",
+      "url": "Genres/Romance/When-Night-Starts-Falling.html"
+    },
+    {
+      "objectID": "Genres_Romance_You-Can-Live-Forever",
+      "title": "You Can Live Forever",
+      "description": "Set in the early 1990s, the film follows Jaime, a queer teenager sent to live with her devout Jehovah's Witness relatives in Quebec after her father's death. She develops an intense romantic relationship with Marike, the daughter of a prominent member of the congregation. As their relationship becomes increasingly difficult to conceal, both girls face painful choices between their feelings, faith and community.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Coming-of-Age",
+        "LGBTQ+"
+      ],
+      "type": "Movie",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img2/You-Can-Live-Forever-Info-Card.webp",
+      "url": "Genres/Romance/You-Can-Live-Forever.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Aging-Out",
+      "title": "Aging Out",
+      "description": "Just months before Jenn's 30th birthday, she is dumped by her long-term girlfriend, Frankie. With the help of a surprise houseguest, Jenn sets off on a mission to get Frankie back before the new year — a cozy holiday rom-com about love, self-discovery, and the challenges of approaching a milestone birthday.",
+      "genres": [
+        "Short Film",
+        "Romantic Comedy",
+        "LGBTQ+",
+        "Holiday"
+      ],
+      "type": "Short",
+      "year": 2023,
+      "rating": null,
+      "poster": "Assets/Img6/Aging-Out-Info-Card.webp",
+      "url": "Genres/Shorts/Aging-Out.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Ayaneh",
+      "title": "Ayaneh",
+      "description": "Set in Switzerland, Ayaneh follows a young refugee from Afghanistan who meets Anna, a local Swiss girl, at a public swimming pool and instantly feels an undeniable attraction to her. As their relationship develops, Ayaneh is confronted with resistance from her religious family, forcing her to choose between the life expected of her and the freedom to be herself.",
+      "genres": [
+        "Short Film",
+        "Drama",
+        "LGBTQ+",
+        "Romance"
+      ],
+      "type": "Short",
+      "year": 2019,
+      "rating": null,
+      "poster": "Assets/Img10/Ayaneh-Info-Card.webp",
+      "url": "Genres/Shorts/Ayaneh.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Beverly-Heights",
+      "title": "Beverly Heights",
+      "description": "Marci, a young actress who stars as a beloved cheerleader on a hit TV show, is adored by fans as the ideal girl next door and publicly dates her co-star. But behind closed doors, she develops an obsessive attraction to a mysterious girl named Emily, struggling to reconcile her hidden desires with the pressures of fame and her carefully maintained public image.",
+      "genres": [
+        "Short Film",
+        "Drama",
+        "Thriller",
+        "LGBTQ+"
+      ],
+      "type": "Short",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img10/Beverly-Heights-Info-Card.webp",
+      "url": "Genres/Shorts/Beverly-Heights.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Camp-Belvidere",
+      "title": "Camp Belvidere",
+      "description": "Set at an all-girls summer camp in the late 1950s, Camp Belvidere follows Rose, a bold and vibrant young camp leader, and her unlikely friendship with Gin, the camp's composed and closeted nurse. As the two women spend more time together, their bond slowly evolves into a tender, forbidden romance neither of them expected.",
+      "genres": [
+        "Short Film",
+        "Romance",
+        "LGBTQ+",
+        "Drama",
+        "Period Drama"
+      ],
+      "type": "Short",
+      "year": 2014,
+      "rating": null,
+      "poster": "Assets/Img8/Camp-Belvidere-Info-Card.webp",
+      "url": "Genres/Shorts/Camp-Belvidere.html"
+    },
+    {
+      "objectID": "Genres_Shorts_From-A-To-Q",
+      "title": "From A to Q",
+      "description": "22-year-old Alex wakes suddenly from a dream in which she confesses her love to her best friend Kayla. She must decide whether to risk their lifelong friendship by telling her the truth.",
+      "genres": [
+        "Short Film",
+        "Coming of Age",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "Short",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img6/From-A-To-Q-Info-Card.webp",
+      "url": "Genres/Shorts/From-A-To-Q.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Kasbi",
+      "title": "Kasbi",
+      "description": "Maryam, a middle-aged Pakistani housewife searching for herself beyond the responsibilities of family life, hires a young sex worker named Aisha to keep her company for a night in a motel room. Their conversation brings Maryam's guarded desires and the pressures of family, faith and cultural expectations into focus.",
+      "genres": [
+        "Short Film",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "Short",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/Kasbi-Info-Card.webp",
+      "url": "Genres/Shorts/Kasbi.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Let",
+      "title": "Let",
+      "description": "An isolated law student wrestling with a compulsion toward self-harm and pain meets a confident stranger one night. Their unexpected connection carries them both into new emotional territory.",
+      "genres": [
+        "Short Film",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "Short",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img10/Let-Info-Card.jpg",
+      "url": "Genres/Shorts/Let.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Sew-Into-You",
+      "title": "Sew Into You",
+      "description": "A widowed older woman named Maggie seeks guidance from her younger queer coworker Orion to ask out a woman for the first time. Their interaction becomes a warm story about confidence, love and embracing one's identity at any age.",
+      "genres": [
+        "Short Film",
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "Short",
+      "year": 2023,
+      "rating": null,
+      "poster": "Assets/Images/Logos_Other_images/Cinelux-Logo.webp",
+      "url": "Genres/Shorts/Sew-Into-You.html"
+    },
+    {
+      "objectID": "Genres_Shorts_Shrimp",
+      "title": "Shrimp",
+      "description": "Shrimp explores the strange, interwoven and often hilarious daily lives of the women and men who work and play in a Los Angeles BDSM den.",
+      "genres": [
+        "Short Film",
+        "Comedy",
+        "Drama"
+      ],
+      "type": "Short",
+      "year": 2018,
+      "rating": null,
+      "poster": "Assets/Img15/Shrimp-Info-Card.webp",
+      "url": "Genres/Shorts/Shrimp.html"
+    },
+    {
+      "objectID": "Genres_Shorts_The-Non-Actor",
+      "title": "The Non-Actor",
+      "description": "Elliot is staying with her ex’s new girlfriend while attending a medical trial for her unexplained loss of hearing. As she adjusts to her sonic environment and herself, an intimate connection sparks between the two women.",
+      "genres": [
+        "Drama",
+        "Short Film"
+      ],
+      "type": "Short",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img15/The-Non-Actor-Info-Card.webp",
+      "url": "Genres/Shorts/The-Non-Actor.html"
+    },
+    {
+      "objectID": "Genres_Shorts_The-Wedding-Night",
+      "title": "The Wedding Night",
+      "description": "An LGBTQ+ couple faces family pressure and old insecurities on their wedding day, navigating love, conflict and acceptance as they prepare to celebrate their relationship.",
+      "genres": [
+        "Short Film",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "Short",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img15/Wedding-Night-Cover.webp",
+      "url": "Genres/Shorts/The-Wedding-Night.html"
+    },
+    {
+      "objectID": "Genres_Thriller_Stone-Cold-Fox",
+      "title": "Stone Cold Fox",
+      "description": "Set in 1986, Stone Cold Fox follows Fox, a young woman who escapes an abusive commune and tries to rebuild her life. When the commune's ruthless queenpin kidnaps her younger sister and a corrupt police officer pursues her, Fox must infiltrate the dangerous world she left behind to save her family.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime",
+        "Revenge"
+      ],
+      "type": "Movie",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img11/Stone-Cold-Fox-Info-Card.webp",
+      "url": "Genres/Thriller/Stone-Cold-Fox.html"
+    },
+    {
+      "objectID": "Genres_Thriller_Wild-Things-1",
+      "title": "Wild Things",
+      "description": "In South Florida, popular high-school guidance counsellor Sam Lombardo is accused of sexual assault by student Kelly Van Ryan. When another student, Suzie Toller, comes forward with a similar accusation, the case attracts the attention of Detective Ray Duquette. As the investigation unfolds, a complicated scheme of deception, greed and manipulation emerges, revealing that nothing is quite as it seems.",
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Crime",
+        "Erotic Thriller"
+      ],
+      "type": "Movie",
+      "year": 1998,
+      "rating": null,
+      "poster": "Assets/Img/Wild-Things-Info-Card.webp",
+      "url": "Genres/Thriller/Wild-Things-1.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Affair",
+      "title": "Affair the Series",
+      "description": "Affair the Series is a 2024 Thai GL romance drama about childhood friends Wanwiwa and Siangphleng reunited after a decade of separation caused by family bankruptcy, exploring themes of lost love, class conflict, and emotional reunion.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+",
+        "Girls' Love",
+        "Thai Series"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img/Affair - Info - card.webp",
+      "url": "Genres/Tv-Shows/Affair.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Again-The-Series",
+      "title": "Again: The Series",
+      "description": "Atlas, a producer and songwriter, meets Galilea, a world-traveling photojournalist. The fantasy that began as love at first sight becomes a reality thanks to an unexpected encounter between these two women -- but Galilea wasn't ready for what was about to happen, and neither was Atlas. Is it possible to fall in love with the same person again?",
+      "genres": [
+        "Romance",
+        "Drama",
+        "LGBTQ+",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/again-the-series-info-card.webp",
+      "url": "Genres/Tv-Shows/Again-The-Series.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Arrow",
+      "title": "Arrow",
+      "description": "Presumed-dead billionaire playboy Oliver Queen returns to Starling City after five years stranded on a remote island, and rights the wrongs of his father and his city as the hooded vigilante Arrow. Across eight seasons, he builds Team Arrow, faces off against the League of Assassins, HIVE, and countless other threats, and becomes the foundation of the Arrowverse.",
+      "genres": [
+        "Action",
+        "Superhero",
+        "Drama",
+        "Adventure"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img/Arrow Info-card.webp",
+      "url": "Genres/Tv-Shows/Arrow.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Blank-The-Series",
+      "title": "Blank the Series",
+      "description": "Khun Nueng, a woman of royal lineage raised under her grandmother's crushing expectations, has never felt truly loved or worthy. Everything changes when she meets Anueng, a bright young woman whose warmth begins to break through her walls — but a sixteen-year age gap and unforgiving family and social norms threaten to keep them apart.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img15/Blank-The-Series-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Blank-The-Series.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Dangerous-Queen",
+      "title": "Dangerous Queen",
+      "description": "Dangerous Queen is a Thai GL romance drama series exploring the complicated relationship between Queen and Bonita, blending romance, drama and emotional conflict.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img14/Dangerous-Queen-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Dangerous-Queen.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Dickinson",
+      "title": "Dickinson",
+      "description": "Dickinson is a historical comedy-drama series that reimagines the early life of American poet Emily Dickinson. Starring Hailee Steinfeld, the series explores poetry, love, gender, family and society through a witty and unconventional perspective.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Biography",
+        "Historical Fiction",
+        "Romance"
+      ],
+      "type": "TV Show",
+      "year": 2019,
+      "rating": null,
+      "poster": "Assets/Img/Dickinson Info-card.webp",
+      "url": "Genres/Tv-Shows/Dickinson.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Elixir-After-Time",
+      "title": "Elixir: After Time",
+      "description": "Elixir: After Time is a Spanish-language GL mystery drama about Max and Olivia, who discover an unusual connection when physical contact allows them to experience the memories of Isabela and Ana, a couple from another time.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Romance",
+        "LGBTQ+",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/Elixir-After-Time-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Elixir-After-Time.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Fingersmith",
+      "title": "Fingersmith",
+      "description": "Raised among a community of petty thieves, orphan Sue Trinder agrees to help a con man known as Gentleman deceive wealthy heiress Maud Lilly. Their elaborate scheme takes an unexpected turn when Sue falls in love with Maud, leading both women into a story of betrayal, separation and passion.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Romance",
+        "Gothic"
+      ],
+      "type": "TV Show",
+      "year": 2005,
+      "rating": null,
+      "poster": "Assets/Img2/Fingersmith-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Fingersmith.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_First-Kill",
+      "title": "First Kill",
+      "description": "First Kill follows teenage vampire Juliette Fairmont and vampire hunter Calliope Burns, who fall in love despite belonging to rival supernatural families. Their relationship challenges the expectations and traditions surrounding both vampires and hunters.",
+      "genres": [
+        "Supernatural",
+        "Romance",
+        "Drama",
+        "Fantasy"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img/First Kill.webp",
+      "url": "Genres/Tv-Shows/First-Kill.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Frozen-Valentine",
+      "title": "Frozen Valentine",
+      "description": "Frozen Valentine follows Pingrak, a popular student who reunites with P'Charm, her former crush and an emotionally distant senior. Although Charm does not recognize the shy, bespectacled girl who once admired her, their reunion creates an opportunity for an unexpected romance.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img14/Frozen-Valentine-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Frozen-Valentine.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Gap-The-Series",
+      "title": "Gap: The Series",
+      "description": "Ever since Sam came to her aid years ago, Mon has always considered her a role model. After graduating, Mon takes a job at Sam's company and discovers that the woman she admired has a distant exterior. As they grow closer, Mon's feelings gradually change from admiration to love, despite the barriers of age, gender, workplace rules, and social class.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img/Gap The Series Info-card.webp",
+      "url": "Genres/Tv-Shows/Gap-The-Series.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Hacks",
+      "title": "Hacks",
+      "description": "Hacks is a comedy-drama series about Deborah Vance, a legendary Las Vegas comedian, who forms an unexpected creative partnership with Ava Daniels, a young writer. Together, they navigate the challenges of comedy, ambition, and reinvention.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "type": "TV Show",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img8/Hacks-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Hacks.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Hal-And-Harper",
+      "title": "Hal & Harper",
+      "description": "Codependent siblings Hal and Harper have built their adult lives side by side in Los Angeles, connected by a lifetime of inside jokes and shared pain. When they return to their childhood home, now up for sale, their father delivers shocking news that forces the family to confront long-buried trauma. Through nonlinear storytelling and flashbacks, the series explores how family bonds and formative experiences shape who we become.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "type": "TV Show",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img9/Hal-and-Harper-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Hal-And-Harper.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Heart-Code",
+      "title": "Heart Code",
+      "description": "A police officer's daughter joins an elite academy and falls for her disciplined roommate. Their budding romance faces unexpected challenges when buried family secrets surface, drawing them into a conspiracy that tests their loyalties.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img14/Heart-Code-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Heart-Code.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Hex",
+      "title": "Hex",
+      "description": "Hex is a British supernatural drama set at the fictional Medenham Hall. The series follows Cassie Hughes as she discovers a supernatural family legacy and becomes entangled in the mysterious history of the school, the spirit world and the powerful Azazeal.",
+      "genres": [
+        "Drama",
+        "Supernatural",
+        "Horror",
+        "Fantasy"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img3/Hex-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Hex.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Hometown-Romance",
+      "title": "Hometown Romance",
+      "description": "A privileged heiress tries to prove she can lead her family's company. When a crucial land lease negotiation stalls, countryside landowner Klao offers to renew it if Si agrees to marry her. Their contrasting lives lead to an unexpected romance.",
+      "genres": [
+        "Girls Love",
+        "Romance",
+        "Romantic Comedy",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img15/Hometown-Romance-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Hometown-Romance.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_I-Know-What-You-Did-Last-Summer",
+      "title": "I Know What You Did Last Summer",
+      "description": "One year after the fatal car accident that haunted their graduation night, a group of teenagers find themselves bound together by a dark secret and stalked by a brutal killer. As they try to discover who is targeting them, they uncover the dark side of their seemingly perfect town and themselves.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery",
+        "Drama",
+        "Slasher"
+      ],
+      "type": "TV Show",
+      "year": 2021,
+      "rating": null,
+      "poster": "Assets/Img5/I-Know-What-You-Did-Last-Summer-Info-Card.webp",
+      "url": "Genres/Tv-Shows/I-Know-What-You-Did-Last-Summer.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_In-Love-Forever",
+      "title": "In Love Forever",
+      "description": "After a bitter divorce caused by family pressure, successful lawyer Ran and outspoken Gen-Z heiress Neen want nothing to do with each other. But when a high-stakes business deal requires them to pretend they're still happily married, the former couple is forced back together, and old feelings and unresolved wounds begin to resurface while Ran's controlling mother tries to keep them apart.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Melodrama",
+        "Girls Love",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img14/In-Love-Forever-Info-Card.webp",
+      "url": "Genres/Tv-Shows/In-Love-Forever.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Legend-Of-The-Seeker",
+      "title": "Legend of the Seeker",
+      "description": "Accompanied by the wizard Zedd and the mysterious Kahlan, woodsman Richard Cypher discovers his destiny as the Seeker of Truth. Using his newfound powers, Richard must help stop a ruthless tyrant from unleashing an ancient evil upon the world. The series is adapted from Terry Goodkind's Sword of Truth fantasy novels.",
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Action"
+      ],
+      "type": "TV Show",
+      "year": 2008,
+      "rating": null,
+      "poster": "Assets/Img/Legend Of The Seeker Info-card.webp",
+      "url": "Genres/Tv-Shows/Legend-Of-The-Seeker.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Love-Design",
+      "title": "Love Design",
+      "description": "A Thai girls' love romantic comedy-drama about architect Aokbab, who returns to rebuild her family's firm and teams up with talented architect Rin. Their growing connection is complicated by professional rivalry and the return of Aokbab's first love, Mind.",
+      "genres": [
+        "Girls' Love",
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "type": "TV Show",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img15/Love-Design-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Love-Design.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Moon-Knight",
+      "title": "Moon Knight",
+      "description": "Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life. He discovers he shares a body with mercenary Marc Spector. As their enemies converge, Steven and Marc must navigate their complicated identities while becoming involved in a dangerous mystery surrounding the ancient gods of Egypt.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery",
+        "Superhero",
+        "Thriller",
+        "Fantasy"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img/Moon Knight Info-card.webp",
+      "url": "Genres/Tv-Shows/Moon-Knight.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Ms-Marvel",
+      "title": "Ms. Marvel",
+      "description": "Kamala Khan is a passionate superhero fan with a vivid imagination, particularly when it comes to Captain Marvel. Feeling out of place at school and sometimes at home, Kamala's life changes when she discovers she has extraordinary powers of her own, setting her on a journey toward becoming a superhero.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Superhero",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img/Ms-Marvel-Info-card-.webp",
+      "url": "Genres/Tv-Shows/Ms-Marvel.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_My-Safe-Zone",
+      "title": "My Safe Zone",
+      "description": "Best friends since childhood, Alin and Jane drift apart when Alin moves abroad. Eight years later, after a broken engagement, Alin returns home heartbroken and reunites with Jane. As they reconnect, hidden feelings begin to surface between them.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img14/My-Safe-Zone-Info-Card.webp",
+      "url": "Genres/Tv-Shows/My-Safe-Zone.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Pluto",
+      "title": "Pluto",
+      "description": "Ai-oon has always lived in the shadow of her successful twin sister Ob-oom. On Ob-oom's wedding night, Ai-oon is asked to end her sister's secret relationship with a woman named May. After a tragic accident leaves Ob-oom in a coma, Ai-oon carries out the request herself, only to discover that May is blind and does not know she is speaking to the wrong twin. As they grow closer, Ai-oon develops unexpected feelings for May.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img13/Pluto-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Pluto.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Reminder",
+      "title": "Reminder",
+      "description": "Architect Deniz and editor Güneş, who separated on the verge of marriage, unexpectedly cross paths again. A mysterious message on their phones draws them into a journey through Istanbul and Cappadocia. Along the way, they confront their past, rediscover their connection, and question whether their love deserves another chance.",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "type": "TV Show",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img8/Reminder-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Reminder.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Show-Me-Love",
+      "title": "Show Me Love",
+      "description": "Meena, a young woman from a rural area, moves to Bangkok with dreams of becoming a singer. She meets Cherine, who encourages her to join an agency and compete in the Miss Grand beauty pageant. As Meena pursues her ambitions, an unexpected romance develops between the two women amid friendship, heartbreak and personal challenges.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2023,
+      "rating": null,
+      "poster": "Assets/Img14/Show-Me-Love-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Show-Me-Love.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Sleep-With-Me",
+      "title": "Sleep With Me",
+      "description": "Harry, an overnight radio DJ who uses a wheelchair, offers relationship advice to her late-night listeners. When she meets Luna, a woman who struggles with a sleep disorder, an unexpected romance develops between them. Together, they navigate love, past heartbreak and the challenges of building a relationship in a world that does not always understand them.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img14/Sleep-With-Me-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Sleep-With-Me.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Smallville",
+      "title": "Smallville",
+      "description": "After a meteor shower strikes Smallville, Kansas, a young Clark Kent grows up with extraordinary abilities. Raised by Jonathan and Martha Kent, Clark struggles to understand his powers while navigating friendships, relationships, and rivalries with people such as Lex Luthor, Lana Lang, and Chloe Sullivan on his journey toward becoming Superman.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Superhero"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img/Smallville-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Smallville.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Special-Ops-Lioness",
+      "title": "Special Ops: Lioness",
+      "description": "CIA operative Joe McNamara leads the Lioness program, a covert operation that trains female operatives to infiltrate dangerous networks and gather intelligence. Working alongside senior CIA officials Kaitlyn Meade and Byron Westfield, Joe navigates high-risk missions while struggling to balance the demands of her professional and family life.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller",
+        "Espionage",
+        "Spy Thriller"
+      ],
+      "type": "TV Show",
+      "year": 2023,
+      "rating": null,
+      "poster": "Assets/Img/Special-Ops-Lioness-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Special-Ops-Lioness.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Stupid-Wife",
+      "title": "Stupid Wife",
+      "description": "Luíza and Valentina are law students with completely different personalities and backgrounds. Luíza dislikes Valentina, but one day wakes up ten years older and discovers that she is married to her. Following a traumatic experience that caused dissociative amnesia, Luíza struggles to remember her marriage and family, while Valentina tries to rebuild their relationship.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img2/Stupid-Wife-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Stupid-Wife.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Supergirl",
+      "title": "Supergirl",
+      "description": "Kara Zor-El, Superman's cousin, was sent to Earth to protect her infant cousin but became trapped in the Phantom Zone. Years later, she arrives on Earth as an adult and tries to live an ordinary life. When a disaster forces her to reveal her extraordinary abilities, Kara embraces her destiny as Supergirl, protecting National City while working as a reporter for CatCo Worldwide Media.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Science Fiction",
+        "Superhero"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img/Supergirl Info-card.webp",
+      "url": "Genres/Tv-Shows/Supergirl.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Superman-And-Lois",
+      "title": "Superman & Lois",
+      "description": "Clark Kent and Lois Lane return to Smallville with their twin sons, Jonathan and Jordan. As Clark balances fatherhood and marriage with his responsibility to protect the world as Superman, the Kent family faces new threats and personal challenges.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Science Fiction",
+        "Superhero"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img12/Superman-&-Lois-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Superman-And-Lois.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Better-Sister",
+      "title": "The Better Sister",
+      "description": "Chloe Taylor, a high-profile media executive, appears to have a perfect life with her husband Adam and teenage son Ethan, while her estranged sister Nicky struggles with addiction. When Adam is murdered, the sisters are drawn back together as the investigation exposes years of betrayal, suspicion, and buried family secrets.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "type": "TV Show",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img8/The-Better-Sister-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Better-Sister.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Confessions-Of-Frannie-Langton",
+      "title": "The Confessions of Frannie Langton",
+      "description": "A servant and formerly enslaved woman is accused of murdering her employers in Georgian London. Moving from Jamaican sugar plantations to London society, Frannie Langton fights to tell her own story and reveal the truth about her relationship with the woman she is accused of killing.",
+      "genres": [
+        "Drama",
+        "Historical Drama",
+        "Crime",
+        "Mystery",
+        "Romance"
+      ],
+      "type": "TV Show",
+      "year": 2022,
+      "rating": null,
+      "poster": "Assets/Img10/The-Confessions-Of-Frannie-Langton-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Confessions-Of-Frannie-Langton.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Fire",
+      "title": "The Fire",
+      "description": "Atjima Fai Wathinwanit, an heiress to a wealthy southern family, is reunited with her childhood rival Athittaya Kaphrao, who becomes her new assistant. Believing Kaphrao has ulterior motives involving her family fortune, Fai makes her life difficult. Their constant clashes gradually develop into an unexpected romance.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": 2026,
+      "rating": null,
+      "poster": "Assets/Img14/The-Fire-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Fire.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Flash",
+      "title": "The Flash",
+      "description": "The Flash follows Barry Allen, a Central City forensic scientist who gains superhuman speed after being struck by lightning during a S.T.A.R. Labs particle accelerator explosion. Becoming the superhero known as the Flash, Barry protects his city from metahumans and faces increasingly powerful threats involving time travel, alternate timelines, and the multiverse.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Science Fiction",
+        "Superhero"
+      ],
+      "type": "TV Show",
+      "year": 2014,
+      "rating": null,
+      "poster": "Assets/Img/The Flash Info-card.webp",
+      "url": "Genres/Tv-Shows/The-Flash.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Haunting-Of-Bly-Manor",
+      "title": "The Haunting of Bly Manor",
+      "description": "In 1987, American au pair Dani Clayton accepts a position at Bly Manor, a remote English country estate, to care for two orphaned children, Flora and Miles. As she settles into life at the manor, Dani encounters unsettling supernatural events and uncovers the tragic histories connecting its residents and ghosts.",
+      "genres": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Mystery",
+        "Supernatural"
+      ],
+      "type": "TV Show",
+      "year": 2020,
+      "rating": null,
+      "poster": "Assets/Img10/The-Haunting-Of-Bly-Manor-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Haunting-Of-Bly-Manor.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Hunting-Wives",
+      "title": "The Hunting Wives",
+      "description": "Sophie O'Neil relocates with her family from Cambridge, Massachusetts, to Maple Brook, East Texas, hoping for a fresh start. She soon becomes fascinated by wealthy socialite Margo Banks and is drawn into the exclusive world of the Hunting Wives, where seduction, obsession, secrets, and murder threaten to destroy the lives of everyone involved.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Mystery"
+      ],
+      "type": "TV Show",
+      "year": 2025,
+      "rating": null,
+      "poster": "Assets/Img5/The-Hunting-Wives-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Hunting-Wives.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-L-Word",
+      "title": "The L Word",
+      "description": "The L Word follows the intertwined lives and relationships of a close-knit group of lesbian and bisexual women in Los Angeles. Across six seasons, the characters navigate love, friendship, identity, family, careers, and the complexities of their personal lives.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "type": "TV Show",
+      "year": 2004,
+      "rating": null,
+      "poster": "Assets/Img/The L Word Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-L-Word.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Loyal-Pin",
+      "title": "The Loyal Pin",
+      "description": "Her Serene Highness Aninlaphat, known as Princess Anin, and Mom Rajawongse Pilanthita, known as Lady Pin, have been close since childhood. When Anin leaves Thailand to study in England, the distance separates them. Years later, her return brings them together again, forcing both women to navigate royal expectations, family obligations, and feelings that have grown beyond friendship.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Historical",
+        "Girls' Love"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img/The-Loyal-Pin-info-card.webp",
+      "url": "Genres/Tv-Shows/The-Loyal-Pin.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Originals",
+      "title": "The Originals",
+      "description": "A spin-off of The Vampire Diaries, The Originals follows the Mikaelson family, the world's first vampires, as they return to New Orleans to reclaim the French Quarter from Klaus's former protégé Marcel. Across five seasons, Klaus, Elijah, Rebekah, and Hayley navigate supernatural politics, ancient prophecies, and threats to Klaus's daughter Hope.",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Dark Fantasy",
+        "Supernatural"
+      ],
+      "type": "TV Show",
+      "year": 2013,
+      "rating": null,
+      "poster": "Assets/Img/The-Originals-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Originals.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Stripper",
+      "title": "The Stripper",
+      "description": "The Stripper is a Brazilian LGBTQ+ drama web series based on the short story of the same name by Evelin Silva. The series explores relationships, desire, and power through its central characters.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/The-Stripper-Info-Card.webp",
+      "url": "Genres/Tv-Shows/The-Stripper.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_The-Vampire-Diaries",
+      "title": "The Vampire Diaries",
+      "description": "The Vampire Diaries follows Elena Gilbert, a teenager living in Mystic Falls who becomes involved with vampire brothers Stefan and Damon Salvatore. Their arrival draws Elena and her friends into supernatural conflicts involving vampires, witches, werewolves, and the town's mysterious history.",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance",
+        "Supernatural"
+      ],
+      "type": "TV Show",
+      "year": null,
+      "rating": null,
+      "poster": "Assets/Img/The-Vampire-Diaries-Info-card.webp",
+      "url": "Genres/Tv-Shows/The-Vampire-Diaries.html"
+    },
+    {
+      "objectID": "Genres_Tv-Shows_Xeque-Mate",
+      "title": "Xeque Mate",
+      "description": "Xeque Mate is a Brazilian LGBTQ+ thriller series following Giovanna Torres, a determined police delegate who moves to Rio de Janeiro and becomes involved with the enigmatic Maya Manoela. When Giovanna investigates a major financial crime, she discovers Maya's connection to the case, setting off a dangerous game of power, money, and desire.",
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Crime",
+        "Romance",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "type": "TV Show",
+      "year": 2024,
+      "rating": null,
+      "poster": "Assets/Img2/CheckMate-Info-Card.webp",
+      "url": "Genres/Tv-Shows/Xeque-Mate.html"
+    }
   ]
 }

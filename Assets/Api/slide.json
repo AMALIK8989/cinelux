@@ -1,0 +1,248 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Reacher",
+      "description": "Former military police investigator Jack Reacher uses his sharp instincts and brutal combat skills to uncover dangerous conspiracies.",
+      "genres": ["Action", "Crime", "Drama"],
+      "rating": "8.0",
+      "badge": "Trending",
+      "watchUrl": "./Tv-Shows/Reacher.html",
+      "trailerUrl": "https://www.youtube.com/results?search_query=Reacher+Official+Trailer",
+      "poster": "POSTER_URL",
+      "bgImage": "BACKGROUND_URL"
+    },
+    {
+  "id": 2,
+  "title": "Mission: Impossible",
+  "description": "After a covert IMF mission ends in disaster, Ethan Hunt is framed as the lone traitor. Forced to go rogue, he races across Europe to uncover the real mole and clear his name before time runs out.",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+  ],
+  "rating": "7.2",
+  "badge": "Classic",
+  "watchUrl": "./Movies/Action/Mission-Impossible-1996.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Mission+Impossible+1996+Official+Trailer",
+  "poster": "./Assets/Img/Mission-Impossible-1.webp",
+  "bgImage": "./Assets/Img2/Mission-Impossible-1-Cover.webp"
+},
+    {
+  "id": 3,
+  "title": "Arrow",
+  "description": "After spending five years stranded on a hostile island, billionaire Oliver Queen returns to Star City with one mission: to right his family's wrongs. As the hooded vigilante known as the Arrow, he battles criminals, uncovers conspiracies, and protects his city from powerful enemies.",
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama",
+    "Superhero"
+  ],
+  "rating": "7.5",
+  "badge": "Fan Favorite",
+  "watchUrl": "./Tv-Shows/Arrow.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Arrow+Season+1+Official+Trailer",
+  "poster": "https://m.media-amazon.com/images/M/MV5BNjRlNjNlY2YtYzQxNS00ZTUzLTkwMTQtMjM0YjZlOWQwZmFkXkEyXkFqcGc@._V1_.jpg",
+  "bgImage": "https://m.media-amazon.com/images/S/pv-target-images/a26e14f253dc348a9e087c2e2830c3fad310e6a7f03de1021b055108fe635ec8.jpg"
+},
+    {
+  "id": 4,
+  "title": "Atomic Blonde",
+  "description": "On the eve of the Berlin Wall's collapse, elite MI6 spy Lorraine Broughton is sent into Cold War Berlin to recover a priceless list of undercover agents. As loyalties blur and enemies close in, she must rely on her lethal skills to survive a deadly web of espionage and betrayal.",
+  "genres": [
+    "Action",
+    "Thriller",
+    "Spy"
+  ],
+  "rating": "6.7",
+  "badge": "Stylish Action",
+  "watchUrl": "./Genres/Action/Atomic-Blonde.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Atomic+Blonde+Official+Trailer",
+  "poster": "./Assets/Img/Atomic Blonde Info Image.webp",
+  "bgImage": "https://ntvb.tmsimg.com/assets/p12985371_v_h10_ak.jpg?w=1280&h=720"
+},
+    {
+  "id": 5,
+  "title": "Spider-Man: No Way Home",
+  "description": "After his identity as Spider-Man is exposed, Peter Parker seeks help from Doctor Strange to restore his normal life. When a powerful spell goes wrong, villains from alternate realities emerge, forcing Peter to face the greatest challenge of his life.",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Superhero"
+  ],
+  "rating": "8.2",
+  "badge": "Blockbuster",
+  "watchUrl": "./Genres/Action/Spider-Man-No-Way-Home.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man+No+Way+Home+Official+Trailer",
+  "poster": "./Assets/Img14/Spiderman-No-Way-Home-Info-Card.webp",
+  "bgImage": "./Assets/Img14/Spiderman-No-Way-Home-Cover.webp"
+},
+    {
+  "id": 6,
+  "title": "Wild Things",
+  "description": "When a high school guidance counselor is accused of assault by two wealthy students, the shocking case spirals into a web of deception, betrayal, murder, and unexpected twists where no one is who they appear to be.",
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Thriller",
+    "Erotic Thriller"
+  ],
+  "rating": "6.6",
+  "badge": "Cult Classic",
+  "watchUrl": "./Genres/Thriller/Wild-Things.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Wild+Things+1998+Official+Trailer",
+  "poster": "./Assets/Img/Wild-Things-Info-Card.webp",
+  "bgImage": "./Assets/Img10/Wild-Things-Cover.webp"
+},
+    {
+  "id": 7,
+  "title": "Ammonite",
+  "description": "In 1840s England, renowned fossil hunter Mary Anning forms an unexpected and deeply emotional bond with Charlotte Murchison, a young woman sent to recover by the sea. Their relationship transforms both of their lives in this intimate historical romance.",
+  "genres": [
+    "Drama",
+    "Romance",
+    "Historical",
+    "LGBTQ+"
+  ],
+  "rating": "6.5",
+  "badge": "Critically Acclaimed",
+  "watchUrl": "./Genres/Action/Atomic-Blonde.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Ammonite+2020+Official+Trailer",
+  "poster": "./Assets/Img/Ammonite-Info-card.webp",
+  "bgImage": "./Assets/Img/Ammonite-Cover.webp"
+},
+    {
+  "id": 8,
+  "title": "Wild Things 2",
+  "description": "After the sudden death of a wealthy businessman, two young women become entangled in a dangerous battle over his fortune. As betrayals, seduction, and murder unfold, shocking twists reveal that nothing is as it seems.",
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Thriller",
+    "Erotic Thriller"
+  ],
+  "rating": "4.5",
+  "badge": "Twisted Sequel",
+  "watchUrl": "./Genres/Thriller/Wild-Things-2.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Wild+Things+2+Official+Trailer",
+  "poster": "./Assets/Img/Wild-Things-2-Info-Card.webp",
+  "bgImage": "./Assets/Img10/Wild-Things-2-Cover.webp"
+},
+    {
+  "id": 9,
+  "title": "Oppenheimer",
+  "description": "Physicist J. Robert Oppenheimer leads the top-secret Manhattan Project during World War II, racing to develop the world's first atomic bomb while confronting the profound moral consequences of his groundbreaking work.",
+  "genres": [
+    "Biography",
+    "Drama",
+    "History"
+  ],
+  "rating": "8.3",
+  "badge": "Oscar Winner",
+  "watchUrl": "./Genres/Drama/Oppenheimer.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Oppenheimer+Official+Trailer",
+  "poster": "./Assets/Img10/Oppenheimer-Info-Card.webp",
+  "bgImage": "./Assets/Img10/Oppenheimer-Cover.webp"
+},
+    {
+  "id": 10,
+  "title": "Below Her Mouth",
+  "description": "A successful fashion editor's life takes an unexpected turn when she begins a passionate affair with a confident roofer. As their intense relationship deepens, both women are forced to confront desire, identity, and the consequences of following their hearts.",
+  "genres": [
+    "Drama",
+    "Romance",
+    "LGBTQ+"
+  ],
+  "rating": "5.5",
+  "badge": "Romantic Drama",
+  "watchUrl": "./Genres/Romance/Below-Her-Mouth.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Below+Her+Mouth+Official+Trailer",
+  "poster": "./Assets/Img/Below-Her-Mouth-Info-Card.webp",
+  "bgImage": "./Assets/Img2/Below-Her-Mouth-Cover.webp"
+},
+    {
+  "id": 11,
+  "title": "Terrifier 3",
+  "description": "As Christmas approaches, Art the Clown returns to Miles County with an even more brutal reign of terror. Haunted survivor Sienna Shaw must confront her darkest fears to stop the sadistic killer before another holiday turns into a nightmare.",
+  "genres": [
+    "Horror",
+    "Slasher",
+    "Supernatural"
+  ],
+  "rating": "6.3",
+  "badge": "Fan Favorite",
+  "watchUrl": "./Genres/Horror/Terrifier-3.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Terrifier+3+Official+Trailer",
+  "poster": "./Assets/Img/Terrifier-3-1-Info-Card.webp",
+  "bgImage": "./Assets/Img/Terrifier-3-Cover.webp"
+},
+    {
+  "id": 12,
+  "title": "Black Swan",
+  "description": "A gifted but fragile ballerina lands the lead role in Swan Lake, where the relentless pursuit of perfection begins to blur the line between reality and obsession. As pressure mounts, she descends into a haunting psychological nightmare.",
+  "genres": [
+    "Drama",
+    "Psychological",
+    "Thriller"
+  ],
+  "rating": "8.0",
+  "badge": "Oscar Winner",
+  "watchUrl": "./Genres/Horror/Black-Swan.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Black+Swan+2010+Official+Trailer",
+  "poster": "./Assets/Img/Black-Swan-Info-Card.webp",
+  "bgImage": "./Assets/Img/Black-Swan-Cover.webp"
+},
+ {
+  "id": 13,
+  "title": "The Jester",
+  "description": "On Halloween night, a mysterious and malevolent entity known as The Jester unleashes terror upon a quiet town. As the body count rises, two estranged sisters must reunite and uncover the truth behind the supernatural killer before they become his next victims.",
+  "genres": [
+    "Horror",
+    "Mystery",
+    "Supernatural",
+    "Slasher"
+  ],
+  "rating": "3.9",
+  "badge": "Halloween Horror",
+  "watchUrl": "./Genres/Horror/The-Jester.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=The+Jester+2023+Official+Trailer",
+  "poster": "./Assets/Img/The-Jester-Info-Card.webp",
+  "bgImage": "./Assets/Img4/The-Jester-Cover.webp"
+},
+  {
+  "id": 14,
+  "title": "Blue Beetle",
+  "description": "Recent college graduate Jaime Reyes discovers an ancient alien Scarab that bonds with him, transforming him into the powerful Blue Beetle. As he learns to control his extraordinary new abilities, Jaime must protect his family from a ruthless corporation determined to weaponize the Scarab.",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi",
+    "Superhero"
+  ],
+  "rating": "5.9",
+  "badge": "DC Universe",
+  "watchUrl": "./Genres/Action/Blue-Beetle.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Blue+Beetle+Official+Trailer",
+  "poster": "./Assets/Img/Blue-Beetle-info-card.webp",
+  "bgImage": "https://m.media-amazon.com/images/S/pv-target-images/28a4c1eddb2ead5852f914fadcfe8dbe563fd11f216c0631ffe3fb92b03411b6.jpg"
+},
+   {
+  "id": 15,
+  "title": "Fear Street Part One: 1994",
+  "description": "After a series of brutal murders shakes the town of Shadyside, a group of teenagers discovers that an ancient curse has haunted their community for centuries. To survive the relentless evil stalking them, they must uncover the terrifying truth behind Sarah Fier's legend.",
+  "genres": [
+    "Horror",
+    "Mystery",
+    "Slasher",
+    "Supernatural"
+  ],
+  "rating": "6.2",
+  "badge": "Netflix Original",
+  "watchUrl": "./Genres/Horror/Fear-Street-Part-One-1994.html",
+  "trailerUrl": "https://www.youtube.com/results?search_query=Fear+Street+Part+One+1994+Official+Trailer",
+  "poster": "./Assets/Img/Fear-Street-Part-One-1994-Info-Card.webp",
+  "bgImage": "./Assets/Img10/Fear-Street-Part-One-Cover.webp"
+}
+  ]
+}
