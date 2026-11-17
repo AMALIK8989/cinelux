@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        const response = await fetch("../../Assets/Api/Data.json");
+        const response = await fetch("../../Assets/Api/slide.json");
         if (!response.ok) throw new Error("Unable to load slider data.");
         const json = await response.json();
         const movies = json.data;
