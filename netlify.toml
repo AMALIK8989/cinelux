@@ -1,0 +1,34 @@
+[build]
+  command = "node scripts/netlify-build.mjs"
+  publish = "dist"
+
+  [[redirects]]
+    from = "/genre/thriller"
+    to = "/Genre/Thriller.html"
+    status = 200
+
+  [[redirects]]
+    from = "/genres/thriller/inferno"
+    to = "/Genres/Thriller/Inferno.html"
+    status = 200
+
+[[redirects]]
+  from = "/Genre/TV-Shows.html"
+  to = "/Genre/Tv-Shows.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Genre/tv-shows.html"
+  to = "/Genre/Tv-Shows.html"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/Genre/Tv_series.html"
+  to = "/Genre/Tv-Shows.html"
+  status = 301
+  force = true
+  
+  [build.environment]
+    NODE_VERSION = "24"
