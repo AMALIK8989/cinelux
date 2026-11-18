@@ -46,6 +46,7 @@ body {
   color: var(--cx-text-primary);
   font-family: var(--cx-font-body);
   line-height: 1.65;
+   overflow-x: hidden !important;
 }
 
 h1, h2, h3, h4 {

@@ -144,6 +144,7 @@ body {
   font-size: var(--cx-fs-body);
   line-height: var(--cx-lh-body);
   font-weight: var(--cx-fw-regular);
+  overflow-x: hidden !important;
 }
 
 .cx-header{
