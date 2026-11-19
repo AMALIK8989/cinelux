@@ -9,8 +9,8 @@
       "badge": "Trending",
       "watchUrl": "./Tv-Shows/Reacher.html",
       "trailerUrl": "https://www.youtube.com/results?search_query=Reacher+Official+Trailer",
-      "poster": "POSTER_URL",
-      "bgImage": "BACKGROUND_URL"
+      "poster": "./Assets/Img13/Reacher-Info-Card-1.webp",
+      "bgImage": "./Assets/Img13/Reacher-Cover.webpAssets/Img13/Reacher-Cover.webp"
     },
     {
   "id": 2,
