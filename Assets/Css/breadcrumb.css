@@ -1,0 +1,29 @@
+.cx-breadcrumb {
+  color: var(--cx-text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.cx-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cx-breadcrumb li + li::before {
+  color: var(--cx-text-muted);
+  content: "/";
+  margin-right: 0.4rem;
+}
+
+.cx-breadcrumb a {
+  color: var(--cx-text-secondary);
+  text-decoration: none;
+}
+
+.cx-breadcrumb a:hover {
+  color: var(--cx-gold-300);
+}

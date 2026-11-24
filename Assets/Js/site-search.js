@@ -79,7 +79,7 @@
             <div class="cx-search-controls">
                 <label class="cx-search-input-wrap">
                     <span aria-hidden="true">⌕</span>
-                    <input class="cx-search-input" type="search" placeholder="Search movies and shows..." autocomplete="off" aria-label="Search movies and shows">
+                    <input class="cx-search-input" type="search" placeholder="Type a title, genre, or keyword..." autocomplete="off" aria-label="Search movies and shows" required>
                 </label>
                 <div class="cx-search-filters">
                     <select class="cx-search-filter cx-search-genre" aria-label="Filter by genre">
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="cx-search-results" aria-live="polite">
-                <p class="cx-search-count" role="status">Loading catalog…</p>
+                <p class="cx-search-count" role="status">Enter a title, genre, or keyword to search.</p>
                 <div class="cx-search-list"></div>
                 <button class="cx-search-more" type="button" hidden>Load more</button>
             </div>
@@ -195,7 +195,6 @@
             genres.forEach(value => genreFilter.append(option(value, value)));
             types.forEach(value => typeFilter.append(option(typeLabel(value), value)));
             initialized = true;
-            await search({ append: false });
         } catch (error) {
             initialized = false;
             console.error("Cinelux search initialization failed.", error);
@@ -204,14 +203,15 @@
     }
 
     function score(item, query) {
-        if (!query) return 0;
+        const normalizedQuery = textOf(query);
+        if (!normalizedQuery) return 0;
         const title = textOf(item.title);
         const genres = (item.genres || []).map(textOf);
         const description = textOf(item.description);
-        if (title === query) return 3;
-        if (title.startsWith(query)) return 2;
-        if (title.includes(query) || genres.some(value => value.includes(query))) return 1;
-        if (description.includes(query)) return 0.5;
+        if (title === normalizedQuery) return 3;
+        if (title.startsWith(normalizedQuery)) return 2;
+        if (title.includes(normalizedQuery) || genres.some(value => value.includes(normalizedQuery))) return 1;
+        if (description.includes(normalizedQuery)) return 0.5;
         return -1;
     }
 
@@ -341,6 +341,17 @@
         const controller = requestController;
         const sequence = ++searchSequence;
         const query = input.value.trim();
+        if (!query) {
+            currentPage = 0;
+            totalPages = 0;
+            totalHits = 0;
+            results.replaceChildren();
+            count.textContent = "Enter a title, genre, or keyword to search.";
+            moreButton.hidden = true;
+            moreButton.disabled = false;
+            moreButton.textContent = "Load more";
+            return;
+        }
         const page = append ? currentPage + 1 : 0;
 
         if (!append) {

@@ -1,0 +1,222 @@
+/* =========================================================
+   CINELUXX HERO SLIDER — RESPONSIVE POSTER FIX
+   Append this AFTER the existing hero slider CSS.
+   ========================================================= */
+
+/* Desktop: give both columns real room and prevent grid shrinkage */
+#slider-section {
+    min-height:  min(100vh, 900px);
+}
+
+#slider-section .ms-body {
+    grid-template-columns: minmax(0, 1.08fr) minmax(390px, .92fr);
+    gap: clamp(2rem, 4vw, 4.5rem);
+    padding: clamp(2.5rem, 4vw, 4rem) clamp(1.5rem, 4.5vw, 5rem) 7rem;
+}
+
+#slider-section .ms-left,
+#slider-section .ms-right {
+    min-width: 0;
+    width: 100%;
+}
+
+#slider-section .ms-right {
+    overflow: visible;
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+#slider-section #poster-swiper {
+    width: 100%;
+    max-width: 100%;
+    height: clamp(360px, 34vw, 470px);
+    padding: 2.5rem 0;
+    overflow: hidden;
+}
+
+#slider-section #poster-swiper .swiper-wrapper {
+    align-items: center;
+}
+
+#slider-section #poster-swiper .swiper-slide {
+    flex: 0 0 auto;
+    width: clamp(175px, 14vw, 225px) !important;
+    height: clamp(260px, 21vw, 338px);
+    aspect-ratio: 2 / 3;
+    box-sizing: border-box;
+}
+
+/* Keep poster artwork filling the card without distortion */
+#slider-section #poster-swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Medium screens and tablets: stack cleanly, but keep posters prominent */
+@media (max-width: 1100px) {
+    #slider-section {
+        min-height: 100vh;
+        height: auto;
+    }
+
+    #slider-section .ms-body {
+        grid-template-columns: minmax(0, 1fr);
+        gap: clamp(1.5rem, 4vw, 2.75rem);
+        padding: 3rem clamp(1.5rem, 4vw, 3rem) 8rem;
+        text-align: center;
+    }
+
+    #slider-section .ms-right {
+        order: -1;
+        width: 100%;
+        max-width: 900px;
+        margin-inline: auto;
+        overflow: visible;
+    }
+
+    #slider-section .ms-left {
+        width: 100%;
+        max-width: 760px;
+        margin-inline: auto;
+    }
+
+    #slider-section .genre-tags,
+    #slider-section .ms-btns {
+        justify-content: center;
+    }
+
+    #slider-section .ms-desc {
+        margin-inline: auto;
+    }
+
+    #slider-section #poster-swiper {
+        width: 100%;
+        height: clamp(330px, 39vw, 410px);
+        padding: 2rem 0;
+        overflow: hidden;
+    }
+
+    #slider-section #poster-swiper .swiper-slide {
+        width: clamp(165px, 21vw, 205px) !important;
+        height: clamp(248px, 31.5vw, 308px);
+    }
+}
+
+/* Small tablets and large phones */
+@media (max-width: 768px) {
+    #slider-section .ms-body {
+        gap: 1.5rem;
+        padding: 2rem 1.25rem 7rem;
+    }
+
+    #slider-section #poster-swiper {
+        height: 310px;
+        padding: 1.5rem 0;
+    }
+
+    #slider-section #poster-swiper .swiper-slide {
+        width: 165px !important;
+        height: 248px;
+    }
+
+    #slider-section .ms-title {
+        font-size: clamp(2.25rem, 7vw, 3rem);
+        line-height: 1.08;
+    }
+
+    #slider-section .ms-desc {
+        font-size: .95rem;
+        line-height: 1.75;
+    }
+
+    #slider-section .ms-bottom {
+        padding: 0 1.25rem 1.25rem;
+    }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+    #slider-section .ms-body {
+        gap: 1.1rem;
+        padding: 1.5rem 1rem 6.5rem;
+    }
+
+    #slider-section #poster-swiper {
+        height: 265px;
+        padding: 1.25rem 0;
+    }
+
+    #slider-section #poster-swiper .swiper-slide {
+        width: 145px !important;
+        height: 218px;
+        border-radius: 12px;
+    }
+
+    #slider-section #poster-swiper .swiper-slide-active {
+        transform: scale(1.045);
+    }
+
+    #slider-section #poster-swiper .swiper-slide-prev,
+    #slider-section #poster-swiper .swiper-slide-next {
+        transform: scale(.94);
+        filter: brightness(.7);
+    }
+
+    #slider-section .poster-badge {
+        top: .65rem;
+        left: .65rem;
+        padding: .35rem .65rem;
+        font-size: .6rem;
+    }
+
+    #slider-section .poster-rating {
+        right: .65rem;
+        bottom: .65rem;
+        padding: .35rem .6rem;
+        font-size: .72rem;
+    }
+
+    #slider-section .ms-title {
+        font-size: clamp(2rem, 9vw, 2.5rem);
+    }
+
+    #slider-section .ms-btns {
+        gap: .75rem;
+    }
+
+    #slider-section .btn-watch,
+    #slider-section .btn-trailer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #slider-section .ms-bottom {
+        gap: .65rem;
+        padding: 0 1rem 1rem;
+    }
+
+    #slider-section .nav-btn {
+        width: 42px;
+        height: 42px;
+        flex: 0 0 42px;
+    }
+}
+
+/* Very narrow phones */
+@media (max-width: 360px) {
+    #slider-section #poster-swiper .swiper-slide {
+        width: 132px !important;
+        height: 198px;
+    }
+
+    #slider-section #poster-swiper {
+        height: 245px;
+    }
+
+    #slider-section .ms-body {
+        padding-inline: .75rem;
+    }
+}
