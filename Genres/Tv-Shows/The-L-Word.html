@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -727,7 +733,7 @@
     <div class="container">
       <div class="cx-player-frame">
         <div class="cx-player-inner">
-          <iframe src="https://abyssplayer.com/sJTTM3FEo" allowfullscreen id="show-episode"></iframe>
+          <iframe src="https://abyssplayer.com/sJTTM3FEo" allowfullscreen id="show-episode" class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
     </div>
@@ -1233,7 +1239,7 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" integrity="sha256-Uxlcl5fnznv51/qSQrCCCeV/Rt5MnawSamSU+ngOM0Y=" crossorigin="anonymous"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.min.js" integrity="sha512-qTRdxsJPjpD3fghHhsoPvh3jkC9v/2Se/V+rq0hHoQYTw2IXcjdphRapfLMsgKnBw95kkazAH2ERMPYxtwMJUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.min.js" integrity="sha512-DMunOu/iiGaR/Jq+asCspQ+ip9ASQi+bUl2Ct0ByLOoIOGrl9hNG/+aBZGKZ38jjOP/YCckpogtuhq3L0GLb5g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="../../Assets/Js/lenis-init.js"></script>
 
@@ -1370,5 +1376,5 @@ $(document).ready(function () {
 });
 </script>
 <script defer data-cinelux-search src="../../Assets/Js/site-search.js"></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>

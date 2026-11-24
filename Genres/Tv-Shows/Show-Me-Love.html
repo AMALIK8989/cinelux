@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -243,7 +249,7 @@
   min-height: 84vh;
   display: flex;
   align-items: flex-end;
-  background-image: var(--cx-gradient-hero), url('../../Assets/Img14/Show-Me-Love-Cover.webp');
+  background-image: var(--cx-gradient-hero), url('../../Assets/Img17/Show-Me-Love-Cover.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 20%;
@@ -706,7 +712,7 @@
     <div class="container">
       <div class="cx-player-frame">
         <div class="cx-player-inner">
-          <iframe src="https://abyssplayer.com/K6lCFTQCB" allowfullscreen id="show-episode"></iframe>
+          <iframe src="https://abyssplayer.com/K6lCFTQCB" allowfullscreen id="show-episode" class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
     </div>
@@ -883,7 +889,7 @@
           <div class="swiper-slide">
             <div class="genre-card">
               <div class="card-image-container">
-                <img src="../../Assets/Img14/My-Safe-Zone-Cover.webp" alt="My Safe Zone" class="card-img-top">
+                <img src="../../Assets/Img14/My-Safe-Zone-Info-Card.webp" alt="My Safe Zone" class="card-img-top">
                 <div class="genre-card-overlay">
                   <div class="overlay-content-inner">
                     <h3 class="overlay-title">My Safe Zone</h3>
@@ -901,7 +907,7 @@
           <div class="swiper-slide">
             <div class="genre-card">
               <div class="card-image-container">
-                <img src="../../Assets/Img14/Frozen-Valentine-Cover.webp" alt="Frozen Valentine" class="card-img-top">
+                <img src="../../Assets/Img14/Frozen-Valentine-Info-Card.webp" alt="Frozen Valentine" class="card-img-top">
                 <div class="genre-card-overlay">
                   <div class="overlay-content-inner">
                     <h3 class="overlay-title">Frozen Valentine</h3>
@@ -1252,5 +1258,5 @@ $(document).ready(function () {
 });
 </script>
 <script defer data-cinelux-search src="../../Assets/Js/site-search.js"></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>

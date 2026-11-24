@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -777,7 +783,7 @@
     <div class="container">
       <div class="cx-player-frame">
         <div class="cx-player-inner">
-          <iframe src="https://abyssplayer.com/w7g67L-9u" allowfullscreen id="show-episode"></iframe>
+          <iframe src="https://abyssplayer.com/w7g67L-9u" allowfullscreen id="show-episode" class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
     </div>
@@ -1381,5 +1387,5 @@ $(document).ready(function () {
 });
 </script>
 <script defer data-cinelux-search src="../../Assets/Js/site-search.js"></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>

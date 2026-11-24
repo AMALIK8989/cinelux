@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="apple-touch-icon" sizes="180x180" href="/Assets/Images/Logos_Other_images/apple-touch-icon.png">
@@ -742,7 +748,7 @@
   </section>
   <div class="cx-reel-divider"></div>
   <section id="player" class="cx-section-tight"><div class="container"><div class="cx-player-frame"><div class="cx-player-inner">
-    <iframe src="https://player.abyssplayer.com/NxeQeiLSK" title="Watch Enemies With Benefits online" allowfullscreen id="show-episode"></iframe>
+    <iframe src="https://player.abyssplayer.com/NxeQeiLSK" title="Watch Enemies With Benefits online" allowfullscreen id="show-episode" class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
   </div></div></div></section>
   <div class="cx-reel-divider"></div>
   <section id="episodes" class="cx-section"><div class="container text-center">
@@ -1042,5 +1048,5 @@ $(document).ready(function () {
 });
 </script>
 <script defer data-cinelux-search src="../../Assets/Js/site-search.js"></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>

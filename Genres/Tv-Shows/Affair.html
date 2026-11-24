@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="apple-touch-icon" sizes="180x180" href="/Assets/Image/Logos_Other_images/apple-touch-icon.png">
@@ -427,7 +433,7 @@
   <nav class="container navbar navbar-expand-lg px-0">
     <div class="container-fluid px-0">
       <a href="../../index.html" class="navbar-brand cx-logo">
-        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.png" alt="Cinelux">
+        <img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt="Cinelux">
       </a>
 
       <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
@@ -563,7 +569,7 @@
     <div class="container">
       <div class="cx-player-frame">
         <div class="cx-player-inner">
-          <iframe src="https://player.abyssplayer.com/m4616M2ud" allowfullscreen id="show-episode"></iframe>
+          <iframe src="https://player.abyssplayer.com/m4616M2ud" allowfullscreen id="show-episode" class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
     </div>
@@ -1121,5 +1127,5 @@ $(document).ready(function () {
 });
 </script>
 <script defer data-cinelux-search src="../../Assets/Js/site-search.js"></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>
