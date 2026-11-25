@@ -2,6 +2,12 @@
 <!doctype html>
 <html lang=en>
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset=utf-8>
 <meta name=theme-color content=#050810>
 <meta name=referrer content=strict-origin-when-cross-origin>
@@ -274,6 +280,7 @@
   ]
 }
 </script>
+<link rel="stylesheet" href="../../Assets/Css/breadcrumb.css">
 </head>
 <body>
 <header class="container-fluid cx-header sticky-top">
@@ -289,7 +296,7 @@
 <ul class="navbar-nav align-items-lg-center">
 <li class=nav-item><a class=nav-link href=../../App.html><i class="bi bi-house-door"></i>Home</a></li>
 <li class=nav-item><a class=nav-link href=../../App.html><i class="bi bi-camera-reels"></i>Films</a></li>
-<li class=nav-item><a class=nav-link href=../../App.html><i class="bi bi-tv"></i>TV Series</a></li>
+<li class=nav-item><a class=nav-link href=../../Genre/Tv-Shows.html><i class="bi bi-tv"></i>TV Series</a></li>
 <li class="nav-item dropdown position-static">
 <a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=#><i class="bi bi-grid-3x3-gap"></i>Genres</a>
 <div class="dropdown-menu cx-mega">
@@ -313,7 +320,7 @@
 </div>
 <div class=col-lg-3>
 <a href=../../Genre/Adults.html><i class="bi bi-explicit-fill"></i>Adults</a>
-<a href=../../Genre/TV_Series.html><i class="bi bi-display"></i>TV Series</a>
+<a href=../../Genre/Tv-Shows.html><i class="bi bi-display"></i>TV Series</a>
 <a href=../../Genre/Shorts.html><i class="bi bi-display"></i>Shorts</a>
 </div>
 </div>
@@ -328,14 +335,14 @@
 </header>
 <div class="offcanvas offcanvas-start text-bg-dark" id=mobileMenu>
 <div class=offcanvas-header>
-<img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.png" alt=Cinelux width=150>
+<img src="../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp" alt=Cinelux width=150>
 <button class="btn-close btn-close-white" data-bs-dismiss=offcanvas aria-label=Close></button>
 </div>
 <div class=offcanvas-body>
 <ul class=navbar-nav>
 <li><a class=nav-link href=../../App.html><i class="bi bi-house"></i>Home</a></li>
 <li><a class=nav-link href=../../App.html><i class="bi bi-camera-reels"></i>Films</a></li>
-<li><a class=nav-link href=../../App.html><i class="bi bi-tv"></i>TV Series</a></li>
+<li><a class=nav-link href=../../Genre/Tv-Shows.html><i class="bi bi-tv"></i>TV Series</a></li>
 <li><a class=nav-link href=../../Collections.html><i class="bi bi-collection-play"></i>Collections</a></li>
 <li><a class=nav-link href=../../About.html><i class="bi bi-info-circle"></i>About</a></li>
 </ul>
@@ -362,6 +369,12 @@
 <section class=cx-hero style="background-image:var(--cx-gradient-hero),url('../../Assets/Img11/Chloe-Cover.webp')">
 <div class=container>
 <div class=cx-hero-content>
+<nav aria-label="Breadcrumb" class="cx-breadcrumb"><ol>
+  <li><a href="../../index.html">Home</a></li>
+  <li><a href="../../Genre/Thriller.html">Thriller</a></li>
+  <li aria-current="page">Chloe</li>
+</ol></nav>
+
 <span class=cx-eyebrow><i class="bi bi-play-circle-fill me-1"></i>Thriller Movie</span>
 <h1 class=cx-hero-title>Chloe<span class=cx-year>2009</span></h1>
 <div class=cx-meta-row>
@@ -392,7 +405,7 @@ When Dr. Catherine Stewart begins to suspect her husband of infidelity, she hire
 <div class=container>
 <div class=cx-player-frame>
 <div class=cx-player-inner>
-<iframe src=https://player.abyssplayer.com/lK1vs62xX title="Chloe (2009) movie player" allowfullscreen loading=lazy referrerpolicy=strict-origin-when-cross-origin></iframe>
+<iframe src="https://player.abyssplayer.com/lK1vs62xX" title="Chloe (2009) movie player" allowfullscreen loading=lazy referrerpolicy=strict-origin-when-cross-origin class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 </div>
 </div>
 </div>
@@ -571,7 +584,7 @@ Starring Julianne Moore, Liam Neeson and Amanda Seyfried, the film builds its su
 <h3 class=overlay-title>Sister My Sister</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="Sister My Sister trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=/genres/thriller/sister-my-sister aria-label="Sister My Sister details"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=Sister-My-Sister.html aria-label="Sister My Sister details"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -587,7 +600,7 @@ Starring Julianne Moore, Liam Neeson and Amanda Seyfried, the film builds its su
 <h3 class=overlay-title>The Maids</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="The Maids trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=/genres/thriller/the-maids aria-label="The Maids details"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=The-Maids.html aria-label="The Maids details"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -603,7 +616,7 @@ Starring Julianne Moore, Liam Neeson and Amanda Seyfried, the film builds its su
 <h3 class=overlay-title>La Cérémonie</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="La Cérémonie trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=/genres/thriller/la-ceremonie aria-label="La Cérémonie details"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=La-Ceremonie.html aria-label="La Cérémonie details"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -619,7 +632,7 @@ Starring Julianne Moore, Liam Neeson and Amanda Seyfried, the film builds its su
 <h3 class=overlay-title>The Handmaiden</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="The Handmaiden trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=/genres/thriller/the-handmaiden aria-label="The Handmaiden details"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=The-Handmaiden.html aria-label="The Handmaiden details"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -635,7 +648,7 @@ Starring Julianne Moore, Liam Neeson and Amanda Seyfried, the film builds its su
 <h3 class=overlay-title>The Piano Teacher</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="The Piano Teacher trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=/genres/thriller/the-piano-teacher aria-label="The Piano Teacher details"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=The-Piano-Teacher.html aria-label="The Piano Teacher details"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -651,7 +664,7 @@ Starring Julianne Moore, Liam Neeson and Amanda Seyfried, the film builds its su
 <h3 class=overlay-title>Notes on a Scandal</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="Notes on a Scandal trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=/genres/thriller/notes-on-a-scandal aria-label="Notes on a Scandal details"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=Notes-on-a-Scandal.html aria-label="Notes on a Scandal details"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -846,8 +859,8 @@ You can find Chloe (2009) in the CineLuxx Thriller collection at /genre/thriller
 </div>
 <div class="col-12 col-md-4 text-center">
 <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-center gap-sm-4 gap-2 mb-0">
-<li><a href=./privacy-policy.html>Privacy Policy</a></li>
-<li><a href=./terms-of-services.html>Terms of Service</a></li>
+<li><a href=privacy-policy.html>Privacy Policy</a></li>
+<li><a href=terms-of-services.html>Terms of Service</a></li>
 </ul>
 </div>
 <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
@@ -872,5 +885,5 @@ You can find Chloe (2009) in the CineLuxx Thriller collection at /genre/thriller
 <script src=../../Assets/Js/More-Like-This.js></script>
 <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js></script>
 <script src=../../Assets/Js/site-search.js data-cinelux-search=True defer></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>

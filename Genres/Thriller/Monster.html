@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang=en>
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZKFRVXR"></script>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=theme-color content=#050810>
@@ -244,6 +250,7 @@
         ]
     }
 </script>
+<link rel="stylesheet" href="../../Assets/Css/breadcrumb.css">
 </head>
 <body>
 <header class="container-fluid cx-header sticky-top">
@@ -264,7 +271,7 @@
 <a class=nav-link href=../../App.html><i class="bi bi-camera-reels"></i> Films</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=../../App.html><i class="bi bi-tv"></i> TV Series</a>
+<a class=nav-link href=../../Genre/Tv-Shows.html><i class="bi bi-tv"></i> TV Series</a>
 </li>
 <li class="nav-item dropdown position-static">
 <a class="nav-link dropdown-toggle" href=# data-bs-toggle=dropdown>
@@ -291,7 +298,7 @@
 </div>
 <div class=col-lg-3>
 <a href=../../Genre/Adults.html><i class="bi bi-explicit-fill"></i> Adults</a>
-<a href=../../Genre/TV_Series.html><i class="bi bi-display"></i> TV Series</a>
+<a href=../../Genre/Tv-Shows.html><i class="bi bi-display"></i> TV Series</a>
 <a href=../../Genre/Shorts.html><i class="bi bi-display"></i> Shorts</a>
 </div>
 </div>
@@ -310,14 +317,14 @@
 </header>
 <div class="offcanvas offcanvas-start text-bg-dark" id=mobileMenu>
 <div class=offcanvas-header>
-<img src=../../Assets/Images/Logos_Other_images/Cinelux-Logo.png alt=CineLux width=150>
+<img src=../../Assets/Images/Logos_Other_images/Cinelux-Logo.webp alt=CineLux width=150>
 <button type=button class="btn-close btn-close-white" data-bs-dismiss=offcanvas aria-label=Close></button>
 </div>
 <div class=offcanvas-body>
 <ul class=navbar-nav>
 <li><a class=nav-link href=../../App.html><i class="bi bi-house"></i> Home</a></li>
 <li><a class=nav-link href=../../App.html><i class="bi bi-camera-reels"></i> Films</a></li>
-<li><a class=nav-link href=../../App.html><i class="bi bi-tv"></i> TV Series</a></li>
+<li><a class=nav-link href=../../Genre/Tv-Shows.html><i class="bi bi-tv"></i> TV Series</a></li>
 <li><a class=nav-link href=../../Collections.html><i class="bi bi-collection-play"></i> Collections</a></li>
 <li><a class=nav-link href=../../About.html><i class="bi bi-info-circle"></i> About</a></li>
 </ul>
@@ -344,6 +351,12 @@
 <section class=cx-hero>
 <div class=container>
 <div class=cx-hero-content>
+<nav aria-label="Breadcrumb" class="cx-breadcrumb"><ol>
+  <li><a href="../../index.html">Home</a></li>
+  <li><a href="../../Genre/Thriller.html">Thriller</a></li>
+  <li aria-current="page">Monster</li>
+</ol></nav>
+
 <span class=cx-eyebrow>
 <i class="bi bi-play-circle-fill me-1"></i> Thriller Movie
 </span>
@@ -383,7 +396,7 @@ Inspired by real events, Monster follows Aileen Wuornos and her relationship wit
 <div class=container>
 <div class=cx-player-frame>
 <div class=cx-player-inner>
-<iframe src=https://player.abyssplayer.com/C8UUILj47 title="Monster (2003) movie player" loading=lazy allowfullscreen referrerpolicy=strict-origin-when-cross-origin>
+<iframe src="https://player.abyssplayer.com/C8UUILj47" title="Monster (2003) movie player" loading=lazy allowfullscreen referrerpolicy=strict-origin-when-cross-origin class="cx-analytics-iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 </div>
 </div>
@@ -561,7 +574,7 @@ Monster received widespread recognition, particularly for Theron's performance, 
 <h3 class=overlay-title>Basic Instinct</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="Basic Instinct trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=../../Genres/Thriller/basic-instinct aria-label="Open Basic Instinct movie page"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=Basic-Instinct.html aria-label="Open Basic Instinct movie page"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -577,7 +590,7 @@ Monster received widespread recognition, particularly for Theron's performance, 
 <h3 class=overlay-title>Femme Fatale</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="Femme Fatale trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=../../Genres/Thriller/femme-fatale aria-label="Open Femme Fatale movie page"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=Femme-Fatale.html aria-label="Open Femme Fatale movie page"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -593,7 +606,7 @@ Monster received widespread recognition, particularly for Theron's performance, 
 <h3 class=overlay-title>Red Sparrow</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="Red Sparrow trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=../../Genres/Thriller/red-sparrow aria-label="Open Red Sparrow movie page"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=Red-Sparrow.html aria-label="Open Red Sparrow movie page"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -609,7 +622,7 @@ Monster received widespread recognition, particularly for Theron's performance, 
 <h3 class=overlay-title>Sliver</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="Sliver trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=../../Genres/Thriller/sliver aria-label="Open Sliver movie page"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=Sliver.html aria-label="Open Sliver movie page"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -625,7 +638,7 @@ Monster received widespread recognition, particularly for Theron's performance, 
 <h3 class=overlay-title>The Handmaiden</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="The Handmaiden trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=../../Genres/Thriller/the-handmaiden aria-label="Open The Handmaiden movie page"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=The-Handmaiden.html aria-label="Open The Handmaiden movie page"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -641,7 +654,7 @@ Monster received widespread recognition, particularly for Theron's performance, 
 <h3 class=overlay-title>The Voyeurs</h3>
 <div class=overlay-buttons>
 <a class="overlay-btn trailer" href=# aria-label="The Voyeurs trailer"><i class="fas fa-play"></i></a>
-<a class="overlay-btn watch" href=../../Genres/Thriller/the-voyeurs aria-label="Open The Voyeurs movie page"><i class="fas fa-film"></i></a>
+<a class="overlay-btn watch" href=The-Voyeurs.html aria-label="Open The Voyeurs movie page"><i class="fas fa-film"></i></a>
 </div>
 </div>
 </div>
@@ -809,8 +822,8 @@ You can find Monster in CineLux's Thriller collection at
 </div>
 <div class="col-12 col-md-4 text-center">
 <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-center gap-sm-4 gap-2 mb-0">
-<li><a href=./privacy-policy.html>Privacy Policy</a></li>
-<li><a href=./terms-of-services.html>Terms of Service</a></li>
+<li><a href=privacy-policy.html>Privacy Policy</a></li>
+<li><a href=terms-of-services.html>Terms of Service</a></li>
 </ul>
 </div>
 <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
@@ -838,5 +851,5 @@ You can find Monster in CineLux's Thriller collection at
 <script src=../../Assets/Js/More-Like-This.js></script>
 <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js></script>
 <script defer data-cinelux-search src=../../Assets/Js/site-search.js></script>
-</body>
+<script defer src="../../Assets/Js/iframe-analytics.js"></script></body>
 </html>
